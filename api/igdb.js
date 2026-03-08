@@ -23,12 +23,29 @@ async function getAccessToken() {
   return cachedToken;
 }
 
+async function parseBody(req) {
+  return new Promise((resolve, reject) => {
+    let data = '';
+    req.on('data', chunk => { data += chunk; });
+    req.on('end', () => {
+      try { resolve(JSON.parse(data)); } catch { reject(new Error('Invalid JSON')); }
+    });
+    req.on('error', reject);
+  });
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { endpoint, body } = req.body;
+  let parsed;
+  try {
+    parsed = req.body && typeof req.body === 'object' ? req.body : await parseBody(req);
+  } catch {
+    return res.status(400).json({ error: 'Invalid request body' });
+  }
+  const { endpoint, body } = parsed;
 
   if (!endpoint || !body) {
     return res.status(400).json({ error: 'Missing endpoint or body' });
