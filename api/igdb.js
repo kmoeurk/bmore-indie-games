@@ -48,8 +48,8 @@ export default async function handler(req, res) {
     } else {
       parsed = JSON.parse(req.body);
     }
-  } catch {
-    return res.status(400).json({ error: 'Invalid request body' });
+  } catch (e) {
+    return res.status(400).json({ error: 'Invalid request body', debug: { bodyType: typeof req.body, bodyVal: String(req.body).slice(0, 100), err: e.message } });
   }
   const { endpoint, body } = parsed;
 
