@@ -41,7 +41,13 @@ export default async function handler(req, res) {
 
   let parsed;
   try {
-    parsed = req.body && typeof req.body === 'object' ? req.body : await parseBody(req);
+    if (!req.body && req.body !== 0) {
+      parsed = await parseBody(req);
+    } else if (typeof req.body === 'object') {
+      parsed = req.body;
+    } else {
+      parsed = JSON.parse(req.body);
+    }
   } catch {
     return res.status(400).json({ error: 'Invalid request body' });
   }
