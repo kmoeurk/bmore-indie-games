@@ -50,8 +50,8 @@ export default async function handler(req, res) {
     } else {
       parsed = JSON.parse(req.body);
     }
-  } catch (e) {
-    return res.status(400).json({ error: 'Invalid request body', debug: { bodyType: typeof req.body, bodyVal: String(req.body).slice(0, 100), err: e.message } });
+  } catch {
+    return res.status(400).json({ error: 'Invalid request body' });
   }
   const { endpoint, body } = parsed;
 
@@ -88,6 +88,6 @@ export default async function handler(req, res) {
     return res.status(200).json(data);
   } catch (err) {
     console.error('IGDB proxy error:', err);
-    return res.status(500).json({ error: 'Internal server error', detail: err.message, hasClientId: !!process.env.IGDB_CLIENT_ID, hasSecret: !!process.env.IGDB_CLIENT_SECRET });
+    return res.status(500).json({ error: 'Internal server error' });
   }
 }
