@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Your Game — BMore Indie Games</title>
+  <meta name="description" content="Submit your indie game to the BMore Indie Games directory. Free listing for developers worldwide.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ── Navigation ─────────────────────────────────────────── -->
+<nav class="nav">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">◈</span>
+      <span class="logo-text">BMore<span class="logo-accent">Indie</span></span>
+    </a>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Global</a>
+      <a href="local.html">Local Scene</a>
+      <a href="submit.html" class="active nav-submit-btn">Submit Game</a>
+    </nav>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- ── Page Hero ──────────────────────────────────────── -->
+  <div class="submit-hero">
+    <div class="container">
+      <div class="section-label">Open to All Devs</div>
+      <h1>Submit Your Game</h1>
+      <p>Get your indie game in front of players who love discovering new titles. Listings are free, reviewed within 48 hours, and stay forever.</p>
+    </div>
+  </div>
+
+  <!-- ── Form ───────────────────────────────────────────── -->
+  <div class="submit-container">
+    <form id="submit-form" onsubmit="handleSubmit(event)" novalidate>
+
+      <!-- Section 1: Core Info -->
+      <div class="form-section">
+        <div class="form-section-title">
+          <span class="num">1</span> Core Information
+        </div>
+        <p class="form-section-desc">The basics every player needs to know.</p>
+
+        <div class="form-grid">
+          <div class="form-group full">
+            <label for="game-title">Game Title <span class="required">*</span></label>
+            <input class="form-input" type="text" id="game-title" name="title" placeholder="e.g. Neon Catacombs" required>
+          </div>
+
+          <div class="form-group full">
+            <label for="short-desc">Short Description <span class="required">*</span></label>
+            <input class="form-input" type="text" id="short-desc" name="shortDescription" placeholder="One punchy sentence — this shows in cards (max 120 chars)" maxlength="120" required>
+            <span class="form-hint" id="short-desc-count">0 / 120</span>
+          </div>
+
+          <div class="form-group full">
+            <label for="long-desc">Full Description <span class="required">*</span></label>
+            <textarea class="form-textarea" id="long-desc" name="description" rows="5" placeholder="Tell players everything — features, story, what makes your game special." required style="min-height: 130px;"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2: Classification -->
+      <div class="form-section">
+        <div class="form-section-title">
+          <span class="num">2</span> Genre & Platform
+        </div>
+        <p class="form-section-desc">Help players find your game through filters.</p>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label>Genre <span class="required">*</span></label>
+            <div class="checkbox-grid">
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Action"> Action</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Adventure"> Adventure</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="RPG"> RPG</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Platformer"> Platformer</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Puzzle"> Puzzle</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Simulation"> Simulation</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Roguelike"> Roguelike</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Horror"> Horror</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Strategy"> Strategy</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Narrative"> Narrative</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Sports"> Sports</label>
+              <label class="checkbox-label"><input type="checkbox" name="genre" value="Other"> Other</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Platform <span class="required">*</span></label>
+            <div class="checkbox-grid">
+              <label class="checkbox-label"><input type="checkbox" name="platform" value="PC"> PC (Windows)</label>
+              <label class="checkbox-label"><input type="checkbox" name="platform" value="Mac"> Mac</label>
+              <label class="checkbox-label"><input type="checkbox" name="platform" value="Linux"> Linux</label>
+              <label class="checkbox-label"><input type="checkbox" name="platform" value="Switch"> Nintendo Switch</label>
+              <label class="checkbox-label"><input type="checkbox" name="platform" value="PS4"> PlayStation</label>
+              <label class="checkbox-label"><input type="checkbox" name="platform" value="Xbox"> Xbox</label>
+              <label class="checkbox-label"><input type="checkbox" name="platform" value="Mobile"> Mobile (iOS/Android)</label>
+              <label class="checkbox-label"><input type="checkbox" name="platform" value="Browser"> Browser</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Release Info -->
+      <div class="form-section">
+        <div class="form-section-title">
+          <span class="num">3</span> Release Details
+        </div>
+        <p class="form-section-desc">When and how can players get your game?</p>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="release-status">Release Status <span class="required">*</span></label>
+            <select class="form-select" id="release-status" name="releaseStatus" required>
+              <option value="">Select status…</option>
+              <option value="released">Released</option>
+              <option value="early_access">Early Access</option>
+              <option value="coming_soon">Coming Soon</option>
+              <option value="in_development">In Development</option>
+              <option value="cancelled">Cancelled</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="release-date">Release Date <span class="optional">(or expected)</span></label>
+            <input class="form-input" type="date" id="release-date" name="releaseDate">
+          </div>
+
+          <div class="form-group">
+            <label for="price">Price (USD) <span class="required">*</span></label>
+            <input class="form-input" type="number" id="price" name="price" min="0" step="0.01" placeholder="0 for free">
+          </div>
+
+          <div class="form-group">
+            <label for="players">Number of Players <span class="required">*</span></label>
+            <select class="form-select" id="players" name="players" required>
+              <option value="">Select…</option>
+              <option value="1">Single Player (1)</option>
+              <option value="2">2 Players</option>
+              <option value="4">Up to 4 Players</option>
+              <option value="8">Up to 8 Players</option>
+              <option value="16">Massively Multiplayer</option>
+            </select>
+          </div>
+
+          <div class="form-group full">
+            <label for="website">Website / Store URL <span class="required">*</span></label>
+            <input class="form-input" type="url" id="website" name="website" placeholder="https://itch.io/game/your-game" required>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 4: Media -->
+      <div class="form-section">
+        <div class="form-section-title">
+          <span class="num">4</span> Cover Art & Screenshots
+        </div>
+        <p class="form-section-desc">Visuals are everything. High quality images get more clicks.</p>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label>Cover Image <span class="required">*</span></label>
+            <div class="upload-zone" id="cover-zone" onclick="document.getElementById('cover-input').click()" ondragover="handleDragOver(event,'cover-zone')" ondragleave="handleDragLeave(event,'cover-zone')" ondrop="handleDrop(event,'cover-input','cover-zone','cover-preview')">
+              <input type="file" id="cover-input" name="cover" accept="image/*" onchange="previewUpload(this,'cover-preview','cover-zone')">
+              <div id="cover-preview">
+                <div class="upload-icon">🖼</div>
+                <div class="upload-text">Click or drag to upload cover art</div>
+                <div class="upload-hint">Recommended: 600×800px · JPG or PNG · Max 5MB</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Screenshots <span class="optional">(up to 5)</span></label>
+            <div class="upload-zone" id="screenshots-zone" onclick="document.getElementById('screenshots-input').click()" ondragover="handleDragOver(event,'screenshots-zone')" ondragleave="handleDragLeave(event,'screenshots-zone')" ondrop="handleDrop(event,'screenshots-input','screenshots-zone','screenshots-preview')">
+              <input type="file" id="screenshots-input" name="screenshots" accept="image/*" multiple onchange="previewUploads(this,'screenshots-preview','screenshots-zone')">
+              <div id="screenshots-preview">
+                <div class="upload-icon">📷</div>
+                <div class="upload-text">Click or drag to upload screenshots</div>
+                <div class="upload-hint">16:9 recommended · JPG or PNG · Max 5MB each</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 5: Developer Info (Optional) -->
+      <div class="form-section">
+        <div class="form-section-title">
+          <span class="num">5</span> Developer Info <span style="font-weight:400; color: var(--gray-500); font-size:0.85rem; margin-left:4px;">(optional)</span>
+        </div>
+        <p class="form-section-desc">Help players find and follow you.</p>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="dev-name">Developer / Studio Name <span class="optional">optional</span></label>
+            <input class="form-input" type="text" id="dev-name" name="developer" placeholder="Your studio or solo dev name">
+          </div>
+
+          <div class="form-group">
+            <label for="dev-location">Location <span class="optional">optional</span></label>
+            <input class="form-input" type="text" id="dev-location" name="location" placeholder="e.g. Baltimore, MD or Remote">
+          </div>
+
+          <div class="form-group">
+            <label for="twitter">Twitter / X <span class="optional">optional</span></label>
+            <input class="form-input" type="text" id="twitter" name="twitter" placeholder="@yourstudio">
+          </div>
+
+          <div class="form-group">
+            <label for="discord">Discord / Community <span class="optional">optional</span></label>
+            <input class="form-input" type="url" id="discord" name="discord" placeholder="https://discord.gg/…">
+          </div>
+
+          <div class="form-group full">
+            <label for="tags">Tags <span class="optional">optional</span></label>
+            <input class="form-input" type="text" id="tags" name="tags" placeholder="e.g. pixel-art, dark-fantasy, hand-drawn — comma separated">
+            <span class="form-hint">Add tags that help players describe the mood and style of your game</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submitter Contact -->
+      <div class="form-section">
+        <div class="form-section-title">
+          <span class="num">6</span> Contact Details
+        </div>
+        <p class="form-section-desc">So we can reach you if we have questions. Not published publicly.</p>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="contact-name">Your Name <span class="required">*</span></label>
+            <input class="form-input" type="text" id="contact-name" name="contactName" required placeholder="First and last name">
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email Address <span class="required">*</span></label>
+            <input class="form-input" type="email" id="contact-email" name="contactEmail" required placeholder="you@studio.com">
+          </div>
+        </div>
+      </div>
+
+      <!-- Submit -->
+      <div class="submit-actions">
+        <p class="submit-note">By submitting, you confirm you have rights to publish this content. Listings are reviewed within 48 hours.</p>
+        <button type="submit" class="btn-submit" id="submit-btn">Submit Game →</button>
+      </div>
+
+    </form>
+  </div>
+
+  <!-- ── Footer ──────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-icon">◈</span>
+            <span class="logo-text">BMore<span class="logo-accent">Indie</span></span>
+          </a>
+          <p>Baltimore's indie game discovery platform.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Discover</h4>
+          <ul>
+            <li><a href="index.html">Global Directory</a></li>
+            <li><a href="local.html">Local Scene</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">About BMore Indie</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col"></div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 BMore Indie Games. Made with 💜 in Baltimore, MD.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- Success Toast -->
+<div class="toast" id="toast">
+  <span class="toast-icon">✅</span>
+  <div>
+    <strong>Game Submitted!</strong><br>
+    <span style="color: var(--gray-400); font-size: 0.82rem;">We'll review it within 48 hours.</span>
+  </div>
+</div>
+
+<script src="js/submit.js"></script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Scene — BMore Indie Games</title>
+  <meta name="description" content="Discover Baltimore's indie game developers, local game stores, and upcoming gaming events near you.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ── Navigation ─────────────────────────────────────────── -->
+<nav class="nav">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">◈</span>
+      <span class="logo-text">BMore<span class="logo-accent">Indie</span></span>
+    </a>
+    <div class="nav-search">
+      <input type="text" id="local-search" placeholder="Search local scene…" oninput="handleLocalSearch(this.value)">
+      <button class="search-btn" aria-label="Search">⌕</button>
+    </div>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Global</a>
+      <a href="local.html" class="active">Local Scene</a>
+      <a href="submit.html" class="nav-submit-btn">Submit Game</a>
+    </nav>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- ── Page Header ────────────────────────────────────── -->
+  <section style="padding: 48px 0 0; background: linear-gradient(to bottom, #0d0318, var(--black)); border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-label">Baltimore, MD</div>
+      <h1 style="margin-bottom: 12px;">Local Scene 🦀</h1>
+      <p style="color: var(--gray-400); max-width: 580px; font-size: 1rem; line-height: 1.7; margin-bottom: 32px;">
+        Indie developers, stores, and events right here in Baltimore. Sorted by your location — because local matters.
+      </p>
+
+      <!-- Location Banner -->
+      <div class="location-banner" id="location-banner">
+        <div class="location-banner-icon">📍</div>
+        <div class="location-banner-text">
+          <h3 id="location-status-title">Enable Location</h3>
+          <p id="location-status-text">Share your location to see distances, or enter a ZIP code.</p>
+        </div>
+        <div class="location-banner-actions">
+          <button class="btn btn-primary" id="detect-location-btn" onclick="detectLocation()">
+            📍 Use My Location
+          </button>
+          <div class="zip-input-group">
+            <input class="zip-input" type="text" id="zip-input" placeholder="ZIP code" maxlength="5" oninput="this.value=this.value.replace(/\D/,'')">
+            <button class="btn btn-secondary" onclick="useZipCode()">Go</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Tabs ───────────────────────────────────────────── -->
+  <section class="section" style="padding-top: 32px;">
+    <div class="container">
+      <div class="local-tabs">
+        <button class="local-tab active" data-tab="devs" onclick="switchTab(this, 'devs')">
+          🎮 Developers <span id="dev-count" style="color: var(--gray-500); margin-left: 4px;"></span>
+        </button>
+        <button class="local-tab" data-tab="stores" onclick="switchTab(this, 'stores')">
+          🏪 Stores <span id="store-count" style="color: var(--gray-500); margin-left: 4px;"></span>
+        </button>
+        <button class="local-tab" data-tab="events" onclick="switchTab(this, 'events')">
+          📅 Events <span id="event-count" style="color: var(--gray-500); margin-left: 4px;"></span>
+        </button>
+      </div>
+
+      <!-- ── Developers Panel ──────────────────────────── -->
+      <div class="local-panel active" id="panel-devs">
+        <div class="sort-bar">
+          <span>Sort by:</span>
+          <select class="filter-select" id="dev-sort" onchange="renderDevs()">
+            <option value="distance">Distance</option>
+            <option value="name">Name</option>
+            <option value="founded">Founded</option>
+          </select>
+          <select class="filter-select" id="dev-genre" onchange="renderDevs()">
+            <option value="">All Genres</option>
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Puzzle">Puzzle</option>
+            <option value="RPG">RPG</option>
+            <option value="Simulation">Simulation</option>
+            <option value="Horror">Horror</option>
+            <option value="Platformer">Platformer</option>
+          </select>
+          <label style="display:flex; align-items:center; gap:8px; font-size:0.85rem; color: var(--gray-400); cursor:pointer; margin-left:auto;">
+            <input type="checkbox" id="hiring-filter" onchange="renderDevs()" style="accent-color: var(--purple-500);">
+            Hiring only
+          </label>
+        </div>
+        <div class="dev-grid" id="devs-grid"></div>
+        <div class="empty-state hidden" id="devs-empty">
+          <div class="empty-state-icon">🎮</div>
+          <h3>No developers found</h3>
+          <p>Try adjusting your filters.</p>
+        </div>
+      </div>
+
+      <!-- ── Stores Panel ──────────────────────────────── -->
+      <div class="local-panel" id="panel-stores">
+        <div class="sort-bar">
+          <span>Sort by:</span>
+          <select class="filter-select" id="store-sort" onchange="renderStores()">
+            <option value="distance">Distance</option>
+            <option value="name">Name</option>
+          </select>
+          <label style="display:flex; align-items:center; gap:8px; font-size:0.85rem; color: var(--gray-400); cursor:pointer; margin-left:auto;">
+            <input type="checkbox" id="indie-filter" onchange="renderStores()" style="accent-color: var(--purple-500);">
+            Indie section only
+          </label>
+        </div>
+        <div class="store-grid" id="stores-grid"></div>
+      </div>
+
+      <!-- ── Events Panel ──────────────────────────────── -->
+      <div class="local-panel" id="panel-events">
+        <div class="sort-bar">
+          <span>Sort by:</span>
+          <select class="filter-select" id="event-sort" onchange="renderEvents()">
+            <option value="date">Upcoming</option>
+            <option value="distance">Distance</option>
+            <option value="cost">Price</option>
+          </select>
+          <select class="filter-select" id="event-type" onchange="renderEvents()">
+            <option value="">All Types</option>
+            <option value="Game Jam">Game Jam</option>
+            <option value="Meetup">Meetup</option>
+            <option value="Conference">Conference</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Showcase">Showcase</option>
+            <option value="Social">Social</option>
+          </select>
+          <label style="display:flex; align-items:center; gap:8px; font-size:0.85rem; color: var(--gray-400); cursor:pointer; margin-left:auto;">
+            <input type="checkbox" id="free-filter" onchange="renderEvents()" style="accent-color: var(--purple-500);">
+            Free only
+          </label>
+        </div>
+        <div class="events-list" id="events-list"></div>
+        <div class="empty-state hidden" id="events-empty">
+          <div class="empty-state-icon">📅</div>
+          <h3>No events found</h3>
+          <p>Try adjusting your filters or check back soon.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Submit CTA ──────────────────────────────────────── -->
+  <section class="section" style="background: var(--black-2); border-top: 1px solid var(--border);">
+    <div class="container">
+      <div style="background: linear-gradient(135deg, rgba(109,40,217,0.12) 0%, transparent 100%); border: 1px solid rgba(109,40,217,0.2); border-radius: 18px; padding: 40px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;">
+        <div>
+          <h3 style="margin-bottom: 8px;">Are you a Baltimore game dev?</h3>
+          <p style="color: var(--gray-400); font-size: 0.9rem; max-width: 440px;">Get your studio, game, or event listed here. It's free and takes 5 minutes.</p>
+        </div>
+        <a href="submit.html" class="btn btn-primary">Submit Your Game →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ──────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-icon">◈</span>
+            <span class="logo-text">BMore<span class="logo-accent">Indie</span></span>
+          </a>
+          <p>Baltimore's indie game discovery platform — connecting players with the games and developers that matter.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Discover</h4>
+          <ul>
+            <li><a href="index.html">Global Directory</a></li>
+            <li><a href="local.html">Local Scene</a></li>
+            <li><a href="index.html#trending">Trending</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Developers</h4>
+          <ul>
+            <li><a href="submit.html">Submit Your Game</a></li>
+            <li><a href="#">Local Studios</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">About BMore Indie</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 BMore Indie Games. Made with 💜 in Baltimore, MD.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="js/local.js"></script>
+</body>
+</html>

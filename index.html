@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMore Indie Games — Discover Indie Games</title>
+  <meta name="description" content="Discover the best indie games worldwide and explore Baltimore's thriving local game development scene.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ── Navigation ─────────────────────────────────────────── -->
+<nav class="nav">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">◈</span>
+      <span class="logo-text">BMore<span class="logo-accent">Indie</span></span>
+    </a>
+
+    <div class="nav-search">
+      <input type="text" id="nav-search-input" placeholder="Search games, developers, genres…" autocomplete="off">
+      <button class="search-btn" onclick="handleSearch()" aria-label="Search">⌕</button>
+    </div>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html" class="active">Global</a>
+      <a href="local.html">Local Scene</a>
+      <a href="submit.html" class="nav-submit-btn">Submit Game</a>
+    </nav>
+
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── Hero ───────────────────────────────────────────────── -->
+<div class="page">
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="dot"></span>
+          Baltimore's Indie Game Directory
+        </div>
+        <h1>Discover Games<br>Worth Playing</h1>
+        <p>Curated indie games from around the world — plus a front-row seat to Baltimore's local developer scene. No AAA noise. Just great games.</p>
+        <div class="hero-actions">
+          <a href="#trending" class="btn btn-primary">Browse Games</a>
+          <a href="local.html" class="btn btn-secondary">🗺 Local Scene</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <strong id="stat-games">1,200+</strong>
+            <span>Games Listed</span>
+          </div>
+          <div class="hero-stat">
+            <strong>6</strong>
+            <span>Local Studios</span>
+          </div>
+          <div class="hero-stat">
+            <strong>Free</strong>
+            <span>Always</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Filters Bar ─────────────────────────────────────── -->
+  <div class="filters-bar" id="filters-bar">
+    <div class="container">
+      <div class="filters-inner">
+        <select class="filter-select" id="filter-genre" onchange="applyFilters()">
+          <option value="">All Genres</option>
+          <option value="Action">Action</option>
+          <option value="Adventure">Adventure</option>
+          <option value="RPG">RPG</option>
+          <option value="Platformer">Platformer</option>
+          <option value="Puzzle">Puzzle</option>
+          <option value="Simulation">Simulation</option>
+          <option value="Roguelike">Roguelike</option>
+          <option value="Horror">Horror</option>
+          <option value="Strategy">Strategy</option>
+        </select>
+
+        <select class="filter-select" id="filter-platform" onchange="applyFilters()">
+          <option value="">All Platforms</option>
+          <option value="PC">PC</option>
+          <option value="Switch">Switch</option>
+          <option value="PS4">PlayStation</option>
+          <option value="Xbox">Xbox</option>
+          <option value="Mobile">Mobile</option>
+        </select>
+
+        <select class="filter-select" id="filter-price" onchange="applyFilters()">
+          <option value="">Any Price</option>
+          <option value="free">Free</option>
+          <option value="under10">Under $10</option>
+          <option value="under20">Under $20</option>
+          <option value="under30">Under $30</option>
+        </select>
+
+        <select class="filter-select" id="filter-players" onchange="applyFilters()">
+          <option value="">Any Players</option>
+          <option value="1">Single Player</option>
+          <option value="2">2 Players</option>
+          <option value="4">Multiplayer</option>
+        </select>
+
+        <select class="filter-select" id="filter-status" onchange="applyFilters()">
+          <option value="">Any Status</option>
+          <option value="released">Released</option>
+          <option value="early_access">Early Access</option>
+          <option value="coming_soon">Coming Soon</option>
+        </select>
+
+        <button class="filter-chip active" data-sort="trending" onclick="setSortChip(this,'trending')">🔥 Trending</button>
+        <button class="filter-chip" data-sort="new" onclick="setSortChip(this,'new')">🆕 New</button>
+        <button class="filter-chip" data-sort="rating" onclick="setSortChip(this,'rating')">⭐ Top Rated</button>
+
+        <button class="filters-reset" onclick="resetFilters()">✕ Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Featured Games ──────────────────────────────────── -->
+  <section class="section" id="featured">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Hand-Picked</div>
+          <h2>Featured Games <span class="badge">IGDB</span></h2>
+        </div>
+        <a href="#all-games" class="view-all">See all</a>
+      </div>
+      <div class="featured-scroll" id="featured-scroll">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Trending This Week ───────────────────────────────── -->
+  <section class="section" id="trending" style="background: var(--black-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-label">This Week</div>
+          <h2>Trending 🔥</h2>
+        </div>
+        <a href="#all-games" class="view-all">See all</a>
+      </div>
+      <div class="games-grid" id="trending-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── New Releases ────────────────────────────────────── -->
+  <section class="section" id="new-releases">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Just Dropped</div>
+          <h2>New Releases 🆕</h2>
+        </div>
+        <a href="#all-games" class="view-all">See all</a>
+      </div>
+      <div class="games-grid" id="new-releases-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Browse by Mood ──────────────────────────────────── -->
+  <section class="section" style="background: var(--black-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Find Your Vibe</div>
+          <h2>Browse by Mood</h2>
+        </div>
+      </div>
+      <div class="mood-grid" id="mood-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── All Games ───────────────────────────────────────── -->
+  <section class="section" id="all-games">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-label">The Full List</div>
+          <h2>All Games <span class="badge" id="game-count-badge">12</span></h2>
+        </div>
+      </div>
+      <div class="games-grid" id="all-games-grid">
+        <!-- Populated by JS -->
+      </div>
+      <div class="empty-state hidden" id="empty-state">
+        <div class="empty-state-icon">🎮</div>
+        <h3>No games found</h3>
+        <p>Try adjusting your filters or search query.</p>
+        <button class="btn btn-secondary" onclick="resetFilters()">Reset Filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Local Promo ─────────────────────────────────────── -->
+  <section class="section" style="background: var(--black-2); border-top: 1px solid var(--border);">
+    <div class="container">
+      <div style="background: linear-gradient(135deg, rgba(109,40,217,0.15) 0%, rgba(76,29,149,0.08) 100%); border: 1px solid rgba(109,40,217,0.25); border-radius: 20px; padding: 48px; display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap;">
+        <div style="max-width: 520px;">
+          <div class="section-label">Baltimore, MD</div>
+          <h2 style="margin-bottom: 12px;">Explore the Local Scene 🦀</h2>
+          <p style="color: var(--gray-400); font-size: 0.95rem; line-height: 1.7;">Find indie game studios, stores, and events happening right here in Baltimore. Support your local developers.</p>
+        </div>
+        <a href="local.html" class="btn btn-primary" style="font-size: 1rem; padding: 16px 36px;">Explore Local Scene</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ──────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-icon">◈</span>
+            <span class="logo-text">BMore<span class="logo-accent">Indie</span></span>
+          </a>
+          <p>Baltimore's indie game discovery platform — connecting players with the games and developers that matter.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Discover</h4>
+          <ul>
+            <li><a href="index.html">Global Directory</a></li>
+            <li><a href="local.html">Local Scene</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#new-releases">New Releases</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Developers</h4>
+          <ul>
+            <li><a href="submit.html">Submit Your Game</a></li>
+            <li><a href="local.html">Local Studios</a></li>
+            <li><a href="local.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">About BMore Indie</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 BMore Indie Games. Made with 💜 in Baltimore, MD.</p>
+        <p style="color: var(--gray-600);">Game data powered by <a href="https://www.igdb.com" style="color: var(--purple-400);">IGDB</a></p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- ── Game Modal ──────────────────────────────────────────── -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
+  <div class="modal" id="modal">
+    <div class="modal-cover">
+      <img id="modal-screenshot" src="" alt="">
+      <div class="modal-cover-overlay"></div>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-developer" id="modal-developer"></div>
+      <h2 class="modal-title" id="modal-title"></h2>
+      <p class="modal-description" id="modal-description"></p>
+      <div class="modal-stats">
+        <div class="modal-stat">
+          <label>Rating</label>
+          <span id="modal-rating"></span>
+        </div>
+        <div class="modal-stat">
+          <label>Price</label>
+          <span id="modal-price"></span>
+        </div>
+        <div class="modal-stat">
+          <label>Release</label>
+          <span id="modal-release"></span>
+        </div>
+        <div class="modal-stat">
+          <label>Players</label>
+          <span id="modal-players"></span>
+        </div>
+      </div>
+      <div class="card-tags" id="modal-tags"></div>
+      <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top: 20px;">
+        <a id="modal-website" href="#" target="_blank" rel="noopener" class="btn btn-primary">Visit Website</a>
+        <button class="btn btn-secondary" onclick="closeModal()">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+crawl4ai-env/
+.vercel/
+node_modules/
+.DS_Store
+Thumbs.db
+.vercel
