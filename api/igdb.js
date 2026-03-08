@@ -8,8 +8,8 @@ async function getAccessToken() {
   if (cachedToken && Date.now() < tokenExpiry) return cachedToken;
 
   const params = new URLSearchParams({
-    client_id: process.env.IGDB_CLIENT_ID,
-    client_secret: process.env.IGDB_CLIENT_SECRET,
+    client_id: (process.env.IGDB_CLIENT_ID || '').trim(),
+    client_secret: (process.env.IGDB_CLIENT_SECRET || '').trim(),
     grant_type: 'client_credentials',
   });
   const res = await fetch('https://id.twitch.tv/oauth2/token', {
@@ -72,7 +72,7 @@ export default async function handler(req, res) {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${token}`,
-        'Client-ID': process.env.IGDB_CLIENT_ID,
+        'Client-ID': (process.env.IGDB_CLIENT_ID || '').trim(),
         'Content-Type': 'text/plain',
       },
       body,
