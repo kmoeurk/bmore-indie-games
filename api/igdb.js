@@ -86,6 +86,6 @@ export default async function handler(req, res) {
     return res.status(200).json(data);
   } catch (err) {
     console.error('IGDB proxy error:', err);
-    return res.status(500).json({ error: 'Internal server error' });
+    return res.status(500).json({ error: 'Internal server error', detail: err.message, hasClientId: !!process.env.IGDB_CLIENT_ID, hasSecret: !!process.env.IGDB_CLIENT_SECRET });
   }
 }
