@@ -7,13 +7,15 @@ let tokenExpiry = 0;
 async function getAccessToken() {
   if (cachedToken && Date.now() < tokenExpiry) return cachedToken;
 
+  const params = new URLSearchParams({
+    client_id: process.env.IGDB_CLIENT_ID,
+    client_secret: process.env.IGDB_CLIENT_SECRET,
+    grant_type: 'client_credentials',
+  });
   const res = await fetch('https://id.twitch.tv/oauth2/token', {
     method: 'POST',
-    body: new URLSearchParams({
-      client_id: process.env.IGDB_CLIENT_ID,
-      client_secret: process.env.IGDB_CLIENT_SECRET,
-      grant_type: 'client_credentials',
-    }),
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: params.toString(),
   });
 
   if (!res.ok) throw new Error(`Token fetch failed: ${res.status}`);
