@@ -51,10 +51,7 @@ async function fetchFromIGDB() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         endpoint: 'games',
-        body: `fields name,cover.url,screenshots.url,genres.name,platforms.name,rating,involved_companies.company.name,first_release_date,summary,websites.url;
-               where genres.name = ("Indie") & rating > 70 & cover != null;
-               sort rating desc;
-               limit 20;`
+        body: 'fields name,cover.url,screenshots.url,genres.name,platforms.name,rating,involved_companies.company.name,first_release_date,summary,websites.url; where genres = (32) & rating > 75 & rating_count > 20 & cover != null & first_release_date != null; sort rating desc; limit 50;'
       })
     });
     if (!res.ok) return;

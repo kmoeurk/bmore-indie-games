@@ -1,230 +1,2817 @@
 [
   {
-    "id": 1,
-    "title": "Hades",
-    "developer": "Supergiant Games",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc5vem.jpg",
-    "genres": ["Action", "Roguelike", "RPG"],
-    "platforms": ["PC", "PS4", "PS5", "Xbox", "Switch"],
+    "id": 136482,
+    "title": "Undertale Yellow",
+    "developer": "Team Undertale Yellow",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2el1.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8gsw.jpg",
+    "genres": [
+      "RPG",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 99,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2023-12-09",
+    "players": 1,
+    "description": "Welcome to Undertale Yellow. In this fan made prequel to the RPG Undertale, you control a human who falls underground into the world of monsters... but will you make it out alive?\n\nGrab your cowboy hat and your gun and take the place of Undertale’s Yellow soul in their journey through the Underground on an original adventure.",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": true,
+    "trending": false,
+    "website": "https://undertaleyellow.wiki.gg/",
+    "fromIGDB": true
+  },
+  {
+    "id": 135478,
+    "title": "Hrot",
+    "developer": "Spytihněv",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2omv.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8dcd.jpg",
+    "genres": [
+      "Shooter"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 99,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2023-05-16",
+    "players": 1,
+    "description": "Hrot is a single-player retro FPS set in a small socialist country neighboring Soviet Union (Czechoslovakia) after an unspecified disaster in 1986. Those times were dark and terrifying and so is the game.",
+    "mood": [
+      "intense"
+    ],
+    "featured": true,
+    "trending": false,
+    "website": "https://en.wikipedia.org/wiki/Hrot",
+    "fromIGDB": true
+  },
+  {
+    "id": 143761,
+    "title": "Pokémon Infinite Fusion",
+    "developer": "Independent",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k5u.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scnylm.jpg",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 98,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2015-04-22",
+    "players": 1,
+    "description": "Pokémon Infinite Fusion is a fangame RPG based on the Pokémon fusion generator trend, featuring sprite art from many different artists.\n\nWith thousands of fusions available, even Professor Oak doesn't expect you to \"catch 'em all\"!",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": true,
+    "trending": false,
+    "website": "https://discord.gg/vY8Y2m2",
+    "fromIGDB": true
+  },
+  {
+    "id": 11631,
+    "title": "Hiveswap: Act 1",
+    "developer": "Fellow Traveller",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1s8t.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/uk6k8tk63wxl3kslvmff.jpg",
+    "genres": [
+      "Adventure",
+      "Puzzle",
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 98,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2017-09-14",
+    "players": 1,
+    "description": "Hiveswap is a hand-drawn tribute to '90s point-and-click adventure games. Play as Joey Claire, a puzzle-solving teen snatched out of her time (1994) and place (Earth) and stranded on a hostile alien planet on the brink of rebellion.",
+    "mood": [
+      "chill",
+      "challenging",
+      "story-rich"
+    ],
+    "featured": true,
+    "trending": false,
+    "website": "https://store.steampowered.com/app/623940",
+    "fromIGDB": true
+  },
+  {
+    "id": 117526,
+    "title": "Lurkers",
+    "developer": "Bergice Productions",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9hgu.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvlgh.jpg",
+    "genres": [
+      "Shooter",
+      "Platformer",
+      "RPG",
+      "Simulation",
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 97,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2019-04-19",
+    "players": 1,
+    "description": "Lurkers is a chaotic 2D multiplayer sandbox where you can build, battle, and survive! Fight zombies, conquer game modes like Bedwars, and unleash your creativity in a world that’s yours to shape and destroy.",
+    "mood": [
+      "intense",
+      "challenging",
+      "fun"
+    ],
+    "featured": true,
+    "trending": false,
+    "website": "https://www.twitch.tv/directory/game/lurkers.io",
+    "fromIGDB": true
+  },
+  {
+    "id": 1046,
+    "title": "Star Control II",
+    "developer": "Toys for Bob",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2d9l.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/b9obospxgaochxxmvuxb.jpg",
+    "genres": [
+      "Simulation",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 96,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "1992-11-17",
+    "players": 1,
+    "description": "Star Control II, the sequel to the original Star Control, is a space adventure game that features role-playing elements alongside a 2D space ship melee combat system. The player assumes the role of The Captain of a single starship wandering a detailed environment of solar systems, gradually gathering information and resources in order to defeat a mysterious and implacable enemy.",
+    "mood": [
+      "relaxing",
+      "chill",
+      "challenging"
+    ],
+    "featured": true,
+    "trending": false,
+    "website": "https://www.starcontrol.com/",
+    "fromIGDB": true
+  },
+  {
+    "id": 14173,
+    "title": "Heroes of Might and Magic III: Horn of the Abyss",
+    "developer": "HotA Crew",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99tg.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scxiww.jpg",
+    "genres": [
+      "RPG",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 96,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2011-12-31",
+    "players": 1,
+    "description": "Heroes of Might and Magic III: Horn of the Abyss also known as HotA is a fan-made full scale add-on for Heroes of Might and Magic III, designed to continue the classical Heroes 3 add-on series of RoE/AB/SoD.\nThe aim of the project is to create an add-on for Heroes of Might and Magic III: The Shadow of Death with lots of new features. The main focus of add-on is the quality of every single aspect of the modded game. This includes the careful fixes of the original game balance, removal of the graphical imperfections left by the developer, and of course, a huge amount of new content, like new campaigns, new map objects and even a new playable faction - The Cove. The project pretends to be fully lore-wise and keeps connection with the original Might and Magic universe.",
+    "mood": [
+      "story-rich",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": true,
+    "website": "https://heroes.thelazy.net/index.php/Horn_of_the_Abyss",
+    "fromIGDB": true
+  },
+  {
+    "id": 305296,
+    "title": "Hunter Moonstrike",
+    "developer": "10nstudio",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co96tr.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scspgt.jpg",
+    "genres": [
+      "Shooter",
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 95,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2025-01-23",
+    "players": 1,
+    "description": "Hunter Moonstrike is the first survival game integrated with artificial intelligence. In this game, all npc have their own unique story and you can see the story of the game from their point of view. Talk to any person, ask any question you like, they will answer and think they are alive",
+    "mood": [
+      "intense",
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": true,
+    "website": "https://www.youtube.com/channel/UCgmdkjlW0OkuCwUqngXr5wQ",
+    "fromIGDB": true
+  },
+  {
+    "id": 178264,
+    "title": "Bad End Theater",
+    "developer": "NomNomNami",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co44y4.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sceej5.jpg",
+    "genres": [
+      "Puzzle",
+      "Simulation",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "Mobile",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 95,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2021-10-26",
+    "players": 1,
+    "description": "Welcome to Bad End Theater! Select your protagonist and explore a variety of terrible fates! The decisions you make in one story will affect the others. you can toggle these behaviors to open up new paths! unfortunately, every path leads to a bad ending... Can you find a way to save this unlucky cast? Playtime: 2-3 hours to see all endings (it's a puzzle game, so this varies widely).",
+    "mood": [
+      "chill",
+      "challenging",
+      "relaxing"
+    ],
+    "featured": false,
+    "trending": true,
+    "website": "https://www.gog.com/en/game/bad_end_theater",
+    "fromIGDB": true
+  },
+  {
+    "id": 98753,
+    "title": "My Grandfather's Farm",
+    "developer": "CHG",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/s9v8ggxiaqwtp3n0koas.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/g394tzsbjdbxfify4m3x.jpg",
+    "genres": [
+      "RPG",
+      "Simulation",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 95,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-08-30",
+    "players": 1,
+    "description": "\"Your grandfather left you his old farm. With only a few coins and tools and with the help of your grandfather you have to go to the old farm \ngive new shine again! \n \nCan you live from what the land has to offer you? \n \nGive the old farm a new lease of life - expand your farm. Buy new fields, stables, equipment and animals. \nFarm your animals, farm your fields. \nSell ​​your goods to dealers or directly to the inhabitants of Lodo Paws to build your yard! Make friends with the inhabitants of Lodo Paws. \nHarvest various types of crops, potatoes, carrots, wheat, corn, sunflowers. Take care of your animals (cows, sheep, chickens, horses). \nWatch for the seasons to catch up with your harvest in time. \nCut down trees and transport the wood or your goods by horse and cart. \n \nAdapt your farmer! Buy new clothes or change your outfit! \n \nExplore Lodo Paws, explore the Thunder Mine and find valuable treasures. \nComplete tasks and quest's.\"",
+    "mood": [
+      "story-rich",
+      "relaxing",
+      "chill"
+    ],
+    "featured": false,
+    "trending": true,
+    "website": "https://store.steampowered.com/app/807000",
+    "fromIGDB": true
+  },
+  {
+    "id": 141540,
+    "title": "Disco Elysium: The Final Cut",
+    "developer": "ZA/UM",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ve1.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8v3m.jpg",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
     "rating": 94,
     "price": 24.99,
     "releaseStatus": "released",
-    "releaseDate": "2020-09-17",
+    "releaseDate": "2021-03-30",
     "players": 1,
-    "description": "A rogue-like dungeon crawler in which you defy the god of the dead as you hack and slash your way out of the Underworld of Greek myth.",
-    "mood": ["intense", "story-rich"],
-    "featured": true,
-    "trending": true,
-    "website": "https://www.supergiantgames.com/games/hades/"
-  },
-  {
-    "id": 2,
-    "title": "Celeste",
-    "developer": "Maddy Makes Games",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc4xkt.jpg",
-    "genres": ["Platformer", "Indie"],
-    "platforms": ["PC", "Switch", "PS4", "Xbox"],
-    "rating": 92,
-    "price": 19.99,
-    "releaseStatus": "released",
-    "releaseDate": "2018-01-25",
-    "players": 1,
-    "description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall.",
-    "mood": ["chill", "challenging"],
-    "featured": true,
-    "trending": false,
-    "website": "https://www.celestegame.com/"
-  },
-  {
-    "id": 3,
-    "title": "Hollow Knight",
-    "developer": "Team Cherry",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rp4.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc4s46.jpg",
-    "genres": ["Action", "Metroidvania", "Platformer"],
-    "platforms": ["PC", "Switch", "PS4", "Xbox"],
-    "rating": 90,
-    "price": 14.99,
-    "releaseStatus": "released",
-    "releaseDate": "2017-02-24",
-    "players": 1,
-    "description": "A classically styled 2D action adventure across a vast interconnected world. Explore twisted caverns, battle tainted creatures and escape intricate traps.",
-    "mood": ["atmospheric", "challenging"],
-    "featured": true,
-    "trending": true,
-    "website": "https://www.hollowknight.com/"
-  },
-  {
-    "id": 4,
-    "title": "Stardew Valley",
-    "developer": "ConcernedApe",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n4i.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc4qcf.jpg",
-    "genres": ["Simulation", "RPG", "Farming"],
-    "platforms": ["PC", "Switch", "PS4", "Xbox", "Mobile"],
-    "rating": 93,
-    "price": 14.99,
-    "releaseStatus": "released",
-    "releaseDate": "2016-02-26",
-    "players": 4,
-    "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life.",
-    "mood": ["chill", "relaxing"],
+    "description": "Disco Elysium: The Final Cut is an enhanced edition of the original role-playing game developed and published by ZA/UM. It retains the core gameplay and narrative while adding full voice acting, new quests, additional endings, and other narrative revisions.",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
     "featured": false,
     "trending": true,
-    "website": "https://www.stardewvalley.net/"
+    "website": "https://discord.gg/discoelysium",
+    "fromIGDB": true
   },
   {
-    "id": 5,
+    "id": 84197,
+    "title": "Faith",
+    "developer": "Airdorf Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co48pe.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc78dj.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "rating": 94,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2017-10-03",
+    "players": 1,
+    "description": "Faith is a pixel horror game inspired by the era of MS-DOS, Apple II, Atari, and ZX Spectrum classics.\n\nForget blue-and-pink neon. The 1980s were scary. No Internet, it was hard to reach you if you weren't home, and the U.S. was engrossed in the “Satanic Scare” which fueled widespread paranoia about devil-worshiping, witchcraft, and occult practices.",
+    "mood": [
+      "atmospheric",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": true,
+    "website": "https://www.instagram.com/newbloodinteractive/",
+    "fromIGDB": true
+  },
+  {
+    "id": 109241,
+    "title": "The Binding of Isaac: Repentance",
+    "developer": "Nicalis, Inc.",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5dfa.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8p6l.jpg",
+    "genres": [
+      "Shooter",
+      "RPG",
+      "Adventure",
+      "Action"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "PS5"
+    ],
+    "rating": 94,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2021-03-31",
+    "players": 1,
+    "description": "The Binding of Isaac: Repentance is the ultimate edition of the genre-defining roguelike, with so many additions and improvements that it feels like a brand new game. Experience Isaac's adventures with new twists, terrifying turns and over 500 hours of new gameplay!",
+    "mood": [
+      "intense",
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": true,
+    "website": "https://bindingofisaac.fandom.com/wiki/The_Binding_of_Isaac:_Repentance",
+    "fromIGDB": true
+  },
+  {
+    "id": 14544,
+    "title": "The Stanley Parable Demonstration",
+    "developer": "Galactic Cafe",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nqc.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/btnkckuxhlnwhoepzygf.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 94,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2013-10-10",
+    "players": 1,
+    "description": "The Stanley Parable Demonstration is supposedly the demo for The Stanley Parable, but has an original storyline and can be considered a short stand-alone game.",
+    "mood": [
+      "atmospheric",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": true,
+    "website": "http://www.stanleyparable.com/",
+    "fromIGDB": true
+  },
+  {
+    "id": 139403,
+    "title": "Jungles of Maxtheria",
+    "developer": "SlifkerGames",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2i39.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8mkl.jpg",
+    "genres": [
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 93,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2020-10-14",
+    "players": 1,
+    "description": "Play as either \"Hot Spot\" Harvey, his cousin Roxy Roks, Junior or Missy searching for the lost treasure of the infamous \"Jaxton Max\". Your quest for fortune and glory will not be easy however. This adventure is full of baddies aimed at stopping you dead in your tracks. Use knives to dig through walls, bullets to battle the baddies, grappling hooks to jump over long distances, oxygen tanks to breath under water and torches to see what lurks underground. Collect keys to get past locked doors and to open treasure chests. Avoid the quicksand, tar pits, spikes, fire pits, thumpers and other traps along the way. Few ever return from their expeditions into the deep jungles. So, if you are brave enough, the \"Jungles of Maxtheria\" awaits!",
+    "mood": [
+      "challenging",
+      "fun",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": true,
+    "website": "https://www.youtube.com/user/SlifkerGames",
+    "fromIGDB": true
+  },
+  {
+    "id": 140133,
+    "title": "Enigma of Fear",
+    "developer": "Dumativa Game Studio",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co93ft.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/schjpr.jpg",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 93,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2024-11-28",
+    "players": 1,
+    "description": "Become Mia, a paranormal detective searching for her missing father inside the Perimeter - a place that doesn't exist. Investigate clues like a real detective and unravel the mysteries behind the Enigma of Fear, defeating the terrible monsters who'll try to stop you.",
+    "mood": [
+      "chill",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": true,
+    "website": "https://ordemparanormal.fandom.com/wiki/Ordem_Paranormal:_Enigma_do_Medo",
+    "fromIGDB": true
+  },
+  {
+    "id": 10039,
+    "title": "Superfighters Deluxe",
+    "developer": "MythoLogic Interactive",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r61.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/eictejxujxz3xcmbylgn.jpg",
+    "genres": [
+      "Action",
+      "Shooter",
+      "Platformer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 93,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-11-30",
+    "players": 1,
+    "description": "Superfighters Deluxe is a multiplayer 2D action game where little flat-headed men fight to the death in small and highly destructible arenas. Surviving each round takes skill, strategy and luck.",
+    "mood": [
+      "intense",
+      "challenging",
+      "fun"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "http://mythologicinteractive.com/Games/SuperfightersDeluxe.aspx",
+    "fromIGDB": true
+  },
+  {
+    "id": 119801,
+    "title": "Figment 2: Creed Valley",
+    "developer": "Bedtime Digital Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m7p.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6t5i.jpg",
+    "genres": [
+      "Simulation",
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "Mobile",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 93,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2023-03-09",
+    "players": 1,
+    "description": "Figment 2: Creed Valley is an encore to Figment. Dusty and Piper have restored peace in The Mind, however, a new adversary is threatening its balance. Our two heroes must travel to Creed Valley, where The Mind’s beliefs and ideals are formed, to face their most menacing and theatrical foe so far.",
+    "mood": [
+      "chill",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://twitter.com/BedtimeDG",
+    "fromIGDB": true
+  },
+  {
+    "id": 26472,
     "title": "Disco Elysium",
     "developer": "ZA/UM",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sfb.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc5rjp.jpg",
-    "genres": ["RPG", "Adventure", "Story-Rich"],
-    "platforms": ["PC", "PS4", "PS5"],
-    "rating": 96,
-    "price": 39.99,
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sfj.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/jgfwlctsfh8yljnjdeab.jpg",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 93,
+    "price": 24.99,
     "releaseStatus": "released",
     "releaseDate": "2019-10-15",
     "players": 1,
-    "description": "A groundbreaking open world role playing game. You are a detective with a unique skill system at your disposal and a whole city to carve your character from.",
-    "mood": ["story-rich", "atmospheric"],
-    "featured": true,
+    "description": "Disco Elysium is a role-playing game developed and published by ZA/UM. It is set in the fictional city of Revachol, where players assume the role of an amnesiac detective investigating a murder case. The game emphasises dialogue and skill-based choices, with character attributes represented by internal voices that influence decisions and interactions. Its narrative explores themes of politics, philosophy, and personal identity, and it is known for its unconventional gameplay and deep storytelling.",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
     "trending": false,
-    "website": "https://discoelysium.com/"
+    "website": "https://www.instagram.com/zaumstudio",
+    "fromIGDB": true
   },
   {
-    "id": 6,
-    "title": "Dead Cells",
-    "developer": "Motion Twin",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wav.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc5i2h.jpg",
-    "genres": ["Action", "Roguelike", "Platformer"],
-    "platforms": ["PC", "Switch", "PS4", "Xbox", "Mobile"],
-    "rating": 91,
+    "id": 7406,
+    "title": "Aquaria",
+    "developer": "Bit Blot",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7r.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/twigua4k1ciknzymk3xd.jpg",
+    "genres": [
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile"
+    ],
+    "rating": 92,
     "price": 24.99,
     "releaseStatus": "released",
-    "releaseDate": "2018-08-07",
+    "releaseDate": "2007-12-07",
     "players": 1,
-    "description": "A rogue-lite, Metroidvania inspired action-platformer. You'll explore a sprawling, ever-changing castle assuming you're able to fight your way past its keepers.",
-    "mood": ["intense", "challenging"],
+    "description": "A massive ocean world, teeming with life and filled with ancient secrets. Join Naija, a lone underwater dweller in search of her family, as she explores the depths of Aquaria. She'll travel from hidden caves, shrouded in darkness, to beautiful, sunlit oases, all lovingly handcrafted by its two creators.\n\nNaija's story, narrated fully with voice overs, will become yours, as you join her on this magnificent adventure.",
+    "mood": [
+      "challenging",
+      "fun",
+      "atmospheric"
+    ],
     "featured": false,
-    "trending": true,
-    "website": "https://dead-cells.com/"
+    "trending": false,
+    "website": "https://www.gog.com/game/aquaria",
+    "fromIGDB": true
   },
   {
-    "id": 7,
-    "title": "Cuphead",
-    "developer": "Studio MDHR",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4u.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc4nz5.jpg",
-    "genres": ["Action", "Shooter", "Platformer"],
-    "platforms": ["PC", "Switch", "PS4", "Xbox"],
-    "rating": 88,
+    "id": 115289,
+    "title": "Hollow Knight: Silksong",
+    "developer": "Team Cherry",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobebu.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc63aa.jpg",
+    "genres": [
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 92,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2025-09-04",
+    "players": 1,
+    "description": "Hollow Knight: Silksong is the epic sequel to Hollow Knight, the epic action-adventure of bugs and heroes. As the lethal hunter Hornet, journey to all-new lands, discover new powers, battle vast hordes of bugs and beasts and uncover ancient secrets tied to your nature and your past.",
+    "mood": [
+      "challenging",
+      "fun",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.twitch.tv/directory/category/hollow-knight-silksong",
+    "fromIGDB": true
+  },
+  {
+    "id": 14593,
+    "title": "Hollow Knight",
+    "developer": "Team Cherry",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobfzp.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/p3svrq6ewzxnn7p1a3v9.jpg",
+    "genres": [
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 92,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2017-02-24",
+    "players": 1,
+    "description": "A 2D metroidvania with an emphasis on close combat and exploration in which the player enters the once-prosperous now-bleak insect kingdom of Hallownest, travels through its various districts, meets friendly inhabitants, fights hostile ones and uncovers the kingdom's history while improving their combat abilities and movement arsenal by fighting bosses and accessing out-of-the-way areas.",
+    "mood": [
+      "challenging",
+      "fun",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.twitch.tv/directory/game/Hollow%20Knight",
+    "fromIGDB": true
+  },
+  {
+    "id": 305152,
+    "title": "Clair Obscur: Expedition 33",
+    "developer": "Sandfall Interactive",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gam.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scsodz.jpg",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "rating": 92,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2025-04-24",
+    "players": 1,
+    "description": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics.",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.youtube.com/@sandfallgames/videos",
+    "fromIGDB": true
+  },
+  {
+    "id": 1595,
+    "title": "Star Citizen",
+    "developer": "Cloud Imperium Games Corporation",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coauzg.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sczzus.jpg",
+    "genres": [
+      "Shooter",
+      "RPG",
+      "Simulation",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 92,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2013-08-30",
+    "players": 1,
+    "description": "Star Citizen is a sandbox open-world MMO \"SpaceSim\" by Cloud Imperium Games. Explore the 'verse, fight, trade, and more when you play Star Citizen!",
+    "mood": [
+      "intense",
+      "story-rich",
+      "relaxing"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://en.wikipedia.org/wiki/Star_Citizen",
+    "fromIGDB": true
+  },
+  {
+    "id": 227211,
+    "title": "S.T.A.L.K.E.R. G.A.M.M.A.",
+    "developer": "Grok",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5t7v.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sck37c.jpg",
+    "genres": [
+      "Shooter",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 92,
+    "price": 24.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-05-11",
+    "players": 1,
+    "description": "G.A.M.M.A. stands for Grok's Automated Modular Modpack for Anomaly.\n\nG.A.M.M.A. aims at providing a balanced survival, scavenging, cooking, crafting and repairing focused experience with a long progression and smooth gameplay.\n\nThe main motivation behind this project is to provide an easy to install, automatically updated and modular modding platform for Stalker Anomaly, with base parameters and gameplay mechanics setup to create a meaningful and enjoyable sense of progression.",
+    "mood": [
+      "intense",
+      "atmospheric",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://github.com/Grokitach/Stalker_GAMMA",
+    "fromIGDB": true
+  },
+  {
+    "id": 135999,
+    "title": "Tetris Effect: Connected",
+    "developer": "Monstars",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7kus.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8rn5.jpg",
+    "genres": [
+      "Simulation",
+      "Puzzle",
+      "Action"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 91,
     "price": 19.99,
     "releaseStatus": "released",
-    "releaseDate": "2017-09-29",
-    "players": 2,
-    "description": "Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s.",
-    "mood": ["intense", "challenging"],
-    "featured": false,
-    "trending": false,
-    "website": "https://www.cupheadgame.com/"
-  },
-  {
-    "id": 8,
-    "title": "Spiritfarer",
-    "developer": "Thunder Lotus Games",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a5g.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc65yv.jpg",
-    "genres": ["Simulation", "Adventure", "Indie"],
-    "platforms": ["PC", "Switch", "PS4", "Xbox"],
-    "rating": 85,
-    "price": 29.99,
-    "releaseStatus": "released",
-    "releaseDate": "2020-08-18",
-    "players": 2,
-    "description": "A cozy management game about dying. You play Stella, ferrymaster to the deceased, a Spiritfarer. Build a boat to explore the world.",
-    "mood": ["chill", "emotional", "story-rich"],
-    "featured": false,
-    "trending": false,
-    "website": "https://thunderlotusgames.com/spiritfarer/"
-  },
-  {
-    "id": 9,
-    "title": "Undertale",
-    "developer": "Toby Fox",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vgi.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc4s5t.jpg",
-    "genres": ["RPG", "Adventure", "Indie"],
-    "platforms": ["PC", "Switch", "PS4"],
-    "rating": 93,
-    "price": 9.99,
-    "releaseStatus": "released",
-    "releaseDate": "2015-09-15",
+    "releaseDate": "2020-05-14",
     "players": 1,
-    "description": "A small child falls into the Underground, a realm filled with monsters. Classic RPG in which nobody has to die.",
-    "mood": ["emotional", "story-rich", "quirky"],
+    "description": "Tetris Effect: Connected adds an all-new robust multiplayer expansion to the huge variety of addictive and innovative single-player modes that Tetris Effect is known for. Connect and play with or against each other in all-new modes like \"Zone Battle,\" which shakes up traditional 1-on-1 Tetris gameplay via the time-stopping Zone mechanic, or try the innovative co-op of \"Connected\" mode, where up to three players can literally connect their Tetris playfields together and play as one, as they work together to take down a series of increasingly-challenging CPU-controlled bosses.",
+    "mood": [
+      "chill",
+      "challenging"
+    ],
     "featured": false,
     "trending": false,
-    "website": "https://undertale.com/"
+    "website": "https://discord.gg/enhance",
+    "fromIGDB": true
   },
   {
-    "id": 10,
-    "title": "Tunic",
-    "developer": "Andrew Shouldice",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hk9.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbgdj.jpg",
-    "genres": ["Action", "Adventure", "Puzzle"],
-    "platforms": ["PC", "Xbox", "PS4", "PS5", "Switch"],
-    "rating": 86,
-    "price": 29.99,
-    "releaseStatus": "released",
-    "releaseDate": "2022-03-16",
-    "players": 1,
-    "description": "Explore a land filled with lost legends, ancient powers, and ferocious monsters in TUNIC, an isometric action game about a small fox on a big adventure.",
-    "mood": ["atmospheric", "challenging", "mysterious"],
-    "featured": false,
-    "trending": true,
-    "website": "https://tunicgame.com/"
-  },
-  {
-    "id": 11,
-    "title": "Shovel Knight",
-    "developer": "Yacht Club Games",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n7e.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc4r9w.jpg",
-    "genres": ["Platformer", "Action", "Indie"],
-    "platforms": ["PC", "Switch", "PS4", "Xbox", "3DS"],
-    "rating": 90,
-    "price": 24.99,
-    "releaseStatus": "released",
-    "releaseDate": "2014-06-26",
-    "players": 2,
-    "description": "A sweeping classic action adventure game with memorable characters and an 8-bit aesthetic. Shovel Knight is packed with secrets and tightly designed levels.",
-    "mood": ["fun", "challenging", "nostalgic"],
-    "featured": false,
-    "trending": false,
-    "website": "https://yachtclubgames.com/games/shovel-knight-treasure-trove/"
-  },
-  {
-    "id": 12,
-    "title": "Return of the Obra Dinn",
-    "developer": "Lucas Pope",
-    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7f.jpg",
-    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc4qr7.jpg",
-    "genres": ["Puzzle", "Mystery", "Adventure"],
-    "platforms": ["PC", "Switch", "PS4", "Xbox"],
+    "id": 120710,
+    "title": "The Henry Stickmin Collection",
+    "developer": "PuffballsUnited",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mgv.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc71sn.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
     "rating": 91,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2020-08-07",
+    "players": 1,
+    "description": "The Henry Stickmin Collection is a Newgrounds choose-your-own-path classic, reborn and revitalized. This 6-game epic culminates in multiple entirely canon, extremely different endings. Each step of the journey has you choose from options such as a Teleporter or calling in your buddy Charles to help you out. Correct choices will move the story forward, but incorrect choices lead to a fail. If you get to the end on your first try, you're doing it wrong. Failing is half the fun.",
+    "mood": [
+      "atmospheric",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.steampowered.com/app/1089980",
+    "fromIGDB": true
+  },
+  {
+    "id": 28160,
+    "title": "Atom RPG",
+    "developer": "AtomTeam",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qvc.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ye96aqhavezun6shuz9n.jpg",
+    "genres": [
+      "RPG",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Mobile",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 91,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-12-19",
+    "players": 1,
+    "description": "Atom RPG is a post-apocalyptic indie game, inspired by classic CRPGs: Fallout, Wasteland, System Shock, Deus Ex, Baldur's Gate and many others.\n\nIn 1986 both the Soviet Union and the Western Bloc were destroyed in mutual nuclear bombings. You are one of the survivors of the nuclear Holocaust. Your mission - to explore the wild and wondrous world of the Soviet Wasteland. To earn your place under the sun. And to investigate a shadowy conspiracy, aimed at destroying all that is left of life on Earth.",
+    "mood": [
+      "story-rich",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.playstation.com/en-us/concept/10000814",
+    "fromIGDB": true
+  },
+  {
+    "id": 69547,
+    "title": "Vintage Story",
+    "developer": "Tyron Madlener",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j6g.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc7hhg.jpg",
+    "genres": [
+      "Indie"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 91,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-08-16",
+    "players": 1,
+    "description": "A survival and creative sandbox voxel game that aims for nothing less than to become the new standard of voxel games. The authors take great care in quality, consistency and depth.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.reddit.com/r/VintageStory",
+    "fromIGDB": true
+  },
+  {
+    "id": 26673,
+    "title": "Omori",
+    "developer": "OMOCAT",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xlp.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc752s.jpg",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "Switch"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2020-12-25",
+    "players": 1,
+    "description": "A turn-based surreal horror RPG in which a child traverses various mundane, quirky, humourous, mysterious and horrific lands with his friends in search of a missing person while confronting his past and his fears. Explore a strange world full of colorful friends and foes. When the time comes, the path you’ve chosen will determine your fate... and perhaps the fate of others as well.",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.playstation.com/en-us/concept/10005141",
+    "fromIGDB": true
+  },
+  {
+    "id": 3230,
+    "title": "The Night of the Rabbit",
+    "developer": "Daedalic Entertainment",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrz.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xc0n6bpbgzlezqcnyifg.jpg",
+    "genres": [
+      "Adventure",
+      "Puzzle",
+      "Strategy"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2013-03-29",
+    "players": 1,
+    "description": "Experience a magical adventure. Journey with Jerry to the enchanted realm of Mousewood , master fascinating spells and solve tricky puzzles. Along with a intriguing story you will see breathtaking hand drawn backgrounds and elaborately animated characters. A Unique soundtrack complements Jerry's incredible adventure with fabulously composed music.",
+    "mood": [
+      "chill",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.nintendo.com/us/store/products/the-night-of-the-rabbit-switch/",
+    "fromIGDB": true
+  },
+  {
+    "id": 55322,
+    "title": "Pathologic 2",
+    "developer": "tinyBuild",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ndy.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/d5si6pb7jyuyyidzrap7.jpg",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2019-05-23",
+    "players": 1,
+    "description": "Pathologic 2 is a narrative-driven dramatic thriller about fighting a deadly outbreak in a secluded rural town. You are a healer, and to save anyone, you'll have to survive in this bleak and strange world, where even food and medicine are scarce.",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://twitter.com/IcePickLodge",
+    "fromIGDB": true
+  },
+  {
+    "id": 8492,
+    "title": "Lisa: The Painful",
+    "developer": "Dingaling",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1odr.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/q5rfoyqd9xclcxojcjio.jpg",
+    "genres": [
+      "RPG",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2014-12-15",
+    "players": 1,
+    "description": "Lisa is a quirky side-scrolling RPG set in a post-apocalyptic wasteland. Beneath the charming and funny exterior is a world full of disgust and moral destruction. Players will learn what kind of person they are by being FORCED to make choices. These choices permanently effect the game play. If you want to save a party member from death, you will have to sacrifice the strength of your character. Whether it's taking a beating for them, or chopping off limbs, or some other inhuman way. You will learn that in this world being selfish and heartless is the only way to survive...",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://discord.com/invite/serenityforge",
+    "fromIGDB": true
+  },
+  {
+    "id": 59858,
+    "title": "Lethal League Blaze",
+    "developer": "Team Reptile",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2toi.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/anhdyvii4aga2moriimq.jpg",
+    "genres": [
+      "Action",
+      "Simulation"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-10-24",
+    "players": 1,
+    "description": "Banging beats and mad style, Lethal League Blaze is the most intense ball game you can play online with up to 4 players.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "http://www.lethalleagueblaze.com/",
+    "fromIGDB": true
+  },
+  {
+    "id": 146761,
+    "title": "Outer Wilds: Echoes of the Eye",
+    "developer": "Mobius Digital",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wbp.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scclly.jpg",
+    "genres": [
+      "Puzzle",
+      "Simulation",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2021-09-28",
+    "players": 1,
+    "description": "The Hearthian space program has detected an anomaly that canʼt be attributed to any known location in the solar system. Grab your flashlight and prepare to illuminate the darkest secrets of the Outer Wilds in its first and only DLC, Outer Wilds: Echoes of the Eye.",
+    "mood": [
+      "chill",
+      "challenging",
+      "relaxing"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.nintendo.com/us/store/products/outer-wilds-echoes-of-the-eye-70050000045020-switch/",
+    "fromIGDB": true
+  },
+  {
+    "id": 18730,
+    "title": "Cataclysm: Dark Days Ahead",
+    "developer": "Independent",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hqe.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sclvho.jpg",
+    "genres": [
+      "RPG",
+      "Simulation",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2013-06-01",
+    "players": 1,
+    "description": "Cataclysm: Dark Days Ahead (aka Cataclysm DDA or CataDDA) is an open source survival horror roguelike set in a post-apocalyptic and fictional New England.\n\nUnlike most roguelikes, it has no goal: the player is free to explore the procedurally generated map, clear areas of monsters, work with NPCs, and build shelters and vehicles. The gameplay is mainly based on day-to-day survival, and the game tracks parameters like hunger, thirst, morale, illness and temperature which the player must manage to stay alive. Like most roguelikes Cataclysm: DDA follows turn based gameplay.\n\nThe world has support for seasons and dynamic weather conditions and the season lengths can be modified during world generation. A typical world has cities, towns, rivers, forests, bridges and other landmarks. Cities and towns generally have all the common establishments generally found in real world such as houses, departmental stores, malls, parking lots, swimming pools, hospitals, malls, etc. Exotic locations such as Science Labs, Military installations, missile silos can be found in remote places throughout the whole world. Latest versions have support for experimental 3-D buildings.",
+    "mood": [
+      "story-rich",
+      "relaxing",
+      "chill"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://cddawiki.chezzo.com/cdda_wiki/index.php?title=Main_Page",
+    "fromIGDB": true
+  },
+  {
+    "id": 105420,
+    "title": "Hollow Knight: Godmaster",
+    "developer": "Team Cherry",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hc2.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc7yo5.jpg",
+    "genres": [
+      "Platformer",
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-08-23",
+    "players": 1,
+    "description": "Godmaster was the fourth and final free content pack for Hollow Knight.",
+    "mood": [
+      "challenging",
+      "fun",
+      "intense"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://hollowknight.wiki/w/Category:Godmaster",
+    "fromIGDB": true
+  },
+  {
+    "id": 11270,
+    "title": "The Cat Lady",
+    "developer": "Harvester Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rfw.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/rk4tglf5rjkeaowfwsyc.jpg",
+    "genres": [
+      "Adventure",
+      "Puzzle",
+      "Quiz/Trivia"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2012-12-07",
+    "players": 1,
+    "description": "Susan Ashworth, known in her neighbourhood as the crazy Cat Lady, is a lonely 40- year old on the verge of suicide. She has no family, no friends and no hope for a better future.One day she discovers that five strangers will come along and change everything.But those five, \"The Parasites\", are also the most ruthless, deranged and cold-blooded bunch of psychopaths the city has ever known. They will stop at nothing to hurt Susan. Unless, she hurts them first...\n\nSusan's few weeks journey doesn't take her across the world and won't turn her into a hero. She has little faith in others and hardly even cares about herself. She can't fight and has never fired a gun in her life. But she's hanging onto that thin thread of hope, that in the end, as promised, there's an elusive reward waiting for her. Something worth trying for. Something that'll help her find an unlikely friend. Something that'll give her life a purpose. Susan's journey takes her on a roller-coaster ride between the world of the living and the world of the dead, where the only way to survive is to overcome her biggest weakness: her own self.",
+    "mood": [
+      "chill",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://twitter.com/harvestergames",
+    "fromIGDB": true
+  },
+  {
+    "id": 237497,
+    "title": "Cuphead",
+    "developer": "Studio MDHR",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65ip.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmikb.jpg",
+    "genres": [
+      "Shooter",
+      "Platformer",
+      "Adventure",
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2019-09-29",
+    "players": 1,
+    "description": "A port of Cuphead that was released as a part of Tesla’s 10.0 software update. Due to the Tesla hardware of the time, the game only featured the first world of the game.\n\nIn December 2022, the port was made obsolete in certain Tesla models due to a software update which adds Steam connectivity.",
+    "mood": [
+      "intense",
+      "challenging",
+      "fun"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "#",
+    "fromIGDB": true
+  },
+  {
+    "id": 170777,
+    "title": "Deltarune: Chapter 2",
+    "developer": "8-4",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67ze.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scdrxo.jpg",
+    "genres": [
+      "RPG",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2021-09-17",
+    "players": 1,
+    "description": "Deltarune: Chapter 2 is the next installment of the sequel to beloved indie darling Undertale...in a different world! This time around, two more classmates join the protagonists in their adventure as they, too, discover a mysterious world hidden behind a door, called the \"Cyber World\".\n\nPlayers with no save data will be able to start right at Chapter 2. “As long as you generally remember what happened story-wise, you’ll be fine,” the developers said in an FAQ.",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://deltarune.fandom.com/wiki/Main_Page",
+    "fromIGDB": true
+  },
+  {
+    "id": 127254,
+    "title": "Pathfinder: Wrath of the Righteous",
+    "developer": "Owlcat Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uq7.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc90k7.jpg",
+    "genres": [
+      "RPG",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "PS5",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2021-09-02",
+    "players": 1,
+    "description": "Embark on a journey to a realm overrun by demons in Pathfinder: Wrath of the Righteous, a new epic RPG from the creators of the critically acclaimed Pathfinder: Kingmaker. Explore the nature of good and evil, learn the true cost of power, and rise as a Mythic Hero capable of deeds beyond mortal expectations.",
+    "mood": [
+      "story-rich",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.instagram.com/owlcat_games/?hl=en",
+    "fromIGDB": true
+  },
+  {
+    "id": 19121,
+    "title": "Guacamelee!: Gold Edition",
+    "developer": "Drinkbox Studios",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1twc.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sy4d1iawywgk9zwckf0y.jpg",
+    "genres": [
+      "Platformer",
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2013-08-08",
+    "players": 1,
+    "description": "\"Guacamelee! is a Metroid-vania style action-platformer set in a magical Mexican inspired world.\n\nThe game draws its inspiration from traditional Mexican culture and folklore, and features many interesting and unique characters. Guacamelee! builds upon the classic open-world Metroid-vania style of games, by adding a strong melee combat component, a new dimension switching mechanic, and cooperative same-screen multiplayer for the entire story. The game also blurs the boundaries between combat and platforming by making many of the moves useful and necessary for both of these.\n\nTravel through a mystical and mysterious Mexican world as a Luchador using the power of your two fists to battle evil. Uncover hidden wrestling techniques like the Rooster Uppercut, and Dimension Swap to open new areas and secrets.\"\n\nGuacamelee! Gold Edition is a port of the PlayStation 3 and Vita version of the game and includes the DLC that was released for the game. An updated version of the game called \"Guacamelee! Super Turbo Championship Edition\" was later released that includes an expanded story, 2 new areas, and a new boss.",
+    "mood": [
+      "challenging",
+      "fun",
+      "intense"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://discord.com/invite/drinkbox",
+    "fromIGDB": true
+  },
+  {
+    "id": 113360,
+    "title": "Hytale",
+    "developer": "Hypixel Studios",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobc4t.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc5rik.jpg",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2026-01-13",
+    "players": 1,
+    "description": "Hytale combines the scope of a sandbox with the depth of a roleplaying game, immersing players in a procedurally generated world where teetering towers and deep dungeons promise rich rewards throughout their adventures. Hytale supports everything from block-by-block construction to scripting and minigame creation, delivered using easy to use and powerful tools.",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://hytale.com/",
+    "fromIGDB": true
+  },
+  {
+    "id": 228525,
+    "title": "Hades II",
+    "developer": "Supergiant Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaknx.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scka7e.jpg",
+    "genres": [
+      "RPG",
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2025-09-25",
+    "players": 1,
+    "description": "Battle beyond the Underworld using dark sorcery to take on the Titan of Time in this bewitching sequel to the award-winning rogue-like dungeon crawler.",
+    "mood": [
+      "story-rich",
+      "intense",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.steampowered.com/app/1145350",
+    "fromIGDB": true
+  },
+  {
+    "id": 23910,
+    "title": "Shovel Knight: Specter of Torment",
+    "developer": "Yacht Club Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gsu.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/o913mxttms5jfneceueb.jpg",
+    "genres": [
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 90,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2017-03-03",
+    "players": 1,
+    "description": "This game is a free expansion included in the main game, Shovel Knight, and its updated title, Shovel Knight: Treasure Trove. The game will also be available as a standalone title on PC, PS4, Xbox One, and Nintendo Switch.",
+    "mood": [
+      "challenging",
+      "fun",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.gog.com/game/shovel_knight_specter_of_torment",
+    "fromIGDB": true
+  },
+  {
+    "id": 113112,
+    "title": "Hades",
+    "developer": "Supergiant Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9kr.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8lik.jpg",
+    "genres": [
+      "RPG",
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "Mobile",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2020-09-17",
+    "players": 1,
+    "description": "A rogue-lite hack and slash dungeon crawler in which Zagreus, son of Hades the Greek god of the dead, attempts to escape his home and his oppressive father by fighting the souls of the dead through the various layers of the ever-shifting underworld, while getting to know and forging relationships with its inhabitants.",
+    "mood": [
+      "story-rich",
+      "intense",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.twitch.tv/directory/game/Hades",
+    "fromIGDB": true
+  },
+  {
+    "id": 133416,
+    "title": "Cube Escape Collection",
+    "developer": "Rusty Lake",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7h4w.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8m7r.jpg",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "Mobile",
+      "PC"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2020-10-14",
+    "players": 1,
+    "description": "In this classic point-and-click adventure anthology you follow the path of Dale and Laura and other famous Rusty lake characters such as Mr. Crow and Mr. Owl. The series will be updated, preserved and bundled to survive the end of the Flash Games era.",
+    "mood": [
+      "chill",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.gog.com/game/cube_escape_collection",
+    "fromIGDB": true
+  },
+  {
+    "id": 120974,
+    "title": "Your Turn to Die: Death Game by Majority",
+    "developer": "Nankidai",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65s3.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6v3h.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2017-08-28",
+    "players": 1,
+    "description": "Your Turn To Die: Death Game By Majority is a multi-ending horror adventure game. Your decision will directly affect the story and final outcome!",
+    "mood": [
+      "atmospheric",
+      "story-rich",
+      "emotional"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://discord.gg/aVsUZUwyEK",
+    "fromIGDB": true
+  },
+  {
+    "id": 9103,
+    "title": "Elasto Mania",
+    "developer": "Elasto Mania Team",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27s6.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc8ef9.jpg",
+    "genres": [
+      "Platformer",
+      "Puzzle",
+      "Action",
+      "Simulation"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2000-02-01",
+    "players": 1,
+    "description": "Elasto Mania (also known as Elma) is a physics-simulation game released in 2000. It claims to be \"based on a real physical model.\" It explores the notion of elastic motorcycles. The goal of each level is to collect every apple (disappearing by contact) spread throughout it, and then to touch the flower (the exit object). Some people, especially the ones part of online groups such as Mopolauta, play the game trying to finish levels as fast as possible, while others, mostly quite-new-to-the-game players, simply concern themselves with the accomplishment of levels, often first requiring figuring out a way for them to be solved. Ultimately, though, experienced players are motivated by the objective of finishing levels in the least amount of time possible, trying either to settle down personal, or world, records. That contributes to setting the stage for serious competition, especially in the official game levels.",
+    "mood": [
+      "challenging",
+      "fun",
+      "chill"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.steampowered.com/app/1290220",
+    "fromIGDB": true
+  },
+  {
+    "id": 206806,
+    "title": "Lorelei and the Laser Eyes",
+    "developer": "Annapurna Interactive",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4x7e.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/schmdr.jpg",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2024-05-16",
+    "players": 1,
+    "description": "A woman, summoned by an eccentric man to participate in a project in an old hotel somewhere in central Europe, becomes embroiled in a game of illusions, increasingly dangerous and surreal.\n\nNow you are invited to fall into the same rabbit hole, in a non-linear mystery with an immense amount of handcrafted puzzles, constantly presenting you with new riddles to solve, each leading you closer to deciphering the enigma of Lorelei and the Laser Eyes.",
+    "mood": [
+      "chill",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.playstation.com/en-us/concept/10011409",
+    "fromIGDB": true
+  },
+  {
+    "id": 75682,
+    "title": "Grim Dawn: Ashes of Malmouth",
+    "developer": "Crate Entertainment",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co212w.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/iidicqymbpo6l51caltr.jpg",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2017-10-11",
+    "players": 1,
+    "description": "Ashes of Malmouth picks up where Grim Dawn leaves off, expanding the world and story with two new chapters in the epic struggle to free humankind from the horrors of the Aetherials. Deep within the fallen city of Malmouth, the Shaper of Flesh crafts grotesque living weapons that could deal a final blow to the human resistance. You must forge new alliances as you push forward through deep forest, the void and into the city itself in a heroic effort to end the Aetherial terror. Venture into dangerous new parts of the world as you discover unique items, empower your characters and make difficult choices that have a lasting impact on the people of Cairn.",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "http://www.grimdawn.com/",
+    "fromIGDB": true
+  },
+  {
+    "id": 55590,
+    "title": "Mashinky",
+    "developer": "Jan Zelený",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa9ak.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sec0mnlhlz0uu2kepw0r.jpg",
+    "genres": [
+      "Simulation",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-10-06",
+    "players": 1,
+    "description": "Mashinky is a transport strategy game about trains. The goal is to create your own transport empire on a procedurally generated map. It’s a unique blend of realistic graphics combined with an isometric construction mode and board game-like rules.",
+    "mood": [
+      "relaxing",
+      "chill",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.mashinky.com/",
+    "fromIGDB": true
+  },
+  {
+    "id": 235846,
+    "title": "Halls of Torment",
+    "developer": "Chasing Carrots",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65yp.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scl19o.jpg",
+    "genres": [
+      "RPG"
+    ],
+    "platforms": [
+      "Xbox",
+      "PC",
+      "Mobile",
+      "PS5"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2024-08-26",
+    "players": 1,
+    "description": "Slay hordes of terrifying monsters in this casual roguelite action rpg. Descend into the Halls of Torment where the lords of the underworld await you. Treasures, magic trinkets, and a growing cast of heroes will grant you the power to vanquish the horrors from beyond. How long can you survive?",
+    "mood": [
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://apps.apple.com/us/app/halls-of-torment-premium/id6504841512",
+    "fromIGDB": true
+  },
+  {
+    "id": 19729,
+    "title": "Mr. Shifty",
+    "developer": "tinyBuild",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co209u.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/hljknocxxgyoyog86f8e.jpg",
+    "genres": [
+      "Action",
+      "Shooter",
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2017-04-13",
+    "players": 1,
+    "description": "Quit creeping through shadows, stop surveilling security patterns, and ditch the fancy toys. An expert thief and master of infiltration, Mr. Shifty can get inside any place he wants with just the power of his fists…okay, teleporting helps.\n\nA speed-stealth, kung-fu brawler about a teleporting thief, Mr. Shifty combines fast top-down gameplay with the ferocity of '90s Hong Kong action cinema, coming to PC (Win/Mac), PS4, and Xbox One in 2017.\n\nPummel your way through 75 levels of heists, rescue missions, boss battles, and down-'n'-dirty brawls. Outsmart your opponents by luring them into traps and tricking them into shooting each other. Activate slow-motion to dodge when the gunfire gets too thick, and watch your back, because it only takes one bullet to bring you down.\n\nNewly announced from indie publisher tinyBuild GAMES, Mr. Shifty is the debut title from Team Shifty; a close-knit group of four developers from Brisbane, Australia, who previously worked as a team at Halfbrick for over five years and have collectively shipped 21 games for consoles and handheld.",
+    "mood": [
+      "intense",
+      "chill",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.playstation.com/en-us/concept/228790",
+    "fromIGDB": true
+  },
+  {
+    "id": 13177,
+    "title": "The Binding of Isaac: Afterbirth",
+    "developer": "Nicalis, Inc.",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ul.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/abfg4czsaaehtt1sxwyo.jpg",
+    "genres": [
+      "Shooter",
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2015-10-30",
+    "players": 1,
+    "description": "The Binding of Isaac: Afterbirth is the massively updated expansion to 2014's roguelike of the year, The Binding of Isaac: Rebirth. Following Isaac one more time on his journey players will find bizarre treasures that change Isaac's form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.",
+    "mood": [
+      "intense",
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "http://bindingofisaac.com/",
+    "fromIGDB": true
+  },
+  {
+    "id": 24417,
+    "title": "Eastward",
+    "developer": "Pixpil Studio",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tul.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6wcz.jpg",
+    "genres": [
+      "RPG",
+      "Simulation",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2021-09-16",
+    "players": 1,
+    "description": "Eastward is a beautifully detailed and charming adventure RPG, from Shanghai-based indie developers, Pixpil and published by Chucklefish.\n\nEscape the tyrannical clutches of a subterranean society and join Eastward’s unlikely duo on an exciting adventure to the land above! Discover beautiful yet bizarre settlements and make new friends as you travel across the world by rail.\n\nInspired by 90s Japanese animation, the visual style of Eastward has been brought to life using a combination of a modern, innovative 3D lighting system and a rich retro-pixel artwork.",
+    "mood": [
+      "story-rich",
+      "relaxing",
+      "chill"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.xbox.com/en-us/games/store/eastward/9NSBX56ZNP7X",
+    "fromIGDB": true
+  },
+  {
+    "id": 7936,
+    "title": "La-Mulana",
+    "developer": "GR3 Project",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hd2.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/uty0uunhchzpgi6k9vmf.jpg",
+    "genres": [
+      "Platformer",
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2012-07-13",
+    "players": 1,
+    "description": "La-Mulana is the “Ruins Exploration Archaeological action game” in which the player seek the “Anthropo-origin”, sleeps in the Huge Ruin La-Mulana, which is said the beginning of whole the civilizations.\nVarious types of traps for blocking infiltrators are awaiting inside the ruins, and sentinel-monsters are roaming about. Target the deepest point of the ruins by figuring out riddles, putting off the monsters and deactivating the traps. The way to the goal will be extraordinary, more complex riddles will be waiting for you as you come deeper point.\nHandle Professor Lemeza to find out the Anthropo-origin!",
+    "mood": [
+      "challenging",
+      "fun",
+      "chill"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.nintendo.com/games/detail/la-mulana-switch/",
+    "fromIGDB": true
+  },
+  {
+    "id": 35282,
+    "title": "CrossCode",
+    "developer": "WhisperGames",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28wy.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/nkvqpqs3zdzc8a1o6ktk.jpg",
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "PS5",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-09-20",
+    "players": 1,
+    "description": "A retro-inspired 2D Action RPG set in the distant future. CrossCode combines 16-bit SNES-style graphics with butter-smooth physics, a fast-paced combat system, and engaging puzzle mechanics, served with a gripping sci-fi story.",
+    "mood": [
+      "intense",
+      "chill",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://radicalfishgames.itch.io/crosscode",
+    "fromIGDB": true
+  },
+  {
+    "id": 119314,
+    "title": "The Messenger: Picnic Panic",
+    "developer": "Sabotage",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob923.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6qc3.jpg",
+    "genres": [
+      "Platformer"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2019-07-11",
+    "players": 1,
+    "description": "The Messenger's epic story continues on in a summer vacation DLC full of tropical action! On Voodkin Island, the demon Barma'thazël captured helpless little creatures to use them in his dark rituals. Only the heroic Messenger can save them now in a vacation-meets-rescue-mission adventure!",
+    "mood": [
+      "challenging",
+      "fun"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://discord.gg/themessenger",
+    "fromIGDB": true
+  },
+  {
+    "id": 218282,
+    "title": "1000xResist",
+    "developer": "sunset visitor 斜陽過客",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co87zq.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sciymp.jpg",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2024-05-09",
+    "players": 1,
+    "description": "1000xRESIST is a thrilling sci-fi adventure. The year is unknown, and a disease spread by an alien invasion keeps you underground. You are Watcher. You dutifully fulfil your purpose in serving the ALLMOTHER, until the day you discover a shocking secret that changes everything. The game blends visual novel, walking simulator, and third-person exploration as you navigate nonlinear memories and unravel the mystery of what really happened—and what’s still being kept from you.",
+    "mood": [
+      "chill",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.1000xresist.com/",
+    "fromIGDB": true
+  },
+  {
+    "id": 11737,
+    "title": "Outer Wilds",
+    "developer": "Annapurna Interactive",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65ac.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/orzxlqmjgfz1p8rcvjt8.jpg",
+    "genres": [
+      "Puzzle",
+      "Simulation",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2019-05-28",
+    "players": 1,
+    "description": "Outer Wilds is a critically-acclaimed and award-winning open world mystery about a solar system trapped in an endless time loop. The newest member of the space program in a small village on the planet Timber Hearth, the player navigates a space shuttle and travels across their solar system to get to the bottom of its mysteries by exploring the cosmos and gathering the knowledge hidden within each of the system's planets, left behind by another civilization in the distant past.",
+    "mood": [
+      "chill",
+      "challenging",
+      "relaxing"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.xbox.com/en-us/games/store/outer-wilds/C596FKDKMQN7",
+    "fromIGDB": true
+  },
+  {
+    "id": 121404,
+    "title": "Shady Part of Me",
+    "developer": "Douze Dixièmes",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mfz.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc747n.jpg",
+    "genres": [
+      "Platformer",
+      "Puzzle",
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2020-12-10",
+    "players": 1,
+    "description": "Shady Part of Me is a narrative puzzle game. It tells the story of a little girl, frightened by the light, and her shadow. Together, they try to get out of the dreamlike world in which they are locked.",
+    "mood": [
+      "challenging",
+      "fun",
+      "chill"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.xbox.com/en-us/games/store/shady-part-of-me/9N9GTTGWZR90",
+    "fromIGDB": true
+  },
+  {
+    "id": 19394,
+    "title": "Blackwood Crossing",
+    "developer": "PaperSeven",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybb.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/nkp5ojosybggcnezqrqd.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2017-04-04",
+    "players": 1,
+    "description": "Blackwood Crossing is a story-driven first-person adventure game. An intriguing and emotive tale exploring the fragile relationship between orphaned siblings, Scarlett and Finn. When their paths cross with a mysterious figure, an ordinary train ride evolves into a magical story of life, love and loss.",
+    "mood": [
+      "atmospheric",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.playstation.com/en-us/concept/216087",
+    "fromIGDB": true
+  },
+  {
+    "id": 157756,
+    "title": "Melatonin",
+    "developer": "Half Asleep",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsn.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scbkmv.jpg",
+    "genres": [
+      "Simulation",
+      "Puzzle",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2022-12-15",
+    "players": 1,
+    "description": "Melatonin is a rhythm game about dreams and reality merging together. It uses animations and sound cues to keep you on beat without any intimidating overlays or interfaces. Harmonize through a variety of dreamy levels containing surprising challenges, hand-drawn art, and vibrant music.",
+    "mood": [
+      "chill",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://bsky.app/profile/halfasleep.games",
+    "fromIGDB": true
+  },
+  {
+    "id": 9643,
+    "title": "Return of the Obra Dinn",
+    "developer": "Warp Digital Entertainment",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27j9.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/qkewuti06rk7hyi56apj.jpg",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 89,
     "price": 19.99,
     "releaseStatus": "released",
     "releaseDate": "2018-10-18",
     "players": 1,
-    "description": "In 1802, the merchant vessel Obra Dinn set out from London for the Orient. An insurance inspector must determine the fate of each crew member.",
-    "mood": ["mysterious", "atmospheric", "story-rich"],
+    "description": "In this 1-bit first-person mystery game, a merchant ship called the Obra Dinn has appeared at a London harbor, years after being declared lost at sea. As an insurance adjuster, the player must examine the ship for clues.",
+    "mood": [
+      "chill",
+      "challenging",
+      "atmospheric"
+    ],
     "featured": false,
     "trending": false,
-    "website": "https://obradinn.com/"
+    "website": "https://www.youtube.com/@dukope1/featured",
+    "fromIGDB": true
+  },
+  {
+    "id": 55771,
+    "title": "Fell Seal: Arbiter's Mark",
+    "developer": "6 Eyes Studio",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1k9m.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/rtlgtzqhf8uwaarvpoiv.jpg",
+    "genres": [
+      "RPG",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2019-04-30",
+    "players": 1,
+    "description": "Fell Seal: Arbiter's Mark is a story-driven, turn-based tactical RPG set in a fantasy world with a touch of steampunk. Take control of the Arbiter Kyrie, an agent of the Immortal Council tasked with preserving stability and order throughout the land, and lead your troops through difficult encounters.\n\nExperience an epic and mature story, unfolding through over 40 story encounters and topped with challenging end-game content.\n\nClassic tactical combat battles, with rugged terrain and elevation, taking place on beautiful hand-drawn environments.\n\nA deep and complex class system with over 30 classes and 300 abilities lets you truly customize every one of your characters through the selection of their class, sub-class and passives. Carefully craft the character you envision, be it a versatile generalist, a dedicated spell-caster or a mighty foe-crushing specialist!\n\nCustomize your troops' appearance your way, by selecting their portrait, outfit, colors and overall visuals from a wide selection.\n\nEquip your army with over 240 pieces of equipment, either purchased, gathered from fallen enemies or created from crafting.",
+    "mood": [
+      "story-rich",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://discord.gg/eKH6vU4D",
+    "fromIGDB": true
+  },
+  {
+    "id": 27241,
+    "title": "Shovel Knight: King of Cards",
+    "developer": "Yacht Club Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gsw.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc6qlb.jpg",
+    "genres": [
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2019-12-10",
+    "players": 1,
+    "description": "This game is the final free campaign included in the main game, Shovel Knight, and its updated title, Shovel Knight: Treasure Trove. The game will also be available as a standalone title on PC, PS4, Xbox One, and Nintendo Switch.",
+    "mood": [
+      "challenging",
+      "fun",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.gog.com/game/shovel_knight_king_of_cards",
+    "fromIGDB": true
+  },
+  {
+    "id": 8288,
+    "title": "The Banner Saga 2",
+    "developer": "Versus Evil",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27ai.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/zmb5rrtfybdukzn3j5hn.jpg",
+    "genres": [
+      "RPG",
+      "Simulation",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "Mobile",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 89,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2016-04-19",
+    "players": 1,
+    "description": "The award winning and BAFTA nominated saga continues in The Banner Saga 2. Continue your journey soon after the climactic events of The Banner Saga. The choices you made in the first game will affect who is alive and who is dead in this exciting sequel.",
+    "mood": [
+      "story-rich",
+      "relaxing",
+      "chill"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.playstation.com/en-us/concept/216425",
+    "fromIGDB": true
+  },
+  {
+    "id": 26940,
+    "title": "The Banner Saga 3",
+    "developer": "Stoic",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcv.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/xawbkhr8nkifutbqhpjr.jpg",
+    "genres": [
+      "RPG",
+      "Simulation",
+      "Strategy"
+    ],
+    "platforms": [
+      "PS4",
+      "Mobile",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-07-26",
+    "players": 1,
+    "description": "Banner Saga 3 is the final dramatic chapter in the mature, story-driven Viking RPG series which has won over 20 awards and has been nominated for 4 BAFTA awards. As the world continues to crumble around you, who can you trust, how will you protect your allies and what choices will you make as the Darkness draws near?",
+    "mood": [
+      "story-rich",
+      "relaxing",
+      "chill"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.playstation.com/en-us/concept/231066",
+    "fromIGDB": true
+  },
+  {
+    "id": 3953,
+    "title": "Ikaruga",
+    "developer": "G.rev",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qjb.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/nbernsxms11iv3d4twfx.jpg",
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2001-12-20",
+    "players": 1,
+    "description": "In this vertical scrolling spaceship shooter, you control a ship that can change its polarity at will. As blue/white, the ship can easily destroy red/black enemies, and vice versa. Bullets of your polarity can be collected to fuel your energy gauge, but those opposite will kill you. Destroying an enemy ship causes them to fire revenge bullets which can be absorbed and fired back by the player. Different difficulties exist to change exactly how you interact with polarized points, or how they appear.\n\nIt is the spiritual successor to Radiant Silvergun, featuring similar level and boss design, as well as it's buddhism inspired themes and aesthetics. Both are directed by Hiroshi Iuchi, who also composed Ikaruga's soundtrack.",
+    "mood": [
+      "intense",
+      "chill",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://en.wikipedia.org/wiki/Ikaruga",
+    "fromIGDB": true
+  },
+  {
+    "id": 27907,
+    "title": "Rhythm Doctor",
+    "developer": "7th Beat Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xi0.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scx8t2.jpg",
+    "genres": [
+      "Simulation",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "Mobile",
+      "PC",
+      "Switch"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2025-12-06",
+    "players": 1,
+    "description": "Save patients with your rhythm mastery! Rhythm Doctor is a rhythm game where you heal patients by defibrillating in time to their heartbeats. Learn each patient's unique heartbeat and defeat boss viruses trying to sabotage your rhythm, all set to heart-pumping, soul-soothing music.",
+    "mood": [
+      "atmospheric",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.steampowered.com/app/774181",
+    "fromIGDB": true
+  },
+  {
+    "id": 84922,
+    "title": "Clone Hero",
+    "developer": "Independent",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ptj.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scfpwl.jpg",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2022-11-29",
+    "players": 1,
+    "description": "Clone Hero is a free rhythm game, which can be played with any 5 or 6 button Guitars, Drums (knockoffs, MiDis and from official guitar hero or rock band series), Gamepad Controllers, or just your standard computer keyboard. Download the game, copy your song charts into the song folder and enjoy hours of fun!",
+    "mood": [
+      "relaxing",
+      "chill"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.reddit.com/r/CloneHero",
+    "fromIGDB": true
+  },
+  {
+    "id": 99071,
+    "title": "Hypnospace Outlaw",
+    "developer": "No More Robots",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f5i.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/iqrilfw8yqhgecxkyr61.jpg",
+    "genres": [
+      "Adventure",
+      "Puzzle",
+      "RPG",
+      "Simulation"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2019-03-12",
+    "players": 1,
+    "description": "Hypnospace Outlaw is a '90s internet simulator in which players act as Enforcers, volunteer moderators who scour Hypnospace's surreal network of weird and wonderful websites to hunt down wrongdoers while also keeping an eye on their inbox, avoiding viruses and adware, and downloading a plethora of apps that may or may not be useful.",
+    "mood": [
+      "chill",
+      "challenging",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.twitch.tv/directory/game/Hypnospace%20Outlaw",
+    "fromIGDB": true
+  },
+  {
+    "id": 12519,
+    "title": "Tooth and Tail",
+    "developer": "Pocketwatch Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rk6.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/qmfikx66mcwwngfmprrk.jpg",
+    "genres": [
+      "Strategy",
+      "Action"
+    ],
+    "platforms": [
+      "PS4",
+      "PC"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2017-09-12",
+    "players": 1,
+    "description": "Lead the revolution with an army of flamethrowing Boars, mustard gas-lobbing Skunks, and paratrooper-puking Owls. Tooth and Tail is a Real-Time-Strategy game featuring Single Player, Online Competitive Play, Split Screen, Replays, and more. Build a base, lead your army, eat your enemies!",
+    "mood": [
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://pocketwatch.itch.io/tooth-and-tail",
+    "fromIGDB": true
+  },
+  {
+    "id": 8750,
+    "title": "N++",
+    "developer": "Metanet Software",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2535.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/yo3grrfhqnhtku7rvhyi.jpg",
+    "genres": [
+      "Platformer",
+      "Puzzle",
+      "Action"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2015-07-28",
+    "players": 1,
+    "description": "N++ is a fast-paced, action-packed platformer set in the distant future. You play as a ninja, darting through obstacles, narrowly evading a slew of inadvertently homicidal enemy robots and collecting gold in a minimalist, sci-fi world. N++ is all about smooth physics, deftly controlling the speed and inertia of the character, and the awesome feeling of fluidly moving through each level.",
+    "mood": [
+      "challenging",
+      "fun",
+      "chill"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.reddit.com/r/nplusplus",
+    "fromIGDB": true
+  },
+  {
+    "id": 89594,
+    "title": "Monster Sanctuary",
+    "developer": "Moi Rai Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q3q.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/gtjdikwmpnixb40yjxqa.jpg",
+    "genres": [
+      "Platformer",
+      "RPG",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2020-12-07",
+    "players": 1,
+    "description": "A pixel art monster collecting game featuring sideview visuals, metroidvania like exploration and challenging turn based combat.",
+    "mood": [
+      "challenging",
+      "fun",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.twitch.tv/directory/game/Monster%20Sanctuary",
+    "fromIGDB": true
+  },
+  {
+    "id": 334239,
+    "title": "Absolum",
+    "developer": "DotEmu",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coatin.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scvm8c.jpg",
+    "genres": [
+      "Action",
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2025-10-09",
+    "players": 1,
+    "description": "Crafted with passion by the dream team that redefined side-scrolling beat 'em ups, Absolum mixes top-of-the-class combat action with modern roguelite elements, bringing all the vibes of the fantasy arcade hits of the past into an immersive adventure set in the original world of Talamh.",
+    "mood": [
+      "story-rich",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://discord.gg/RPxFsWMTdA",
+    "fromIGDB": true
+  },
+  {
+    "id": 57153,
+    "title": "The Battle of Polytopia",
+    "developer": "Midjiwan AB",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coav77.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/ctwlodtgezcazuabomhv.jpg",
+    "genres": [
+      "Simulation",
+      "Strategy",
+      "Adventure",
+      "Card & Board Game"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile",
+      "Switch"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2016-02-04",
+    "players": 1,
+    "description": "The Battle of Polytopia is an award-winning turn-based strategy game about building a civilization and going into battle. With millions of players, it has quickly become one of the most popular mobile strategy games.\n\nChoose one of many tribes, explore the world, build cities, develop technologies, and wage war against other tribes to take control of the mythical land of Polytopia.",
+    "mood": [
+      "relaxing",
+      "chill",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://play.google.com/store/apps/details?id=air.com.midjiwan.polytopia",
+    "fromIGDB": true
+  },
+  {
+    "id": 152436,
+    "title": "Sheepy: A Short Adventure",
+    "developer": "MrSuicideSheep",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7rkr.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scai6u.jpg",
+    "genres": [
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2024-02-06",
+    "players": 1,
+    "description": "Sheepy: A Short Adventure is a short handcrafted pixel art platformer that follows Sheepy, an abandoned plushy brought to life.",
+    "mood": [
+      "challenging",
+      "fun",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.facebook.com/MrSuicideSheep/",
+    "fromIGDB": true
+  },
+  {
+    "id": 27867,
+    "title": "Unavowed",
+    "developer": "Wadjet Eye Games",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qv2.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/djxguvnxu6zjshym0wjj.jpg",
+    "genres": [
+      "Adventure",
+      "Puzzle",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2018-08-08",
+    "players": 1,
+    "description": "A demon possessed you one year ago. Since that day, you unwillingly tore a trail of bloodshed through New York City. Your salvation comes in the form of the Unavowed – an ancient society dedicated to stopping evil.\n\nYou are free, but your world is in tatters. You have no home, no friends, and are wanted by the police. Your old life is gone, but perhaps you can start a new one. Join the ranks of the Unavowed, and fight against the oncoming darkness.",
+    "mood": [
+      "chill",
+      "challenging",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://en.wikipedia.org/wiki/Unavowed",
+    "fromIGDB": true
+  },
+  {
+    "id": 7789,
+    "title": "The Binding of Isaac: Rebirth",
+    "developer": "Edmund McMillen",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaare.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/jbcoaccyn342cqg1i3ic.jpg",
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "RPG",
+      "Adventure",
+      "Action"
+    ],
+    "platforms": [
+      "PS4",
+      "PC",
+      "Mobile",
+      "Xbox"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2014-11-04",
+    "players": 1,
+    "description": "The Binding of Isaac: Rebirth is a top down, procedurally-generated roguelike game, remade based on the original game The Binding of Isaac. You play as Isaac, a little boy who is chased to the basement by his mother who intends to kill Isaac for her savior. You explore different levels, collect items and try to defeat your mother.. and whatever other evil awaits you. If you die, you restart with none of your items you collected, and you must explore the basement and beyond again.",
+    "mood": [
+      "intense",
+      "chill",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.twitch.tv/directory/game/The%20Binding%20of%20Isaac:%20Rebirth",
+    "fromIGDB": true
+  },
+  {
+    "id": 8749,
+    "title": "N+",
+    "developer": "SilverBirch Studios",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ejo.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/o7fvwnnpbvedkgyyxzpy.jpg",
+    "genres": [
+      "Platformer",
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2008-02-20",
+    "players": 1,
+    "description": "N+ is a port of the original Adobe Flash based PC game, N, to console and handheld systems with new features.\n\n\"N+ is a peerless action-puzzle platformer with more than 300 levels in which to hone your ninja reflexes, plus a built-in level editor for when you're hungry for more. N+ also features unique, physics-based controls, stylish graphics, unlimited lives, competitive and cooperative multiplayer, plenty of gold, and several flavors of sweet, sweet action.\"\n\n\"N+ features N doesn't have:\n-Redesigned graphics and visual effects: a more detailed version of N's in-your-face minimalist style\n-New objects and enemies: Pulse Drone, Laser Turret and Zap Doors\n-Background music and next-gen 5.1 surround sound\n-Way over 400 all-new levels\n-3 pants-wettingly good modes of multiplayer: Co-op, Race and Survival\"",
+    "mood": [
+      "challenging",
+      "fun",
+      "chill"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "http://www.thewayoftheninja.org/",
+    "fromIGDB": true
+  },
+  {
+    "id": 6739,
+    "title": "Black Mesa",
+    "developer": "Crowbar Collective",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20n4.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/eem1773xqkktfvdcd3oa.jpg",
+    "genres": [
+      "Shooter",
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2020-03-06",
+    "players": 1,
+    "description": "Black Mesa is a re-envisioning of Valve Software's classic science fiction first person shooter, Half-Life. Powered by Source Engine, You will re-visit the inaugural role of Gordon Freeman and his memorable journey through the Black Mesa Research Facility. Expect detailed environments to explore, a huge cast of characters and experimental weaponry. All-new music, voice acting, choreography and added dialogue give way to a more expansive and immersive experience than ever before.",
+    "mood": [
+      "intense",
+      "challenging",
+      "fun"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://twitter.com/blackmesadevs",
+    "fromIGDB": true
+  },
+  {
+    "id": 20880,
+    "title": "Castle Crashers Remastered",
+    "developer": "The Behemoth",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co527d.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/vxxhq1m5ytfuzkqvskqm.jpg",
+    "genres": [
+      "RPG",
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PS4",
+      "Xbox",
+      "Switch"
+    ],
+    "rating": 88,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2015-09-09",
+    "players": 1,
+    "description": "Hack, slash, and smash your way to victory in this Remastered edition of the popular 2D arcade adventure Castle Crashers! At 60FPS, Castle Crashers Remastered delivers hi-res visuals like nothing you've ever seen before. Up to four friends can play locally or online to save your princess, defend your kingdom, and crash some castles!",
+    "mood": [
+      "story-rich",
+      "intense",
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.nintendo.com/games/detail/castle-crashers-remastered-switch/",
+    "fromIGDB": true
+  },
+  {
+    "id": 9058,
+    "title": "Praetorians",
+    "developer": "Kalypso Media",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rsk.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/mo7ojqzxkarjnihn3xsl.jpg",
+    "genres": [
+      "Strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 87,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2003-02-28",
+    "players": 1,
+    "description": "Your destiny awaits you on the battlefield. As a Roman General on a quest to forge an empire, you will be transported back to the dusty battlefields of Egypt, the frozen lands of the Gauls, and finally to the heart of the Empire itself, Italy. Your quest will be no easy task as the lands you seek to conquer are heavily defended by thousands of powerful troops.\n\nFeed you insatiable hunger to rule the empire with this combat-heavy epic adventure Command the forces of 3 civilizations - the disciplined Romans, the ferocious Gauls, and the religiously fanatical Egyptians\n\nDifferent landscapes play an all-important role in battle. From snow-capped mountains to sandy beaches, the AI will understand varying terrain and its defensive and offensive possibilities\n\nBattle for supremacy online in an intense multiplayer match supporting up to 8 players Master the art of war in over 20 single player missions requiring vastly different strategies",
+    "mood": [
+      "challenging"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "http://www.pyromobilegames.com/praetorians/",
+    "fromIGDB": true
+  },
+  {
+    "id": 8214,
+    "title": "Cave Story+",
+    "developer": "Nicalis, Inc.",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2380.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/jz1srhf4iauygtsdr5ab.jpg",
+    "genres": [
+      "Shooter",
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "rating": 87,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2011-11-22",
+    "players": 1,
+    "description": "A fun epic 2D platformer side scroller that brings a refreshing look to not only retro games, but this is what a \"Remastered Edition\" looks like. Now with multiple endings.",
+    "mood": [
+      "intense",
+      "challenging",
+      "fun"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://store.steampowered.com/app/200900",
+    "fromIGDB": true
+  },
+  {
+    "id": 79864,
+    "title": "The Talos Principle II",
+    "developer": "Croteam",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jbl.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmnfp.jpg",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PS5"
+    ],
+    "rating": 87,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2023-11-02",
+    "players": 1,
+    "description": "The Talos Principle II is a thought-provoking first-person puzzle experience that greatly expands on the first game's philosophical themes and stunning environments with increasingly mind-bending challenges.",
+    "mood": [
+      "chill",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://discord.gg/croteam",
+    "fromIGDB": true
+  },
+  {
+    "id": 115425,
+    "title": "Darkest Dungeon II",
+    "developer": "Red Hook Studios",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6grp.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/scmgi5.jpg",
+    "genres": [
+      "RPG",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "Xbox",
+      "PS4",
+      "PC",
+      "PS5",
+      "Switch"
+    ],
+    "rating": 87,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2023-05-08",
+    "players": 1,
+    "description": "The eagerly awaited follow-up to Red Hook's smash hit gothic horror RPG! DDII will test your mettle and drive you to the brink of madness. Armor yourself with purpose and provision your party for the journey ahead. It will be arduous.",
+    "mood": [
+      "story-rich",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.nintendo.com/us/store/products/darkest-dungeon-ii-switch/",
+    "fromIGDB": true
+  },
+  {
+    "id": 126120,
+    "title": "Say No! More",
+    "developer": "Thunderful",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m7k.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/sc7dsc.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile",
+      "Switch"
+    ],
+    "rating": 87,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2021-04-09",
+    "players": 1,
+    "description": "Say No! More is a One-Button-Game that is all about saying \"No!\" and a stolen lunchbox. Defend yourself against mean colleagues and bosses, find mixtapes, discover the \"Power of Friendship\", and learn to say \"No!\" more!",
+    "mood": [
+      "atmospheric",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.nintendo.com/games/detail/say-no-more-switch/",
+    "fromIGDB": true
+  },
+  {
+    "id": 27762,
+    "title": "Paradigm",
+    "developer": "Jacob Janerka",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/jag5vnsvydjwpiy0ni9o.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/osh4dlxtk64gbepydves.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 87,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2017-04-05",
+    "players": 1,
+    "description": "\"Paradigm is a surreal adventure game set in the strange and post apocalyptic Eastern European country of Krusz.\n\nPlay as the handsome mutant, Paradigm, who's past comes back to haunt him in the form of a genetically engineered sloth that vomits candy.\"",
+    "mood": [
+      "atmospheric",
+      "story-rich"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://www.gog.com/game/paradigm",
+    "fromIGDB": true
+  },
+  {
+    "id": 23294,
+    "title": "realMyst: Masterpiece Edition",
+    "developer": "Cyan Worlds",
+    "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co263b.jpg",
+    "screenshot": "https://images.igdb.com/igdb/image/upload/t_screenshot_big/u9ytmgizp4siqztkm0vh.jpg",
+    "genres": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "rating": 87,
+    "price": 19.99,
+    "releaseStatus": "released",
+    "releaseDate": "2014-01-28",
+    "players": 1,
+    "description": "Alone on a mysterious island, you set out to explore its grandeur and mystery. Here, a chilling tale of intrigue and injustice, defying all boundaries of space and time, is being told. Summon your wits and imagination about you. Every scrap of paper and ambient sound may provide the vital clues that allow hidden secrets to unravel before you. Each discovery you make and each puzzle you solve will lead you one step closer to reversing a wrong that has gone unchecked for ages.",
+    "mood": [
+      "chill",
+      "challenging",
+      "atmospheric"
+    ],
+    "featured": false,
+    "trending": false,
+    "website": "https://dni.fandom.com/wiki/RealMyst:_Masterpiece_Edition",
+    "fromIGDB": true
   }
 ]
