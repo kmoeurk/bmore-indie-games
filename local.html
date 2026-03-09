@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Local Scene — BMore Indie Games</title>
-  <meta name="description" content="Discover Baltimore's indie game developers, local game stores, and upcoming gaming events near you.">
+  <title>Local Indie Scene — BMore Indie Games</title>
+  <meta name="description" content="Discover indie game developers, local game stores, and upcoming gaming events near you — powered by your location.">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
       <span class="logo-text">BMore<span class="logo-accent">Indie</span></span>
     </a>
     <div class="nav-search">
-      <input type="text" id="local-search" placeholder="Search local scene…" oninput="handleLocalSearch(this.value)">
+      <input type="text" id="local-search" placeholder="Search local scene…" oninput="handleLocalSearch(this.value)" autocomplete="off">
       <button class="search-btn" aria-label="Search">⌕</button>
     </div>
     <nav class="nav-links" id="nav-links">
@@ -36,10 +36,10 @@
   <!-- ── Page Header ────────────────────────────────────── -->
   <section style="padding: 48px 0 0; background: linear-gradient(to bottom, #0d0318, var(--black)); border-bottom: 1px solid var(--border);">
     <div class="container">
-      <div class="section-label">Baltimore, MD</div>
-      <h1 style="margin-bottom: 12px;">Local Scene 🦀</h1>
+      <div class="section-label" id="location-area-label">Indie Scene</div>
+      <h1 id="local-scene-heading" style="margin-bottom: 12px;">Local Indie Scene 🗺</h1>
       <p style="color: var(--gray-400); max-width: 580px; font-size: 1rem; line-height: 1.7; margin-bottom: 32px;">
-        Indie developers, stores, and events right here in Baltimore. Sorted by your location — because local matters.
+        Indie developers, game stores, and events near you — powered by OpenStreetMap and your location. Share your location to get started.
       </p>
 
       <!-- Location Banner -->
@@ -47,14 +47,14 @@
         <div class="location-banner-icon">📍</div>
         <div class="location-banner-text">
           <h3 id="location-status-title">Enable Location</h3>
-          <p id="location-status-text">Share your location to see distances, or enter a ZIP code.</p>
+          <p id="location-status-text">Share your location to find nearby stores and events, or enter a ZIP code.</p>
         </div>
         <div class="location-banner-actions">
           <button class="btn btn-primary" id="detect-location-btn" onclick="detectLocation()">
             📍 Use My Location
           </button>
           <div class="zip-input-group">
-            <input class="zip-input" type="text" id="zip-input" placeholder="ZIP code" maxlength="5" oninput="this.value=this.value.replace(/\D/,'')">
+            <input class="zip-input" type="text" id="zip-input" placeholder="ZIP code" maxlength="5" oninput="this.value=this.value.replace(/\D/g,'')">
             <button class="btn btn-secondary" onclick="useZipCode()">Go</button>
           </div>
         </div>
@@ -95,6 +95,8 @@
             <option value="Simulation">Simulation</option>
             <option value="Horror">Horror</option>
             <option value="Platformer">Platformer</option>
+            <option value="Narrative">Narrative</option>
+            <option value="Experimental">Experimental</option>
           </select>
           <label style="display:flex; align-items:center; gap:8px; font-size:0.85rem; color: var(--gray-400); cursor:pointer; margin-left:auto;">
             <input type="checkbox" id="hiring-filter" onchange="renderDevs()" style="accent-color: var(--purple-500);">
@@ -105,7 +107,7 @@
         <div class="empty-state hidden" id="devs-empty">
           <div class="empty-state-icon">🎮</div>
           <h3>No developers found</h3>
-          <p>Try adjusting your filters.</p>
+          <p>Try adjusting your filters or <a href="submit.html" style="color:var(--purple-400);">submit your studio</a>.</p>
         </div>
       </div>
 
@@ -164,8 +166,8 @@
     <div class="container">
       <div style="background: linear-gradient(135deg, rgba(109,40,217,0.12) 0%, transparent 100%); border: 1px solid rgba(109,40,217,0.2); border-radius: 18px; padding: 40px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;">
         <div>
-          <h3 style="margin-bottom: 8px;">Are you a Baltimore game dev?</h3>
-          <p style="color: var(--gray-400); font-size: 0.9rem; max-width: 440px;">Get your studio, game, or event listed here. It's free and takes 5 minutes.</p>
+          <h3 style="margin-bottom: 8px;">Are you an indie game dev?</h3>
+          <p style="color: var(--gray-400); font-size: 0.9rem; max-width: 440px;">Get your studio, game, or event listed here. It's free and takes 5 minutes. Developers from any city are welcome.</p>
         </div>
         <a href="submit.html" class="btn btn-primary">Submit Your Game →</a>
       </div>
@@ -181,7 +183,7 @@
             <span class="logo-icon">◈</span>
             <span class="logo-text">BMore<span class="logo-accent">Indie</span></span>
           </a>
-          <p>Baltimore's indie game discovery platform — connecting players with the games and developers that matter.</p>
+          <p>Indie game discovery for everyone — connecting players with the games and developers that matter, wherever you are.</p>
         </div>
         <div class="footer-col">
           <h4>Discover</h4>
@@ -195,8 +197,8 @@
           <h4>Developers</h4>
           <ul>
             <li><a href="submit.html">Submit Your Game</a></li>
-            <li><a href="#">Local Studios</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="local.html">Local Studios</a></li>
+            <li><a href="local.html">Events</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -209,6 +211,7 @@
       </div>
       <div class="footer-bottom">
         <p>© 2025 BMore Indie Games. Made with 💜 in Baltimore, MD.</p>
+        <p style="color: var(--gray-600);">Store data via <a href="https://www.openstreetmap.org" style="color:var(--purple-400);">OpenStreetMap</a> · Events via <a href="https://www.eventbrite.com" style="color:var(--purple-400);">Eventbrite</a></p>
       </div>
     </div>
   </footer>
