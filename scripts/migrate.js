@@ -4,18 +4,25 @@
  * Run once: node scripts/migrate.js
  */
 
+require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
 const { Client } = require('pg');
 const { createClient } = require('@supabase/supabase-js');
 
-const SUPABASE_URL        = 'https://dezcecjgcvmzapfrawrh.supabase.co';
-const SUPABASE_SERVICE_KEY = 'SUPABASE_SERVICE_KEY_REDACTED';
+const SUPABASE_URL        = process.env.SUPABASE_URL;
+const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
+const DB_PASSWORD          = process.env.SUPABASE_PW;
+
+if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY || !DB_PASSWORD) {
+  console.error('Missing required env vars: SUPABASE_URL, SUPABASE_SERVICE_KEY, SUPABASE_PW');
+  process.exit(1);
+}
 
 const DB = new Client({
-  host: 'db.dezcecjgcvmzapfrawrh.supabase.co',
+  host: `db.${new URL(SUPABASE_URL).hostname.split('.')[0]}.supabase.co`,
   port: 5432,
   database: 'postgres',
   user: 'postgres',
-  password: 'SUPABASE_DB_PASSWORD_REDACTED',
+  password: DB_PASSWORD,
   ssl: { rejectUnauthorized: false },
 });
 

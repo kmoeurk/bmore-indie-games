@@ -6,12 +6,18 @@
  * Run once: node scripts/import.js
  */
 
+require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
 const { createClient } = require('@supabase/supabase-js');
 const fs   = require('fs');
 const path = require('path');
 
-const SUPABASE_URL        = 'https://dezcecjgcvmzapfrawrh.supabase.co';
-const SUPABASE_SERVICE_KEY = 'SUPABASE_SERVICE_KEY_REDACTED';
+const SUPABASE_URL        = process.env.SUPABASE_URL;
+const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
+
+if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
+  console.error('Missing required env vars: SUPABASE_URL, SUPABASE_SERVICE_KEY');
+  process.exit(1);
+}
 
 const admin = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 

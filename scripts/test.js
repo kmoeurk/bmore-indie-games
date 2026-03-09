@@ -2,11 +2,17 @@
  * End-to-end Supabase test
  * node scripts/test.js
  */
+require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
 const { createClient } = require('@supabase/supabase-js');
 
-const SUPABASE_URL        = 'https://dezcecjgcvmzapfrawrh.supabase.co';
-const SUPABASE_ANON_KEY   = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRlemNlY2pnY3ZtemFwZnJhd3JoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMwMjMwMzUsImV4cCI6MjA4ODU5OTAzNX0.gnqMpLzlYYk9VgjxPSIgoyBUq5dcqMqbApdhV6iyGWQ';
-const SUPABASE_SERVICE_KEY = 'SUPABASE_SERVICE_KEY_REDACTED';
+const SUPABASE_URL        = process.env.SUPABASE_URL;
+const SUPABASE_ANON_KEY   = process.env.SUPABASE_ANON_KEY;
+const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
+
+if (!SUPABASE_URL || !SUPABASE_ANON_KEY || !SUPABASE_SERVICE_KEY) {
+  console.error('Missing required env vars: SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SERVICE_KEY');
+  process.exit(1);
+}
 
 const anon  = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 const admin = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
