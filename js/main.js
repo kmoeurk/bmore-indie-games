@@ -30,6 +30,8 @@ async function init() {
   try {
     const res = await fetch('data/games.json');
     allGames = await res.json();
+    const statEl = document.getElementById('stat-games');
+    if (statEl) statEl.textContent = allGames.length.toLocaleString() + '+';
     renderFeatured();
     renderTrending();
     renderNewReleases();
@@ -123,7 +125,7 @@ function cardFeaturedHTML(g) {
         ${g.genres.slice(0,3).map(t => `<span class="tag tag-purple">${t}</span>`).join('')}
       </div>
       <div class="card-meta">
-        <div class="card-rating"><span class="star">★</span> ${g.rating}</div>
+        <div class="card-rating">${g.rating ? `<span class="star">★</span> ${g.rating}` : '<span style="opacity:0.4">Unrated</span>'}</div>
         <div class="card-price ${g.price === 0 ? 'free' : ''}">${g.price === 0 ? 'Free' : '$' + g.price.toFixed(2)}</div>
       </div>
     </div>
@@ -223,7 +225,7 @@ function cardGameHTML(g) {
         ${(g.genres || []).slice(0,2).map(t => `<span class="tag">${t}</span>`).join('')}
       </div>
       <div class="card-meta">
-        <div class="card-rating"><span class="star">★</span> ${g.rating}</div>
+        <div class="card-rating">${g.rating ? `<span class="star">★</span> ${g.rating}` : '<span style="opacity:0.4">Unrated</span>'}</div>
         <div class="card-price ${g.price === 0 ? 'free' : ''}">${g.price === 0 ? 'Free' : '$' + g.price.toFixed(2)}</div>
       </div>
     </div>
@@ -291,7 +293,7 @@ function openModal(id) {
   document.getElementById('modal-developer').textContent = game.developer;
   document.getElementById('modal-title').textContent     = game.title;
   document.getElementById('modal-description').textContent = game.description;
-  document.getElementById('modal-rating').textContent    = `★ ${game.rating} / 100`;
+  document.getElementById('modal-rating').textContent    = game.rating ? `★ ${game.rating} / 100` : 'Unrated';
   document.getElementById('modal-price').textContent     = game.price === 0 ? 'Free' : `$${game.price.toFixed(2)}`;
   document.getElementById('modal-release').textContent   = game.releaseDate || 'TBA';
   document.getElementById('modal-players').textContent   = game.players === 1 ? 'Single Player' : `Up to ${game.players}`;

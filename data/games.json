@@ -2813,5 +2813,4505 @@
     "trending": false,
     "website": "https://dni.fandom.com/wiki/RealMyst:_Masterpiece_Edition",
     "fromIGDB": true
+  },
+  {
+    "id": 101000,
+    "title": "DON'T SLEEP",
+    "developer": "PugsGames",
+    "cover": "https://img.itch.zone/aW1nLzI2MDA1MDU2LnBuZw==/315x250%23c/%2F8LETG.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI2MDA1MDU2LnBuZw==/315x250%23c/%2F8LETG.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "She won't let YOU sleep",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://pugsgames.itch.io/dont-sleep",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101001,
+    "title": "Clown",
+    "developer": "ReichIV",
+    "cover": "https://img.itch.zone/aW1nLzI1ODY3MTIzLmpwZWc=/315x250%23c/GUgLw%2B.jpeg",
+    "screenshot": "https://img.itch.zone/aW1nLzI1ODY3MTIzLmpwZWc=/315x250%23c/GUgLw%2B.jpeg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Are you ready to see It in your dreams? It’s smiling like a clown.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://reichiv.itch.io/clown",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101002,
+    "title": "Tales After Midnight | The Neighbor",
+    "developer": "Static Mind",
+    "cover": "https://img.itch.zone/aW1nLzI1NzM4ODQ2LnBuZw==/315x250%23c/GJldwZ.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1NzM4ODQ2LnBuZw==/315x250%23c/GJldwZ.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "One new home. One quiet street. One neighbor who never lived there.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://static-mind.itch.io/tales-after-midnight-the-neighbor",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101003,
+    "title": "ISO/2004 [Chapter#1]",
+    "developer": "KoniiPinka",
+    "cover": "https://img.itch.zone/aW1nLzI1ODAxMzU1LmdpZg==/315x250%23c/p1MN%2Fk.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzI1ODAxMzU1LmdpZg==/315x250%23c/p1MN%2Fk.gif",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 3.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A Filipino horror experience rooted in sensibilities and quiet cruelty.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://koniipinka.itch.io/iso2004-chapter1",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101004,
+    "title": "Mushroom Oasis",
+    "developer": "DeersphereStudios",
+    "cover": "https://img.itch.zone/aW1nLzExNTkxMzIxLmdpZg==/315x250%23c/COe4jn.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzExNTkxMzIxLmdpZg==/315x250%23c/COe4jn.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "beware of toxic fungi. a slow burn yandere vn (in development)",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://deerspherestudios.itch.io/mushroom-oasis",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101005,
+    "title": "Trapped with Jester",
+    "developer": "Anta",
+    "cover": "https://img.itch.zone/aW1nLzk2NDE4MDMuZ2lm/315x250%23c/oihcS8.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzk2NDE4MDMuZ2lm/315x250%23c/oihcS8.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "You wake up in a carriage with an annoying stranger...",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://ant-san.itch.io/jester",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101006,
+    "title": "TOUCHSTARVED: A Dark Romance Visual Novel",
+    "developer": "Red Spring Studio",
+    "cover": "https://img.itch.zone/aW1nLzExNTk1Nzk5LmpwZw==/315x250%23c/M3tL3R.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzExNTk1Nzk5LmpwZw==/315x250%23c/M3tL3R.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Find a cure for your curse by entrusting your fate to 5 monstrous love interests",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://redspringstudio.itch.io/touchstarved",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101007,
+    "title": "Late Night Mop",
+    "developer": "LixianGames",
+    "cover": "https://img.itch.zone/aW1nLzEwMDg0NTk5LnBuZw==/315x250%23c/SAxj8t.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEwMDg0NTk5LnBuZw==/315x250%23c/SAxj8t.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A haunted house cleaning simulator.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://lixiangames.itch.io/late-night-mop",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101008,
+    "title": "Bloody Painter Dating Sim",
+    "developer": "DeluCat Productions",
+    "cover": "https://img.itch.zone/aW1nLzE3NjU4MjE1LmpwZw==/315x250%23c/aoX%2BV7.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzE3NjU4MjE1LmpwZw==/315x250%23c/aoX%2BV7.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "An official romantic horror visual novel game created to celebrate the 10th anniversary of  Bloody Painter.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://delucat.itch.io/bloody-painter-dating-sim",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101009,
+    "title": "Criminally Yours",
+    "developer": "Meant to Bee Studios",
+    "cover": "https://img.itch.zone/aW1nLzIyNzkwNDY3LnBuZw==/315x250%23c/PyompQ.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIyNzkwNDY3LnBuZw==/315x250%23c/PyompQ.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "He's both your work crush and the villain you need to stop...?",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://meant-to-bee-studios.itch.io/criminally-yours",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101010,
+    "title": "Mind the Gap",
+    "developer": "SweePix",
+    "cover": "https://img.itch.zone/aW1nLzI0NzQzNTE5LnBuZw==/315x250%23c/7xUjkR.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI0NzQzNTE5LnBuZw==/315x250%23c/7xUjkR.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A psychological thriller visual novel set on a train that never stops.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://sweepix.itch.io/mind-the-gap",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101011,
+    "title": "Fear Assessment",
+    "developer": "ALEXANDER WISEMAN",
+    "cover": "https://img.itch.zone/aW1nLzIxMTk0MDU2LmdpZg==/315x250%23c/C%2BuC%2FL.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzIxMTk0MDU2LmdpZg==/315x250%23c/C%2BuC%2FL.gif",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.8,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Take an assessment for fear-based torture methods",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://alexander-wiseman.itch.io/fear-assessment",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101012,
+    "title": "Do NOT Take This Cat Home",
+    "developer": "Pixeliminal",
+    "cover": "https://img.itch.zone/aW1nLzEzODU2NzA2LnBuZw==/315x250%23c/OjInVe.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEzODU2NzA2LnBuZw==/315x250%23c/OjInVe.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "You find a cute cat all alone in an alley. What will you do?",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://pixeliminal.itch.io/do-not-take-this-cat-home",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101013,
+    "title": "Friday Night Funkin'",
+    "developer": "ninjamuffin99Verified Account",
+    "cover": "https://img.itch.zone/aW1nLzQ1MjMxODcuZ2lm/315x250%23c/wGMbNL.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzQ1MjMxODcuZ2lm/315x250%23c/wGMbNL.gif",
+    "genres": [
+      "Rhythm"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "The coolest rhythm game",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://ninja-muffin24.itch.io/funkin",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101014,
+    "title": "Embassy Otherworld",
+    "developer": "Carziecat",
+    "cover": "https://img.itch.zone/aW1nLzIyNDcwNzc0LnBuZw==/315x250%23c/%2BS47Ik.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIyNDcwNzc0LnBuZw==/315x250%23c/%2BS47Ik.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Who knows what you'll find in the woods",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://carziecat.itch.io/embassy-otherworld",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101015,
+    "title": "Little Chef: Prototype",
+    "developer": "Julien",
+    "cover": "https://img.itch.zone/aW1nLzEyMzU1NjU4LnBuZw==/315x250%23c/yJccgl.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEyMzU1NjU4LnBuZw==/315x250%23c/yJccgl.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A fun and cute 2D physics-based cooking game with a focus on experimentation and discovery.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://truebiger.itch.io/little-chef",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101016,
+    "title": "Koibito No Nazo | Lover's Enigma (Prologue)",
+    "developer": "FallenCranberry Studio",
+    "cover": "https://img.itch.zone/aW1nLzIxODQ2NTA5LnBuZw==/315x250%23c/KmjczW.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIxODQ2NTA5LnBuZw==/315x250%23c/KmjczW.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "You can go back to the past, but no one is waiting for you there.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://fallencranberrystudio.itch.io/koibito-no-nazo-prologue",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101017,
+    "title": "Paimon Quest -A Genshin Impact Fangame",
+    "developer": "ShnenyDev",
+    "cover": "https://img.itch.zone/aW1nLzIzNzg1MjU0LnBuZw==/315x250%23c/6oQl7g.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzNzg1MjU0LnBuZw==/315x250%23c/6oQl7g.png",
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Return to Mondstadt in this action Roguelike!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://shnenydev.itch.io/paimon-quest",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101018,
+    "title": "Bajo las Rosas",
+    "developer": "SilverSky Studio",
+    "cover": "https://img.itch.zone/aW1nLzE5NTg5MzI4LnBuZw==/315x250%23c/VmGijA.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE5NTg5MzI4LnBuZw==/315x250%23c/VmGijA.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A fresh start, a familiar stranger, and a past that won’t stay buried. Will the truth bloom or break you?",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://silversky-studio.itch.io/bajo-las-rosas",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101019,
+    "title": "Apartment №202",
+    "developer": "Boxer Gaming",
+    "cover": "https://img.itch.zone/aW1nLzIyOTg1MTMyLnBuZw==/315x250%23c/3DE%2FDo.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIyOTg1MTMyLnBuZw==/315x250%23c/3DE%2FDo.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Some doors should never be opened",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://boxer-gaming.itch.io/apartment-202",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101020,
+    "title": "Lihiman (demo)",
+    "developer": "Kiwi Dreams",
+    "cover": "https://img.itch.zone/aW1nLzIzMjAyODM1LnBuZw==/315x250%23c/ki0ZmZ.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzMjAyODM1LnBuZw==/315x250%23c/ki0ZmZ.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Cute 3D Family Horror",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://kiwidreams-01.itch.io/lihiman-demo",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101021,
+    "title": "Serenitrove",
+    "developer": "Scoot",
+    "cover": "https://img.itch.zone/aW1nLzI1MDU0ODE5LnBuZw==/315x250%23c/oNTRwi.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1MDU0ODE5LnBuZw==/315x250%23c/oNTRwi.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Dig, upgrade, expand... then dig deeper!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://alfredncy.itch.io/serenitrove",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101022,
+    "title": "SMILE MORE",
+    "developer": "Pixel Poxet",
+    "cover": "https://img.itch.zone/aW1nLzI1MjU1OTc3LnBuZw==/315x250%23c/0U7gGk.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1MjU1OTc3LnBuZw==/315x250%23c/0U7gGk.png",
+    "genres": [
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A simulation horror game where the imperfect are made HAPPY.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://pixelpoxet.itch.io/smile-more",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101023,
+    "title": "Cafe Drop Visual Novel [DEMO]",
+    "developer": "Maru",
+    "cover": "https://img.itch.zone/aW1nLzIzNDg2MjQ0LnBuZw==/315x250%23c/KolKVj.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzNDg2MjQ0LnBuZw==/315x250%23c/KolKVj.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Visual novel",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://pushtdarlingx.itch.io/cafe-drop-demo",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101024,
+    "title": "[Chapter 2] Oblivion Blackout - BETA by Cryptid Renchy",
+    "developer": "cryptid_renchy",
+    "cover": "https://img.itch.zone/aW1nLzIyNzU4NTY4LnBuZw==/315x250%23c/usnUP0.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIyNzU4NTY4LnBuZw==/315x250%23c/usnUP0.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Cuando el cielo empezó a mirarnos, entendimos que éramos el menú.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://cryptid-renchy.itch.io/oblivionblackout",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101025,
+    "title": "[DLC] Bloody Painter Dating Sim - Valentine",
+    "developer": "DeluCat Productions",
+    "cover": "https://img.itch.zone/aW1nLzIwMTMzODgwLmpwZw==/315x250%23c/ptybNV.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzIwMTMzODgwLmpwZw==/315x250%23c/ptybNV.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 1.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Special story continuation following Ending 4-4: \"Madman’s Home\" from Bloody Painter Dating Sim.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://delucat.itch.io/bloody-painter-dating-sim-dlc-valentines-day",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101026,
+    "title": "Astronought",
+    "developer": "DeersphereStudios",
+    "cover": "https://img.itch.zone/aW1nLzE4Mjg5ODY2LmdpZg==/315x250%23c/WaaBEP.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzE4Mjg5ODY2LmdpZg==/315x250%23c/WaaBEP.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "trapped in space with a stranger too keen on getting to know you. a short sci-fi horror/romance (??) vn",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://deerspherestudios.itch.io/astronought",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101027,
+    "title": "You Make This House a Home.",
+    "developer": "JULIAN",
+    "cover": "https://img.itch.zone/aW1nLzI0NzkxMTg5LnBuZw==/315x250%23c/5r5oUY.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI0NzkxMTg5LnBuZw==/315x250%23c/5r5oUY.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://jul1xan-productions.itch.io/you-make-this-house-a-home",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101028,
+    "title": "You ✖ My Work of Art",
+    "developer": "Paralixh",
+    "cover": "https://img.itch.zone/aW1nLzIzODQyNzQ5LnBuZw==/315x250%23c/P8dXU%2B.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzODQyNzQ5LnBuZw==/315x250%23c/P8dXU%2B.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://paralixh.itch.io/you-x-my-work-of-art",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101029,
+    "title": "A Dance of Fire and Ice",
+    "developer": "fizzd",
+    "cover": "https://img.itch.zone/aW1nLzE4MDIwODUucG5n/315x250%23c/NT7ou3.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE4MDIwODUucG5n/315x250%23c/NT7ou3.png",
+    "genres": [
+      "Rhythm"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 3.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Keep your focus as you guide two orbiting planets along a winding path without breaking their perfect equilibrium.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://fizzd.itch.io/a-dance-of-fire-and-ice",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101030,
+    "title": "HONOR++",
+    "developer": "GruelScum",
+    "cover": "https://img.itch.zone/aW1nLzEzMzI4OTUxLnBuZw==/315x250%23c/czLBA4.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEzMzI4OTUxLnBuZw==/315x250%23c/czLBA4.png",
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Movement Based Sword Fighting PVP",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://gruelscum.itch.io/honorplusplus",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101031,
+    "title": "The Laundry Shift",
+    "developer": "arydk",
+    "cover": "https://img.itch.zone/aW1nLzE2ODIyODc5LnBuZw==/315x250%23c/SHtghd.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE2ODIyODc5LnBuZw==/315x250%23c/SHtghd.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "You work in a laundry shop together with the shop owner but..",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://rmarydk.itch.io/the-laundry-shift",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101032,
+    "title": "FLASH AND DIE DEMO v2",
+    "developer": "AtmoPixel",
+    "cover": "https://img.itch.zone/aW1nLzI1NjU1MzI1LnBuZw==/315x250%23c/oLKp8N.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1NjU1MzI1LnBuZw==/315x250%23c/oLKp8N.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Take photos. Pray nothing goes wrong.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://atmopixel.itch.io/flash-and-die",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101033,
+    "title": "Mi tamagotchi esta Vivo?!",
+    "developer": "Arisa",
+    "cover": "https://img.itch.zone/aW1nLzI1MjUzMTI2LnBuZw==/315x250%23c/KA35SP.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1MjUzMTI2LnBuZw==/315x250%23c/KA35SP.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Un simple Tamagotchi... hasta que empezó a hablarte",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://artmisaa.itch.io/mi-tamagotchi-esta-vivo",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101034,
+    "title": "A Tale of Crowns",
+    "developer": "qeresî",
+    "cover": "https://img.itch.zone/aW1nLzQxMjQ3MDcucG5n/315x250%23c/zsfJb%2F.png",
+    "screenshot": "https://img.itch.zone/aW1nLzQxMjQ3MDcucG5n/315x250%23c/zsfJb%2F.png",
+    "genres": [
+      "Interactive Fiction"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A Middle Eastern fantasy/romance story.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://qeresi.itch.io/a-tale-of-crowns",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 101035,
+    "title": "AoTTG2 - Attack on Titan Tribute Game 2",
+    "developer": "AoTTG2",
+    "cover": "https://img.itch.zone/aW1nLzI1NDUxMjQ0LnBuZw==/315x250%23c/PAK2E5.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1NDUxMjQ0LnBuZw==/315x250%23c/PAK2E5.png",
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "The official sequel to one of the most beloved fan games ever created.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://aottg2.itch.io/aottg2",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:37.742178"
+  },
+  {
+    "id": 102000,
+    "title": "Tales After Midnight | Gas At Night",
+    "developer": "Static Mind",
+    "cover": "https://img.itch.zone/aW1nLzIzOTE3ODU0LnBuZw==/315x250%23c/1gRXxg.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzOTE3ODU0LnBuZw==/315x250%23c/1gRXxg.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "One quiet night. One empty road. One mistake you’ll never forget.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://static-mind.itch.io/gas-at-night",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102001,
+    "title": "Mycopsychosys",
+    "developer": "Delta Cat Studio",
+    "cover": "https://img.itch.zone/aW1nLzEzNTg4MzkyLmdpZg==/315x250%23c/PBW2OT.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzEzNTg4MzkyLmdpZg==/315x250%23c/PBW2OT.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 4.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Survive the storm or become one with us",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://delta-cat-studio.itch.io/mycopsychosys",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102002,
+    "title": "The Ratchelor: A Rat Dating Sim",
+    "developer": "Algorat",
+    "cover": "https://img.itch.zone/aW1nLzUyMzMzNDEucG5n/315x250%23c/GlqLhQ.png",
+    "screenshot": "https://img.itch.zone/aW1nLzUyMzMzNDEucG5n/315x250%23c/GlqLhQ.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A dating sim about finding and marrying the rat of your dreams.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://algorat.itch.io/the-ratchelor-a-rat-dating-sim",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102003,
+    "title": "Resident Lover",
+    "developer": "teamavia",
+    "cover": "https://img.itch.zone/aW1nLzE0MDAxMjM0LnBuZw==/315x250%23c/dP8vds.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE0MDAxMjM0LnBuZw==/315x250%23c/dP8vds.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Resident Lover - a sapphic, modern rendition of Resident Evil Village",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://teamavia.itch.io/resident-lover",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102004,
+    "title": "Shattered Pixel Dungeon",
+    "developer": "Shattered Pixel",
+    "cover": "https://img.itch.zone/aW1nLzIwMDY1MTQyLnBuZw==/315x250%23c/BEx49b.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIwMDY1MTQyLnBuZw==/315x250%23c/BEx49b.png",
+    "genres": [
+      "Role Playing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A roguelike dungeon crawler RPG that's simple to get into but hard to master!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://shattered-pixel.itch.io/shattered-pixel-dungeon",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102005,
+    "title": "Solar Sandbox",
+    "developer": "totoriel",
+    "cover": "https://img.itch.zone/aW1nLzIyNDE4OTgxLmdpZg==/315x250%23c/TDd9wA.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzIyNDE4OTgxLmdpZg==/315x250%23c/TDd9wA.gif",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Physics Sandbox Simulation",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://totoriel.itch.io/solarsandbox",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102006,
+    "title": "HOMEWORK",
+    "developer": "closet kids",
+    "cover": "https://img.itch.zone/aW1nLzI0Nzg3NjkwLmpwZw==/315x250%23c/DGw0IV.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzI0Nzg3NjkwLmpwZw==/315x250%23c/DGw0IV.jpg",
+    "genres": [
+      "Indie"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "my innocent childhood memory.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://closet-kids.itch.io/homework",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102007,
+    "title": "Family",
+    "developer": "Owlskip Games",
+    "cover": "https://img.itch.zone/aW1nLzM4ODMwODgucG5n/315x250%23c/YbFmv0.png",
+    "screenshot": "https://img.itch.zone/aW1nLzM4ODMwODgucG5n/315x250%23c/YbFmv0.png",
+    "genres": [
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A detective game of musical genealogy",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://owlskip-games.itch.io/family",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102008,
+    "title": "The miracle week(Demo)",
+    "developer": "Teacuppo",
+    "cover": "https://img.itch.zone/aW1nLzE5ODAyNDM2LnBuZw==/315x250%23c/3wKG8z.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE5ODAyNDM2LnBuZw==/315x250%23c/3wKG8z.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Math is hell",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://teacuppo.itch.io/the-miracle-week",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102009,
+    "title": "The Virus Game",
+    "developer": "oofteriz",
+    "cover": "https://img.itch.zone/aW1nLzE2MjY4MTk5LnBuZw==/315x250%23c/1%2F6qBp.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE2MjY4MTk5LnBuZw==/315x250%23c/1%2F6qBp.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Don't download any crap onto your computer! And if you downloaded it, then meet the Virus!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://oofteriz.itch.io/the-virus-game",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102010,
+    "title": "Little Chef: Demo",
+    "developer": "Julien",
+    "cover": "https://img.itch.zone/aW1nLzIzNDIxNjE3LnBuZw==/315x250%23c/2WTmG8.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzNDIxNjE3LnBuZw==/315x250%23c/2WTmG8.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Little Chef: Cozy Cooking is a physics-based cooking game full of discovery and playful chaos.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://truebiger.itch.io/little-chef-demo",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102011,
+    "title": "Lift Your Spirits",
+    "developer": "DeersphereStudios",
+    "cover": "https://img.itch.zone/aW1nLzk3MzQyOTMuZ2lm/315x250%23c/QgPAc5.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzk3MzQyOTMuZ2lm/315x250%23c/QgPAc5.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "are the campus rumors true? short horror/light romance vn",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://deerspherestudios.itch.io/lift-your-spirits",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102012,
+    "title": "Creature Kitchen",
+    "developer": "The Rat Zone",
+    "cover": "https://img.itch.zone/aW1nLzIxNTM2MjQ3LnBuZw==/315x250%23c/%2FUMRf8.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIxNTM2MjQ3LnBuZw==/315x250%23c/%2FUMRf8.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 7.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A cozy atmospheric cooking simulator where you befriend local wildlife and feed them their favorite snacks!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://the-rat-zone.itch.io/creature-kitchen",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102013,
+    "title": "Birb",
+    "developer": "hwonze",
+    "cover": "https://img.itch.zone/aW1nLzI1MjU3MjAzLnBuZw==/315x250%23c/HtdcMH.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1MjU3MjAzLnBuZw==/315x250%23c/HtdcMH.png",
+    "genres": [
+      "Indie"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Birb Simulator",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://oleonze.itch.io/birb",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102014,
+    "title": "Guidelicious",
+    "developer": "Tymedust Games",
+    "cover": "https://img.itch.zone/aW1nLzEyOTY0OTk0LmdpZg==/315x250%23c/MgSzbY.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzEyOTY0OTk0LmdpZg==/315x250%23c/MgSzbY.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Let Him be your Guide.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://tymedust.itch.io/guidelicious",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102015,
+    "title": "HELP! NO BRAKE",
+    "developer": "Edgar Mendoza",
+    "cover": "https://img.itch.zone/aW1nLzEwMzQxNTAyLmdpZg==/315x250%23c/V%2B085s.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzEwMzQxNTAyLmdpZg==/315x250%23c/V%2B085s.gif",
+    "genres": [
+      "Platformer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Where did my brake pedal go?",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://edgarmendoza.itch.io/help-no-brake",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102016,
+    "title": "Nightbound",
+    "developer": "FrengoEstudios",
+    "cover": "https://img.itch.zone/aW1nLzIzODE3OTgxLmdpZg==/315x250%23c/qH1U5u.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzIzODE3OTgxLmdpZg==/315x250%23c/qH1U5u.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Cansado de tu vida como cajero, te acercas a un extraño al salir del trabajo... ¿Mala idea? VN yandere de terror",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://frengoestudios.itch.io/nightbound",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102017,
+    "title": "Zombotron Re-Boot",
+    "developer": "AntKarlov",
+    "cover": "https://img.itch.zone/aW1nLzIwNDQ5NDg5LnBuZw==/315x250%23c/ri7fP4.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIwNDQ5NDg5LnBuZw==/315x250%23c/ri7fP4.png",
+    "genres": [
+      "Platformer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Explore a mysterious world, find great weapons and fight various enemies to survive!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://antkarlov.itch.io/zombotron-reboot",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102018,
+    "title": "Cabin Hollow",
+    "developer": "LunarNovaGames",
+    "cover": "https://img.itch.zone/aW1nLzI1OTI5NTk0LnBuZw==/315x250%23c/B0WM63.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1OTI5NTk0LnBuZw==/315x250%23c/B0WM63.png",
+    "genres": [
+      "Interactive Fiction"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 1.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Isolation doesn’t silence your mind.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://lunarnovagames.itch.io/cabin-hollow",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102019,
+    "title": "DELIVERY MYSTERY",
+    "developer": "Maximillium",
+    "cover": "https://img.itch.zone/aW1nLzIwMzA4ODUzLnBuZw==/315x250%23c/P27aEp.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIwMzA4ODUzLnBuZw==/315x250%23c/P27aEp.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Deliver these burgers to your weird customers..",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://maximillium-studios.itch.io/delivery-mystery",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102020,
+    "title": "Lexispell (Free Demo)",
+    "developer": "MrEliptik",
+    "cover": "https://img.itch.zone/aW1nLzI1NjU4MjU0LnBuZw==/315x250%23c/0RVi1l.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1NjU4MjU0LnBuZw==/315x250%23c/0RVi1l.png",
+    "genres": [
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Strategy meets physics, in this roguelike word game, where you combine spelling with cool upgrades to score high",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://mreliptik.itch.io/lexispell",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102021,
+    "title": "Early Shift",
+    "developer": "Noisy Bear",
+    "cover": "https://img.itch.zone/aW1nLzIzNDUzNTE5LnBuZw==/315x250%23c/53cKxF.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzNDUzNTE5LnBuZw==/315x250%23c/53cKxF.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Queer Furry Dating Visual Novel",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://noisybear.itch.io/early-shift",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102022,
+    "title": "Klifur",
+    "developer": "Torfi",
+    "cover": "https://img.itch.zone/aW1nLzkzNTg1OTUucG5n/315x250%23c/prmajD.png",
+    "screenshot": "https://img.itch.zone/aW1nLzkzNTg1OTUucG5n/315x250%23c/prmajD.png",
+    "genres": [
+      "Sports"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Indoor climbing puzzle game",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://torfi.itch.io/klifur",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102023,
+    "title": "Stuffed Heart",
+    "developer": "kkkqueisko",
+    "cover": "https://img.itch.zone/aW1nLzI2MDEzNzQwLnBuZw==/315x250%23c/lxtSE9.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI2MDEzNzQwLnBuZw==/315x250%23c/lxtSE9.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Ahora vivire con un hombre toro??",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://kkkqueisko.itch.io/stuffed-heart",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102024,
+    "title": "My New Tenant",
+    "developer": "OwlScribble",
+    "cover": "https://img.itch.zone/aW1nLzE4NTE5ODQwLmpwZw==/315x250%23c/3V2Ovk.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzE4NTE5ODQwLmpwZw==/315x250%23c/3V2Ovk.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A game about finding a hot monster in your barn.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://owlscribble.itch.io/my-new-tenant",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102025,
+    "title": "Scratching an itch",
+    "developer": "Arty Farty Games",
+    "cover": "https://img.itch.zone/aW1nLzIyNDAxNjE1LnBuZw==/315x250%23c/jjvovx.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIyNDAxNjE1LnBuZw==/315x250%23c/jjvovx.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "This is a protest game. We are protesting itch.io delisting NSFW content",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://artyfartygames.itch.io/scratching-an-itch",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102026,
+    "title": "The Housekeeper (Demo)",
+    "developer": "Chano Games",
+    "cover": "https://img.itch.zone/aW1nLzI1OTc0NzQyLnBuZw==/315x250%23c/ZHJojz.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1OTc0NzQyLnBuZw==/315x250%23c/ZHJojz.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A psychological horror simulator game",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://chanogames.itch.io/the-housekeeper",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.097696"
+  },
+  {
+    "id": 102027,
+    "title": "Don't Look Back",
+    "developer": "Ashtroom",
+    "cover": "https://img.itch.zone/aW1nLzI1NjE1ODIyLnBuZw==/315x250%23c/3hrN49.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1NjE1ODIyLnBuZw==/315x250%23c/3hrN49.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "He said \"don't look back.\" Now we're falling and it's your fault, probably.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://ash-ashtroom.itch.io/dont-look-back",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.101836"
+  },
+  {
+    "id": 102028,
+    "title": "The Gray Garden",
+    "developer": "funamusea - Deep-sea prisonerVerified Account",
+    "cover": "https://img.itch.zone/aW1nLzk2ODMxODYucG5n/315x250%23c/HghUzE.png",
+    "screenshot": "https://img.itch.zone/aW1nLzk2ODMxODYucG5n/315x250%23c/HghUzE.png",
+    "genres": [
+      "Role Playing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A story of angels and demons.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://funamusea.itch.io/the-gray-garden",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.101836"
+  },
+  {
+    "id": 102029,
+    "title": "Pikabuu: The Silent Night",
+    "developer": "Joykeratif",
+    "cover": "https://img.itch.zone/aW1nLzE5NjE2MDc4LnBuZw==/315x250%23c/vAElnM.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE5NjE2MDc4LnBuZw==/315x250%23c/vAElnM.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 1.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Don't be a bad kid !",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://joykeratif.itch.io/pikabuu-the-silent-night",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.101836"
+  },
+  {
+    "id": 102030,
+    "title": "Scale the Depths",
+    "developer": "Serpexnessie",
+    "cover": "https://img.itch.zone/aW1nLzE3NDE5MDI1LnBuZw==/315x250%23c/LWtRAd.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE3NDE5MDI1LnBuZw==/315x250%23c/LWtRAd.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "You are a robot built to angle fish and scale them for hungry \"customers\".",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://serpexnessie.itch.io/scale-the-depths",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.101836"
+  },
+  {
+    "id": 102031,
+    "title": "That New Diner",
+    "developer": "vinillust",
+    "cover": "https://img.itch.zone/aW1nLzE4NTczMzg0LmpwZw==/315x250%23c/1o0O7o.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzE4NTczMzg0LmpwZw==/315x250%23c/1o0O7o.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Murdersim that begins in a cute diner.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://vinillust.itch.io/that-new-diner",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.101836"
+  },
+  {
+    "id": 102032,
+    "title": "A Whisper of Blue",
+    "developer": "Bellpheria",
+    "cover": "https://img.itch.zone/aW1nLzE4MDA0NzE4LnBuZw==/315x250%23c/AShy4r.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE4MDA0NzE4LnBuZw==/315x250%23c/AShy4r.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "There's a new resident in the marine reserve you work at.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://bellpheria.itch.io/a-whisper-of-blue",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.101836"
+  },
+  {
+    "id": 102033,
+    "title": "Smashing Bottles",
+    "developer": "Blue Makes Games",
+    "cover": "https://img.itch.zone/aW1nLzI1OTYzNjM0LnBuZw==/315x250%23c/nopvVt.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1OTYzNjM0LnBuZw==/315x250%23c/nopvVt.png",
+    "genres": [
+      "Indie"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Break bottles to earn cash and upgrade your skills in this chaotic incremental!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://blue-makes-games.itch.io/smashing-bottles",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.101836"
+  },
+  {
+    "id": 102034,
+    "title": "lovebyte.exe Demo",
+    "developer": "Nochi Studios",
+    "cover": "https://img.itch.zone/aW1nLzIzMjE4NDQxLnBuZw==/315x250%23c/1XXKbI.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzMjE4NDQxLnBuZw==/315x250%23c/1XXKbI.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "VTuber dating chatsim inspired by Mystic Messenger and internet spam",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://nochistudios.itch.io/lovebyte-demo",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.101836"
+  },
+  {
+    "id": 102035,
+    "title": "O'ermorrow",
+    "developer": "CripticBite",
+    "cover": "https://img.itch.zone/aW1nLzE5MjQwNzc5LnBuZw==/315x250%23c/GtBmsj.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE5MjQwNzc5LnBuZw==/315x250%23c/GtBmsj.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Your forsaken peer doesn't harbor any feelings for you. (lies).",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://cripticbite.itch.io/oermorrow",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:41.101836"
+  },
+  {
+    "id": 103000,
+    "title": "Storm Grill",
+    "developer": "SametHope",
+    "cover": "https://img.itch.zone/aW1nLzE3Nzc5NzkwLnBuZw==/315x250%23c/fun1iR.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE3Nzc5NzkwLnBuZw==/315x250%23c/fun1iR.png",
+    "genres": [
+      "Indie"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Evaporate droplets, purchase power-ups, evaporate more droplets!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://samethope.itch.io/storm-grill",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103001,
+    "title": "Into Ruins",
+    "developer": "SPARSE//GameDev",
+    "cover": "https://img.itch.zone/aW1nLzEwMzYzMDg4LnBuZw==/315x250%23c/25erqS.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEwMzYzMDg4LnBuZw==/315x250%23c/25erqS.png",
+    "genres": [
+      "Role Playing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Modern roguelike with atmosphere",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://sparsegamedev.itch.io/into-ruins",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103002,
+    "title": "CRUSH!!!",
+    "developer": "Remina",
+    "cover": "https://img.itch.zone/aW1nLzE4ODQ2Mzk5LmpwZw==/315x250%23c/pQQufF.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzE4ODQ2Mzk5LmpwZw==/315x250%23c/pQQufF.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "yandere monster girl dating sim",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://hereisremina.itch.io/crush",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103003,
+    "title": "Minato",
+    "developer": "noshuio",
+    "cover": "https://img.itch.zone/aW1nLzI0MjgyMDY3LmdpZg==/315x250%23c/vo8mXC.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzI0MjgyMDY3LmdpZg==/315x250%23c/vo8mXC.gif",
+    "genres": [
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Minesweeper but it's a roguelike.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://noshuio.itch.io/minato",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103004,
+    "title": "Monster Nomster",
+    "developer": "Traxiss",
+    "cover": "https://img.itch.zone/aW1nLzE0NjQ0MjU5LmpwZw==/315x250%23c/uJoPPk.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzE0NjQ0MjU5LmpwZw==/315x250%23c/uJoPPk.jpg",
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 10.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A Vore-Like Action Shooter.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://traxiss.itch.io/monster-nomster",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103005,
+    "title": "Chico and the Magic Orchards DX",
+    "developer": "Daikon Games",
+    "cover": "https://img.itch.zone/aW1nLzExNDI4Nzc4LnBuZw==/315x250%23c/Yn9aHU.png",
+    "screenshot": "https://img.itch.zone/aW1nLzExNDI4Nzc4LnBuZw==/315x250%23c/Yn9aHU.png",
+    "genres": [
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 4.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Solve puzzles by rolling a giant walnut in this retro-handheld-inspired adventure",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://daikongames.itch.io/chico-and-the-magic-orchards",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103006,
+    "title": "CindyCar.Drive",
+    "developer": "Hiroshi_Dev",
+    "cover": "https://img.itch.zone/aW1nLzEyMDIyNzMzLmpwZw==/315x250%23c/585mbv.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzEyMDIyNzMzLmpwZw==/315x250%23c/585mbv.jpg",
+    "genres": [
+      "Racing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Vehicle simulator with soft body physics",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://hiroshi-dev.itch.io/cindycardrive",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103007,
+    "title": "FISH",
+    "developer": "dmcaguy",
+    "cover": "https://img.itch.zone/aW1nLzIyNjE1MTY3LnBuZw==/315x250%23c/2dtMLe.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIyNjE1MTY3LnBuZw==/315x250%23c/2dtMLe.png",
+    "genres": [
+      "Platformer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A Platformer Run & Gun Game",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://dmcaguy.itch.io/fish",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103008,
+    "title": "Game Poems — Issue #1: First Moves",
+    "developer": "Game Poems Magazine",
+    "cover": "https://img.itch.zone/aW1nLzI1OTg3NTE2LnBuZw==/315x250%23c/e0PQM1.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1OTg3NTE2LnBuZw==/315x250%23c/e0PQM1.png",
+    "genres": [
+      "Indie"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A playable magazine of short-form games",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://gamepoems.itch.io/game-poems-issue-1-first-moves",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103009,
+    "title": "Crownbreakers",
+    "developer": "Sharkbomb StudiosVerified Account",
+    "cover": "https://img.itch.zone/aW1nLzIzODcxNjI5LmpwZw==/315x250%23c/duidip.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzIzODcxNjI5LmpwZw==/315x250%23c/duidip.jpg",
+    "genres": [
+      "Card Game"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Tyrants keep the city in a chokehold. They grow fat by grinding everyone else's soul into profit. ✊ENOUGH!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://sharkbombs.itch.io/crownbreakers",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103010,
+    "title": "Generic Fighter Maybe",
+    "developer": "Astrobard Games",
+    "cover": "https://img.itch.zone/aW1nLzIyNDUxMjYwLmdpZg==/315x250%23c/fA8ZUv.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzIyNDUxMjYwLmdpZg==/315x250%23c/fA8ZUv.gif",
+    "genres": [
+      "Fighting"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Get ready to commit a violence in this generic fighting game with silly animations.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://astrobardgames.itch.io/generic-fighter-maybe",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103011,
+    "title": "It Was All For The Tuna",
+    "developer": "Cosmic Adventure Squad",
+    "cover": "https://img.itch.zone/aW1nLzEwOTg4Mzg5LnBuZw==/315x250%23c/AJStYW.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEwOTg4Mzg5LnBuZw==/315x250%23c/AJStYW.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Harvest all the tuna!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://cosmicadventuresquad.itch.io/it-was-all-for-the-tuna",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103012,
+    "title": "Bad Monday Simulator",
+    "developer": "Lumpy",
+    "cover": "https://img.itch.zone/aW1nLzkxMzI5NjkucG5n/315x250%23c/%2FDwXCM.png",
+    "screenshot": "https://img.itch.zone/aW1nLzkxMzI5NjkucG5n/315x250%23c/%2FDwXCM.png",
+    "genres": [
+      "Role Playing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Battle against the fusion of Sans and Garfield - Sansfield.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://lumpytouch.itch.io/bad-monday-simulator",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103013,
+    "title": "Minesweeper Plus",
+    "developer": "Jorel Simpson",
+    "cover": "https://img.itch.zone/aW1nLzIxODk3MzA3LnBuZw==/315x250%23c/38Qj70.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIxODk3MzA3LnBuZw==/315x250%23c/38Qj70.png",
+    "genres": [
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A fresh new take on the classic game you know and love.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://jorel-simpson.itch.io/minesweeper-plus",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103014,
+    "title": "Goodboy Galaxy (for GBA)",
+    "developer": "Goodboy GalaxyVerified Account",
+    "cover": "https://img.itch.zone/aW1nLzE0MDk0NTQ2LnBuZw==/315x250%23c/hEq6DN.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE0MDk0NTQ2LnBuZw==/315x250%23c/hEq6DN.png",
+    "genres": [
+      "Platformer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 20.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Help Maxwell explore unfamiliar worlds, make strange new friends and contend with mysterious forces.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://goodboygalaxy.itch.io/goodboy-galaxy-gba",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103015,
+    "title": "Inversed",
+    "developer": "Tymedust Games",
+    "cover": "https://img.itch.zone/aW1nLzE2OTE3OTYyLmdpZg==/315x250%23c/YdDj8b.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzE2OTE3OTYyLmdpZg==/315x250%23c/YdDj8b.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Dead eyes see white lies.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://tymedust.itch.io/inversed",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103016,
+    "title": "(A) Valentine's Tale for Shadow",
+    "developer": "kore_eon",
+    "cover": "https://img.itch.zone/aW1nLzI1NTU3MTU5LmdpZg==/315x250%23c/%2B2sHvO.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzI1NTU3MTU5LmdpZg==/315x250%23c/%2B2sHvO.gif",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Three popular ships in one.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://kore-eon.itch.io/shadows-valentines-day-demo",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103017,
+    "title": "AM",
+    "developer": "BrocBois",
+    "cover": "https://img.itch.zone/aW1nLzIwMTM5MzM4LmdpZg==/315x250%23c/FtmD%2FP.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzIwMTM5MzM4LmdpZg==/315x250%23c/FtmD%2FP.gif",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Jesus take the wheel.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://brocbois.itch.io/am",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103018,
+    "title": "Teach me how to love!",
+    "developer": "Rossaredflyn Rougehatten",
+    "cover": "https://img.itch.zone/aW1nLzIyMTg3NjUzLmpwZw==/315x250%23c/WRkBIQ.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzIyMTg3NjUzLmpwZw==/315x250%23c/WRkBIQ.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "You summoned an incubus to help earn your crush's love… but he gives you a life lesson instead.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://rossaredflyn.itch.io/teach-me-how-to-love",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103019,
+    "title": "Charming Beauty [Demo]",
+    "developer": "mellow_serene",
+    "cover": "https://img.itch.zone/aW1nLzIxNzIxNzczLmpwZw==/315x250%23c/0yGz0Q.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzIxNzIxNzczLmpwZw==/315x250%23c/0yGz0Q.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Once upon a time...In a land far far away~ [A Yandere Fairytale]",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://mellow-serene.itch.io/charmingbeauty-demo",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103020,
+    "title": "Alwa's Awakening The 8-Bit Edition",
+    "developer": "Elden Pixels",
+    "cover": "https://img.itch.zone/aW1nLzkwNzQzNjYucG5n/315x250%23c/j2OdOj.png",
+    "screenshot": "https://img.itch.zone/aW1nLzkwNzQzNjYucG5n/315x250%23c/j2OdOj.png",
+    "genres": [
+      "Platformer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 1.59,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "The highly awaited NES remake is finally here!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://eldenpixels.itch.io/alwas-awakening-the-8-bit-edition",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103021,
+    "title": "Undertale Gameboy Color Edition",
+    "developer": "Aki",
+    "cover": "https://img.itch.zone/aW1nLzIzMzIxOTI1LnBuZw==/315x250%23c/yRiOOK.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzMzIxOTI1LnBuZw==/315x250%23c/yRiOOK.png",
+    "genres": [
+      "Role Playing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Undertale demake made for the Gameboy Color",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://blaqberry.itch.io/undertale-gbc",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103022,
+    "title": "Pippa and Your Phantasmal Problem",
+    "developer": "Konayachi",
+    "cover": "https://img.itch.zone/aW1nLzE3OTA4NDcwLmdpZg==/315x250%23c/GcyLDF.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzE3OTA4NDcwLmdpZg==/315x250%23c/GcyLDF.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Find out who's been messing up your home with this troublesome witch!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://konayachi.itch.io/pippa-and-your-phantasmal-problem",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103023,
+    "title": "The Children of Clay",
+    "developer": "messier",
+    "cover": "https://img.itch.zone/aW1nLzE4Mjc2MTQ3LnBuZw==/315x250%23c/vVVXPA.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE4Mjc2MTQ3LnBuZw==/315x250%23c/vVVXPA.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Stop-motion archeology horror game",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://ronyaib.itch.io/the-children-of-clay",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103024,
+    "title": "Channel 4 Midnight",
+    "developer": "foolkien",
+    "cover": "https://img.itch.zone/aW1nLzI0ODA0MTY4LnBuZw==/315x250%23c/nKIyJ%2F.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI0ODA0MTY4LnBuZw==/315x250%23c/nKIyJ%2F.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A bite-sized psychological horror game about a wayward soul who seeks transformation through a sinister ritual.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://foolkien.itch.io/channel-4-midnight",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103025,
+    "title": "Pocket Crystal League",
+    "developer": "moodytail",
+    "cover": "https://img.itch.zone/aW1nLzE1NTM5MDU1LnBuZw==/315x250%23c/jQOypB.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE1NTM5MDU1LnBuZw==/315x250%23c/jQOypB.png",
+    "genres": [
+      "Card Game"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A progressive deck-building Poke-card game.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://moodytail.itch.io/pocket-crystal-league",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103026,
+    "title": "Dwarf Eats Mountain",
+    "developer": "GreenWizardGames",
+    "cover": "https://img.itch.zone/aW1nLzIzNTAyMTQ3LnBuZw==/315x250%23c/lxWM8Y.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzNTAyMTQ3LnBuZw==/315x250%23c/lxWM8Y.png",
+    "genres": [
+      "Strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Simple incremental game about dwarves mining mountains!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://greenwizardgames.itch.io/dwarf-eats-mountain",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103027,
+    "title": "One Way Lane",
+    "developer": "Roach",
+    "cover": "https://img.itch.zone/aW1nLzE1NTg1NDQ5LnBuZw==/315x250%23c/rG1n3V.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE1NTg1NDQ5LnBuZw==/315x250%23c/rG1n3V.png",
+    "genres": [
+      "Role Playing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "What are you happy about? :]",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://0newaylane.itch.io/one-way-lane",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103028,
+    "title": "Shiver",
+    "developer": "Gray",
+    "cover": "https://img.itch.zone/aW1nLzI0OTI2MDcuZ2lm/315x250%23c/%2B2%2FVjX.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzI0OTI2MDcuZ2lm/315x250%23c/%2B2%2FVjX.gif",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Welcome to Windy Oaks.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://aquiluslupus.itch.io/shiver",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103029,
+    "title": "SCP: Refinarium",
+    "developer": "Neuroticfly Games",
+    "cover": "https://img.itch.zone/aW1nLzIxNTExMDY0LmpwZw==/315x250%23c/JuHcGD.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzIxNTExMDY0LmpwZw==/315x250%23c/JuHcGD.jpg",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A simulation game based from SCP-914.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://neuroticfly.itch.io/scp-refinarium",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103030,
+    "title": "Rose and Cross",
+    "developer": "zv_games",
+    "cover": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Our main character absorbed in the study of sects and the occult made a big mistake by going to an abandoned farm.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://zv-games.itch.io/roseandcross",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.444974"
+  },
+  {
+    "id": 103031,
+    "title": "Warrior Cats: Hickory Isles",
+    "developer": "IcyTea",
+    "cover": "https://img.itch.zone/aW1nLzIxODQxNzI4LnBuZw==/315x250%23c/LjQMFa.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIxODQxNzI4LnBuZw==/315x250%23c/LjQMFa.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Warrior Cats game about a new Clan finding their footing in the world",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://certainlysomething.itch.io/hickory-isles",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.445797"
+  },
+  {
+    "id": 103032,
+    "title": "Be (not) Afraid",
+    "developer": "Minthe Draws",
+    "cover": "https://img.itch.zone/aW1nLzIyMjI1OTUyLmpwZw==/315x250%23c/Bsj8mW.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzIyMjI1OTUyLmpwZw==/315x250%23c/Bsj8mW.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Stare into the abyss long enough, it might just blush",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://minthedraws.itch.io/be-not-afraid",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.445797"
+  },
+  {
+    "id": 103033,
+    "title": "Mirage Noir (Full Demo)",
+    "developer": "Studio Chawan",
+    "cover": "https://img.itch.zone/aW1nLzE2MzQ0NTY2LnBuZw==/315x250%23c/v%2FzBq4.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE2MzQ0NTY2LnBuZw==/315x250%23c/v%2FzBq4.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Detective VN focused on found family",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://studiochawan.itch.io/mirage-noir",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.445797"
+  },
+  {
+    "id": 103034,
+    "title": "Silent Still 3",
+    "developer": "SolitaryStudios",
+    "cover": "https://img.itch.zone/aW1nLzI1MTY3NjA5LmpwZw==/315x250%23c/3h0WMu.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzI1MTY3NjA5LmpwZw==/315x250%23c/3h0WMu.jpg",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A Sleep Paralysis Horror Experience",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://solitarystudios.itch.io/silent-still-3",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.445797"
+  },
+  {
+    "id": 103035,
+    "title": "In my dreamscape [ACTUALIZACIÓN DEMO]",
+    "developer": "pixievic",
+    "cover": "https://img.itch.zone/aW1nLzIyMDgwNTU3LnBuZw==/315x250%23c/PnsEnk.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIyMDgwNTU3LnBuZw==/315x250%23c/PnsEnk.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://pixievic.itch.io/in-my-dreamscape",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:44.445797"
+  },
+  {
+    "id": 104000,
+    "title": "Novel Stars",
+    "developer": "Team-C",
+    "cover": "https://img.itch.zone/aW1nLzE3NTgxOTE2LmpwZw==/315x250%23c/mDZj5V.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzE3NTgxOTE2LmpwZw==/315x250%23c/mDZj5V.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Fan project about Brawl Stars lore",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://team-c.itch.io/novel-stars",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104001,
+    "title": "Pikabuu: Smile",
+    "developer": "Joykeratif",
+    "cover": "https://img.itch.zone/aW1nLzE4Mzg4MDI3LnBuZw==/315x250%23c/sNNOps.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE4Mzg4MDI3LnBuZw==/315x250%23c/sNNOps.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "This is happening now",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://joykeratif.itch.io/pikabuu-smile",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104002,
+    "title": "CLOSETED [DEMO]",
+    "developer": "Aichoo🎲",
+    "cover": "https://img.itch.zone/aW1nLzIxOTM0MTUyLmdpZg==/315x250%23c/dR1mgn.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzIxOTM0MTUyLmdpZg==/315x250%23c/dR1mgn.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "“There’s something in my closet. I think it’s knocking.”",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://paichoo.itch.io/closeted",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104003,
+    "title": "Grow a Girlfriend Demo",
+    "developer": "trubluIs",
+    "cover": "https://img.itch.zone/aW1nLzIzMzcyMjU5LnBuZw==/315x250%23c/RhHrOJ.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzMzcyMjU5LnBuZw==/315x250%23c/RhHrOJ.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Nurture your sentient, short-living mushroom girlfriend! Don't give her an existential crisis!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://trubluis.itch.io/grow-a-girlfriend",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104004,
+    "title": "Jaden Williams' The Stalking Stairs",
+    "developer": "Jaden Williams",
+    "cover": "https://img.itch.zone/aW1nLzI1NDQwMzkyLnBuZw==/315x250%23c/fEN7uz.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1NDQwMzkyLnBuZw==/315x250%23c/fEN7uz.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 2.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Survive as a delivery driver in a decaying, PSX-style horror apartment complex.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://jaden-williams.itch.io/the-stalking-stairs",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104005,
+    "title": "Mini Metro",
+    "developer": "Dinosaur Polo ClubVerified Account",
+    "cover": "https://img.itch.zone/aW1hZ2UvNTA0NzQvMTMxOTgzNi5wbmc=/315x250%23c/vv%2B6tp.png",
+    "screenshot": "https://img.itch.zone/aW1hZ2UvNTA0NzQvMTMxOTgzNi5wbmc=/315x250%23c/vv%2B6tp.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 9.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "How long can you keep the city moving?",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://dinopoloclub.itch.io/minimetro",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104006,
+    "title": "Where We Passed The Darkness",
+    "developer": "abandon_d",
+    "cover": "https://img.itch.zone/aW1nLzI1MjEwMzk2LmdpZg==/315x250%23c/Vo4slf.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzI1MjEwMzk2LmdpZg==/315x250%23c/Vo4slf.gif",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Pass through the darkness for one last visit.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://abandon-d.itch.io/where-we-passed-the-darkness",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104007,
+    "title": "1998 - Found Footage Backroom Horror Game FREE (Microphone Sensitive Demo Game)",
+    "developer": "Steelkrill Studio",
+    "cover": "https://img.itch.zone/aW1nLzEwMTIxNDIwLmpwZw==/315x250%23c/gFoqb4.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzEwMTIxNDIwLmpwZw==/315x250%23c/gFoqb4.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Now you will see what really lies in the backrooms, with this found footage style horror game.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://steelkrill.itch.io/1998",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104008,
+    "title": "Withered Promised",
+    "developer": "Kat",
+    "cover": "https://img.itch.zone/aW1nLzI1NDgxMzk1LmpwZw==/315x250%23c/RKRTzg.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzI1NDgxMzk1LmpwZw==/315x250%23c/RKRTzg.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Dicen que las flores escuchan... pero nunca dicen lo que piden a cambio.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://katwhite4.itch.io/withered-promised",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104009,
+    "title": "Edenfall [Day 1-5.]",
+    "developer": "rosesrot",
+    "cover": "https://img.itch.zone/aW1nLzE1MzQzMDI3LnBuZw==/315x250%23c/rMG%2FvC.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE1MzQzMDI3LnBuZw==/315x250%23c/rMG%2FvC.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "You're an eldritch in love with your angel.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://rosesrot.itch.io/edenfall",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104010,
+    "title": "GOOEY",
+    "developer": "Orsoniks",
+    "cover": "https://img.itch.zone/aW1nLzE0NzI2ODIyLnBuZw==/315x250%23c/1JAYSm.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE0NzI2ODIyLnBuZw==/315x250%23c/1JAYSm.png",
+    "genres": [
+      "Fighting"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 1.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Melee combat with physics and exploration",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://orsonik.itch.io/gooey",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104011,
+    "title": "The World As It Was [FULL GAME]  (TWAITW)",
+    "developer": "ThereseU3U",
+    "cover": "https://img.itch.zone/aW1nLzIzODE3MTU4LmdpZg==/315x250%23c/i95h6A.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzIzODE3MTU4LmdpZg==/315x250%23c/i95h6A.gif",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A visual novel with YOU in it!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://thereseu3u.itch.io/the-world-as-it-was",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104012,
+    "title": "Fallout 2 Remake 3D",
+    "developer": "Jonasz O.",
+    "cover": "https://img.itch.zone/aW1nLzEwOTQyOTU2LmdpZg==/315x250%23c/DYDA2n.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzEwOTQyOTU2LmdpZg==/315x250%23c/DYDA2n.gif",
+    "genres": [
+      "Role Playing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Fallout 2 Remake 3D FPS Boomer Shooter RPG",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://jonasz-o.itch.io/fallout2remake3d",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104013,
+    "title": "Ovation (DEMO)",
+    "developer": "C.K. Games",
+    "cover": "https://img.itch.zone/aW1nLzI1Njg4NTQwLnBuZw==/315x250%23c/jDMLhb.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1Njg4NTQwLnBuZw==/315x250%23c/jDMLhb.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://ck-games.itch.io/ovation-demo",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104014,
+    "title": "Let's Misbehave! [DEMO]",
+    "developer": "lyraeluxstudios",
+    "cover": "https://img.itch.zone/aW1nLzEyMTg4OTA3LnBuZw==/315x250%23c/IJNvlD.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEyMTg4OTA3LnBuZw==/315x250%23c/IJNvlD.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Navigate the glitz and glamor of the 1920s in this stylish visual novel!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://lyraeluxstudios.itch.io/lets-misbehave",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104015,
+    "title": "Blackout Hospital",
+    "developer": "arcadekitten",
+    "cover": "https://img.itch.zone/aW1nLzEwOTc2MzEzLnBuZw==/315x250%23c/EfqmnM.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEwOTc2MzEzLnBuZw==/315x250%23c/EfqmnM.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "When the power goes out while working  night shift in the hospital, the emergency lights come on with an eerie glow...",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://arcadekitten.itch.io/blackout-hospital",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104016,
+    "title": "[DEMO] Both of Us are Supposed to be Dead",
+    "developer": "Apricity Studios",
+    "cover": "https://img.itch.zone/aW1nLzI1OTQ4Njg2LnBuZw==/315x250%23c/C%2Bbfdo.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1OTQ4Njg2LnBuZw==/315x250%23c/C%2Bbfdo.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "An overworked wage slave wakes up as the Cold Duke of the South, a minor villain of a trashy novel",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://apricity-studios.itch.io/both-of-us-are-supposed-to-be-dead",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104017,
+    "title": "THE VOIDNESS - Scary LIDAR Scanner Horror Game",
+    "developer": "Steelkrill Studio",
+    "cover": "https://img.itch.zone/aW1nLzEyNDQ5MzAxLmpwZw==/315x250%23c/CFOk3e.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzEyNDQ5MzAxLmpwZw==/315x250%23c/CFOk3e.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "The Voidness horror game. A horror survival LIDAR game! You can't see them, but they can hear and see you.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://steelkrill.itch.io/the-voidness-chapter-1-free-horror-survival",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104018,
+    "title": "Celeste 64: Fragments of the Mountain",
+    "developer": "Maddy Makes GamesVerified Account",
+    "cover": "https://img.itch.zone/aW1nLzE0ODYxNjEyLnBuZw==/315x250%23c/jiKCvS.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE0ODYxNjEyLnBuZw==/315x250%23c/jiKCvS.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Gear up for the Celeste 6th Anniversary Challenge!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://maddymakesgamesinc.itch.io/celeste64",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104019,
+    "title": "Milk outside a bag of milk outside a bag of milk",
+    "developer": "Nikita Kryukov",
+    "cover": "https://img.itch.zone/aW1nLzc2ODIzNjIucG5n/315x250%23c/Ug2blC.png",
+    "screenshot": "https://img.itch.zone/aW1nLzc2ODIzNjIucG5n/315x250%23c/Ug2blC.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 8.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Dive into demented and bizarre world once again and help the girl become a little happier.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://nikita-kryukov.itch.io/milk-outside-a-bag-of-milk-outside-a-bag-of-milk",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104020,
+    "title": "Project SEIA (仮)",
+    "developer": "cartgun",
+    "cover": "https://img.itch.zone/aW1nLzI1MzUxNTQ5LmpwZw==/315x250%23c/s%2BgTUO.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzI1MzUxNTQ5LmpwZw==/315x250%23c/s%2BgTUO.jpg",
+    "genres": [
+      "Role Playing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Blue Archive Fangame | 3D TPS RPG",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://cartgun.itch.io/seia",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104021,
+    "title": "The Pizza",
+    "developer": "Ibrahim Oezhan",
+    "cover": "https://img.itch.zone/aW1nLzEyMjU0MDczLnBuZw==/315x250%23c/vkXmWY.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEyMjU0MDczLnBuZw==/315x250%23c/vkXmWY.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Short psx-horror about ordering pizza",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://ibrahim-oezhan.itch.io/the-pizza",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104022,
+    "title": "Not Just This",
+    "developer": "A. V. Dossow",
+    "cover": "https://img.itch.zone/aW1nLzI1NjQwNzkxLnBuZw==/315x250%23c/yklsrh.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1NjQwNzkxLnBuZw==/315x250%23c/yklsrh.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "JUDGE SIMULATOR",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://avdossow.itch.io/not-just-this",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104023,
+    "title": "FAITH: The Unholy Trinity",
+    "developer": "New Blood InteractiveVerified Account",
+    "cover": "https://img.itch.zone/aW1nLzEwMzIzNDY4LmpwZw==/315x250%23c/6HByJU.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzEwMzIzNDY4LmpwZw==/315x250%23c/6HByJU.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 14.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "What you are about to do has not been approved by the Vatican.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://new-blood.itch.io/faith-the-unholy-trinity",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104024,
+    "title": "Momodora III",
+    "developer": "rdein",
+    "cover": "https://img.itch.zone/aW1hZ2UvOTc1NC8yODU3OC5wbmc=/315x250%23c/D19Fr9.png",
+    "screenshot": "https://img.itch.zone/aW1hZ2UvOTc1NC8yODU3OC5wbmc=/315x250%23c/D19Fr9.png",
+    "genres": [
+      "Platformer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 2.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Action Platformer",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://rdein.itch.io/momodora-iii",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104025,
+    "title": "circus alert!",
+    "developer": "elechrol",
+    "cover": "https://img.itch.zone/aW1nLzIwMDg4NTc0LnBuZw==/315x250%23c/RT9TMc.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIwMDg4NTc0LnBuZw==/315x250%23c/RT9TMc.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "a little troupe with a little secret",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://elechrol.itch.io/circus-alert",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104026,
+    "title": "Deepest Valley",
+    "developer": "friendly ghost",
+    "cover": "https://img.itch.zone/aW1nLzIyNzExNzA4LnBuZw==/315x250%23c/aMIMJQ.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIyNzExNzA4LnBuZw==/315x250%23c/aMIMJQ.png",
+    "genres": [
+      "Strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 2.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Hand-Drawn Fantasy  Wargame for 2-5 players.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://friendly-ghost.itch.io/deepest-valley",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104027,
+    "title": "Breaktory",
+    "developer": "snarge",
+    "cover": "https://img.itch.zone/aW1nLzQyNzMzNjYuZ2lm/315x250%23c/mgRJ2H.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzQyNzMzNjYuZ2lm/315x250%23c/mgRJ2H.gif",
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Automation + Brick Breaker",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://snarge.itch.io/breaktory",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104028,
+    "title": "Stardust Kids",
+    "developer": "Fumi",
+    "cover": "https://img.itch.zone/aW1nLzEwODM4NzE0LmpwZw==/315x250%23c/b5GPTz.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzEwODM4NzE0LmpwZw==/315x250%23c/b5GPTz.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://fumi.itch.io/stardustkids",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104029,
+    "title": "Punk Runner [Early Access]",
+    "developer": "monogon",
+    "cover": "https://img.itch.zone/aW1nLzE5NjQ3MzgyLmdpZg==/315x250%23c/mAiY2O.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzE5NjQ3MzgyLmdpZg==/315x250%23c/mAiY2O.gif",
+    "genres": [
+      "Racing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Racing flying cars in an open Cyberpunk city",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://maxparata.itch.io/punkrunner",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104030,
+    "title": "Bark",
+    "developer": "winabees",
+    "cover": "https://img.itch.zone/aW1nLzI1NzY2NTkyLnBuZw==/315x250%23c/Q6go1d.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1NzY2NTkyLnBuZw==/315x250%23c/Q6go1d.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Short PSX Style Horror Experience about feeding your dog.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://winabees.itch.io/bark",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104031,
+    "title": "Unknown Tapes - Demo",
+    "developer": "traviteam",
+    "cover": "https://img.itch.zone/aW1nLzE2MjczNzIyLmpwZw==/315x250%23c/s4iS0E.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzE2MjczNzIyLmpwZw==/315x250%23c/s4iS0E.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Analog Dinosaurs Horror",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://traviteam.itch.io/unknown-tapes-demo",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104032,
+    "title": "A Game About Fishing In The Ocean",
+    "developer": "swimwithdog - Solo Indie Developer",
+    "cover": "https://img.itch.zone/aW1nLzI1ODA3OTc0LmpwZw==/315x250%23c/%2B4vu5Z.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzI1ODA3OTc0LmpwZw==/315x250%23c/%2B4vu5Z.jpg",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A short incremental relaxing game about fishing across diverse ocean biomes and upgrading your ship.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://swimwithdog.itch.io/a-game-about-fishing-in-the-ocean",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104033,
+    "title": "Astro Gets A Snack at 2:34 AM | Playable Engine",
+    "developer": "AceTechno",
+    "cover": "https://img.itch.zone/aW1nLzIxMTc3OTc5LnBuZw==/315x250%23c/8%2BTleC.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIxMTc3OTc5LnBuZw==/315x250%23c/8%2BTleC.png",
+    "genres": [
+      "Role Playing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A silly little concept demo for an RPGMaker inspired \"horror game\".",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://acetechno.itch.io/astro-gets-a-snack-at-234-am-playable-engine",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104034,
+    "title": "PETIT PASSAGE (ENG/FR)",
+    "developer": "Nadechi",
+    "cover": "https://img.itch.zone/aW1nLzI0Mzg0NzIwLnBuZw==/315x250%23c/pSxZzH.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI0Mzg0NzIwLnBuZw==/315x250%23c/pSxZzH.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A game about a young girl who have to return home at all costs.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://nadechi.itch.io/petit-passage",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 104035,
+    "title": "Void Stranger",
+    "developer": "system_erasure",
+    "cover": "https://img.itch.zone/aW1nLzExNzQxODIzLmpwZw==/315x250%23c/xmscyT.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzExNzQxODIzLmpwZw==/315x250%23c/xmscyT.jpg",
+    "genres": [
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 11.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Place your faith and embrace the Void.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://system-erasure.itch.io/void-stranger",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:47.845237"
+  },
+  {
+    "id": 105000,
+    "title": "[REM]",
+    "developer": "Ultimate Studio Games",
+    "cover": "https://img.itch.zone/aW1nLzI1OTQzNTkzLnBuZw==/315x250%23c/0KhMjT.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1OTQzNTkzLnBuZw==/315x250%23c/0KhMjT.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Dreamcore",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://ultimate-studio-games.itch.io/rem",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105001,
+    "title": "Midnight Shift",
+    "developer": "Phantom",
+    "cover": "https://img.itch.zone/aW1hZ2UvMTgxMTI2LzE0MTA3NzQucG5n/315x250%23c/e9Ns61.png",
+    "screenshot": "https://img.itch.zone/aW1hZ2UvMTgxMTI2LzE0MTA3NzQucG5n/315x250%23c/e9Ns61.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Escape a mannequin storage facility.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://phantom-gd.itch.io/midnight-shift",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105002,
+    "title": "To Be Altered",
+    "developer": "skellybed",
+    "cover": "https://img.itch.zone/aW1nLzE5Mjg1NzE3LnBuZw==/315x250%23c/vB2RdZ.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE5Mjg1NzE3LnBuZw==/315x250%23c/vB2RdZ.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 14.5,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "(ACT 1) Uncover the mystery of the Ghoul's Grove, hidden in the Australian outback",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://skellybed.itch.io/to-be-altered",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105003,
+    "title": "Minit",
+    "developer": "Devolver DigitalVerified Account",
+    "cover": "https://img.itch.zone/aW1hZ2UvMjQwNzk3LzExNDc0OTMucG5n/315x250%23c/3FJ3CQ.png",
+    "screenshot": "https://img.itch.zone/aW1hZ2UvMjQwNzk3LzExNDc0OTMucG5n/315x250%23c/3FJ3CQ.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 9.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Minit is a peculiar little adventure played sixty seconds at a time.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://devolverdigital.itch.io/minit",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105004,
+    "title": "Taguan",
+    "developer": "Murushii",
+    "cover": "https://img.itch.zone/aW1nLzIzOTIyMTc5LmpwZw==/315x250%23c/oveYyo.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzIzOTIyMTc5LmpwZw==/315x250%23c/oveYyo.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 1.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Don't Hide From The Truth",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://murushii.itch.io/taguan",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105005,
+    "title": "Wedding! Dress UP",
+    "developer": "Kathinka",
+    "cover": "https://img.itch.zone/aW1nLzE2NjQ2NTg1LnBuZw==/315x250%23c/nBsmph.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE2NjQ2NTg1LnBuZw==/315x250%23c/nBsmph.png",
+    "genres": [
+      "Indie"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Dress up two lovely brides!!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://kathinkapng.itch.io/wedding-dress-up",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105006,
+    "title": "Nyghtmare: The Ninth King",
+    "developer": "Elvies",
+    "cover": "https://img.itch.zone/aW1nLzEwNDE5ODM3LnBuZw==/315x250%23c/v%2FT8cg.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEwNDE5ODM3LnBuZw==/315x250%23c/v%2FT8cg.png",
+    "genres": [
+      "Platformer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 6.66,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A dark-fantasy, classic-vania for the GameBoy [Color]",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://elvies.itch.io/nightmare-tnk-gbc",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105007,
+    "title": "Consume Me",
+    "developer": "HexecutableVerified Account",
+    "cover": "https://img.itch.zone/aW1nLzIzMjk2MTgyLnBuZw==/315x250%23c/N5s7W2.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIzMjk2MTgyLnBuZw==/315x250%23c/N5s7W2.png",
+    "genres": [
+      "Role Playing"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 14.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "BEING A TEENAGER SUCKS. So we made a videogame about it.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://hexecutable.itch.io/consume-me",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105008,
+    "title": "Little Big Space Clicker",
+    "developer": "lyamgtt",
+    "cover": "https://img.itch.zone/aW1nLzE3Mzk4NzAzLnBuZw==/315x250%23c/a2YgL%2B.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE3Mzk4NzAzLnBuZw==/315x250%23c/a2YgL%2B.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Console Retro Clicker / Idle Game",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://lyamgtt.itch.io/little-big-space-clicker",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105009,
+    "title": "AGE of Joy - retro arcade virtual gallery (Quest 2/3)",
+    "developer": "curifab",
+    "cover": "https://img.itch.zone/aW1nLzEwNjYwNzgyLnBuZw==/315x250%23c/4bwG02.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEwNjYwNzgyLnBuZw==/315x250%23c/4bwG02.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Play your favourite retro games in a virtual arcade gallery! (Quest2)",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://curifab.itch.io/age-of-joy",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105010,
+    "title": "Every Last Bit Demo",
+    "developer": "QubitGames",
+    "cover": "https://img.itch.zone/aW1nLzI1OTc1NDIyLnBuZw==/315x250%23c/xbsLFa.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1OTc1NDIyLnBuZw==/315x250%23c/xbsLFa.png",
+    "genres": [
+      "Action"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "An incremental game about scanning files by collecting bits, bytes and Gigabytes. Can you collect Every Last Bit?",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://qubitgames.itch.io/every-last-bit",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105011,
+    "title": "Civilízame esta",
+    "developer": "JavierinatorXD",
+    "cover": "https://img.itch.zone/aW1nLzE0NzE3MTk0LnBuZw==/315x250%23c/XYkMD2.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE0NzE3MTk0LnBuZw==/315x250%23c/XYkMD2.png",
+    "genres": [
+      "Strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://javierinatorxd.itch.io/civilzame-esta",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105012,
+    "title": "Mr. Platformer",
+    "developer": "Terry CavanaghVerified Account",
+    "cover": "https://img.itch.zone/aW1nLzEzMzM1MDI5LnBuZw==/315x250%23c/JE5PKl.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEzMzM1MDI5LnBuZw==/315x250%23c/JE5PKl.png",
+    "genres": [
+      "Platformer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Run! Jump? Swim?! Mr. Platformer can do it all!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://terrycavanagh.itch.io/mr-platformer",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105013,
+    "title": "Brawler Heat",
+    "developer": "Morishasu / Morinetsu",
+    "cover": "https://img.itch.zone/aW1nLzIxMTY0NzcyLnBuZw==/315x250%23c/icJqnD.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIxMTY0NzcyLnBuZw==/315x250%23c/icJqnD.png",
+    "genres": [
+      "Fighting"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://morishasu.itch.io/brawler-heat",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105014,
+    "title": "The Ratchelor: Season 2",
+    "developer": "Algorat",
+    "cover": "https://img.itch.zone/aW1nLzE0OTgxNjEwLnBuZw==/315x250%23c/oA1rlA.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE0OTgxNjEwLnBuZw==/315x250%23c/oA1rlA.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "The second installment of the premier rat dating sim. Find and marry the rat love of your life!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://algorat.itch.io/the-ratchelor-season-2",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105015,
+    "title": "Swing and Miss",
+    "developer": "Sudachys",
+    "cover": "https://img.itch.zone/aW1nLzEyOTU1MjA1LnBuZw==/315x250%23c/%2BGwron.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEyOTU1MjA1LnBuZw==/315x250%23c/%2BGwron.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Waiting for a late bus turns into a fateful encounter.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://sudachys.itch.io/swing-and-miss",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105016,
+    "title": "Woodland",
+    "developer": "thatsmaik",
+    "cover": "https://img.itch.zone/aW1nLzEwNzg1MDQxLmdpZg==/315x250%23c/7WWXlZ.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzEwNzg1MDQxLmdpZg==/315x250%23c/7WWXlZ.gif",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Tiny island adventure game for the Playdate",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://thatsmaik.itch.io/woodland",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105017,
+    "title": "Horror of The Island",
+    "developer": "After Drugs",
+    "cover": "https://img.itch.zone/aW1nLzI1OTYwMDk2LnBuZw==/315x250%23c/QqRQoU.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1OTYwMDk2LnBuZw==/315x250%23c/QqRQoU.png",
+    "genres": [
+      "Survival"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "PS1 style horror",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://afterdrugs.itch.io/horror-of-the-island",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105018,
+    "title": "The Surprise Gift",
+    "developer": "Foxxyy Studio",
+    "cover": "https://img.itch.zone/aW1nLzIxNDU3MzcwLnBuZw==/315x250%23c/VrD6yX.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIxNDU3MzcwLnBuZw==/315x250%23c/VrD6yX.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A birthday gift you’ll wish you never opened...",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://foxxyystudio.itch.io/the-surprise-gift",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105019,
+    "title": "Victorian Idle",
+    "developer": "Alexdb",
+    "cover": "https://img.itch.zone/aW1nLzIwNTA4MzEyLnBuZw==/315x250%23c/jrquGe.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIwNTA4MzEyLnBuZw==/315x250%23c/jrquGe.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A city builder, where resource management is key",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://alexdb.itch.io/victorian-idle",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105020,
+    "title": "boil Noodles at Night",
+    "developer": "arydk",
+    "cover": "https://img.itch.zone/aW1nLzEzNjE1NDc2LnBuZw==/315x250%23c/aHXUde.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEzNjE1NDc2LnBuZw==/315x250%23c/aHXUde.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "You can't sleep before eating noodles.. and decided to boil the noodles",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://rmarydk.itch.io/boil-noodles-at-night",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105021,
+    "title": "Pearl [DEMO]",
+    "developer": "RootFU",
+    "cover": "https://img.itch.zone/aW1nLzE2Njg2NDE5LnBuZw==/315x250%23c/nRmVg8.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE2Njg2NDE5LnBuZw==/315x250%23c/nRmVg8.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "On the island you meet an obsessed guy with an unusual appearance.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://rootfu.itch.io/pearl",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105022,
+    "title": "Tales Beyond The Tomb - Pineville Night Stalker",
+    "developer": "616 GAMES",
+    "cover": "https://img.itch.zone/aW1nLzE4NjYyODM3LnBuZw==/315x250%23c/zMdejl.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE4NjYyODM3LnBuZw==/315x250%23c/zMdejl.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Episode 1",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://616games.itch.io/tales-beyond-the-tomb-pineville-night-stalker",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105023,
+    "title": "Sinking Iron",
+    "developer": "LixianGames",
+    "cover": "https://img.itch.zone/aW1nLzEyMTc4NDAwLnBuZw==/315x250%23c/uG5P34.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEyMTc4NDAwLnBuZw==/315x250%23c/uG5P34.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Iron Lung meets FNAF in this Thalassophobia and Megalophobia filled game.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://lixiangames.itch.io/sinking-iron",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105024,
+    "title": "Detektiv",
+    "developer": "Vuk Dobric",
+    "cover": "https://img.itch.zone/aW1nLzI0NTE0Mjg1LnBuZw==/315x250%23c/MsCsHg.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI0NTE0Mjg1LnBuZw==/315x250%23c/MsCsHg.png",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Investigate a mysterious countryside murder.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://danka-dobric.itch.io/detektiv",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105025,
+    "title": "CALLUS",
+    "developer": "EMIKA_GAMES",
+    "cover": "https://img.itch.zone/aW1nLzI1MTI3MTc1LnBuZw==/315x250%23c/94RlaV.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1MTI3MTc1LnBuZw==/315x250%23c/94RlaV.png",
+    "genres": [
+      "Indie"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.49,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A short psychological horror game",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://emika-games.itch.io/callus",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105026,
+    "title": "Good Boy!",
+    "developer": "olivia/lunamakaio",
+    "cover": "https://img.itch.zone/aW1nLzIyMTQzMDY1LnBuZw==/315x250%23c/PeHFko.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIyMTQzMDY1LnBuZw==/315x250%23c/PeHFko.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 3.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "He's a really good boy... and so is his dog!",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://lunamakaio.itch.io/good-boy",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105027,
+    "title": "Threadening",
+    "developer": "gepellt",
+    "cover": "https://img.itch.zone/aW1nLzIyNzg5NjM5LnBuZw==/315x250%23c/kXzCHH.png",
+    "screenshot": "https://img.itch.zone/aW1nLzIyNzg5NjM5LnBuZw==/315x250%23c/kXzCHH.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A myth blogger finds a strange bookshop, a cryptic stranger—and a cat leading into deeper secrets.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://gepellt.itch.io/threadening",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105028,
+    "title": "Gladiabots",
+    "developer": "GFX47",
+    "cover": "https://img.itch.zone/aW1nLzQ4ODE2NzUucG5n/315x250%23c/NlNCWy.png",
+    "screenshot": "https://img.itch.zone/aW1nLzQ4ODE2NzUucG5n/315x250%23c/NlNCWy.png",
+    "genres": [
+      "Strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 14.99,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "AI Combat Arena",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://gfx47.itch.io/gladiabots",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105029,
+    "title": "Dead Weight",
+    "developer": "Kotzwinkle",
+    "cover": "https://img.itch.zone/aW1nLzE5MTUxOTUzLmpwZw==/315x250%23c/4PnG3E.jpg",
+    "screenshot": "https://img.itch.zone/aW1nLzE5MTUxOTUzLmpwZw==/315x250%23c/4PnG3E.jpg",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Why carry all that weight?",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://kxaxcy.itch.io/dead-weight",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105030,
+    "title": "The Amigoonies",
+    "developer": "Marlox",
+    "cover": "https://img.itch.zone/aW1nLzI1OTQ1MzAzLnBuZw==/315x250%23c/X1pcIy.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1OTQ1MzAzLnBuZw==/315x250%23c/X1pcIy.png",
+    "genres": [
+      "Platformer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "An Amiga tribute to an MSX classic.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://marlox.itch.io/the-amigoonies",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105031,
+    "title": "Gravity Well",
+    "developer": "DylanDevStudio",
+    "cover": "https://img.itch.zone/aW1nLzI1OTg1ODU4LnBuZw==/315x250%23c/DgoCho.png",
+    "screenshot": "https://img.itch.zone/aW1nLzI1OTg1ODU4LnBuZw==/315x250%23c/DgoCho.png",
+    "genres": [
+      "Simulation"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://dylandevstudio.itch.io/gravity-welll",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105032,
+    "title": "Rekindle - [DEMO]",
+    "developer": "Minthe Draws",
+    "cover": "https://img.itch.zone/aW1nLzE2NjQyOTYyLnBuZw==/315x250%23c/ZdP9sk.png",
+    "screenshot": "https://img.itch.zone/aW1nLzE2NjQyOTYyLnBuZw==/315x250%23c/ZdP9sk.png",
+    "genres": [
+      "Visual Novel"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Given the chance, would you try again?",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://minthedraws.itch.io/rekindle",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105033,
+    "title": "Leo's Amazing Subjects",
+    "developer": "RexHax",
+    "cover": "https://img.itch.zone/aW1nLzEzODYyMTU1LnBuZw==/315x250%23c/zC2OfT.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEzODYyMTU1LnBuZw==/315x250%23c/zC2OfT.png",
+    "genres": [
+      "Strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A fun educational experience with Leo.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://rexhax-games.itch.io/leo-amazing-subjects",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105034,
+    "title": "Logica",
+    "developer": "Tulenväki Productions",
+    "cover": "https://img.itch.zone/aW1nLzEzMTExOTQ2LnBuZw==/315x250%23c/qsJxV9.png",
+    "screenshot": "https://img.itch.zone/aW1nLzEzMTExOTQ2LnBuZw==/315x250%23c/qsJxV9.png",
+    "genres": [
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 0.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "A game of logic puzzle solving.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://tulenvaki.itch.io/logica",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
+  },
+  {
+    "id": 105035,
+    "title": "lost brother",
+    "developer": "AtmoPixel",
+    "cover": "https://img.itch.zone/aW1nLzE3MDc4MzA2LmdpZg==/315x250%23c/qu81s4.gif",
+    "screenshot": "https://img.itch.zone/aW1nLzE3MDc4MzA2LmdpZg==/315x250%23c/qu81s4.gif",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "rating": 0,
+    "price": 1.0,
+    "releaseStatus": "released",
+    "releaseDate": "",
+    "players": 1,
+    "description": "Investigate eerie house party, find your brother.",
+    "mood": [],
+    "featured": false,
+    "trending": false,
+    "website": "https://atmopixel.itch.io/lost-brother",
+    "source": "itchio",
+    "crawledAt": "2026-03-09T00:37:51.430482"
   }
 ]
