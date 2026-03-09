@@ -1,23 +1,25 @@
 // BMore Indie Games — Homepage JS
-// Loads game data, renders sections, handles filters + modal
+// Primary source: Supabase games table
+// Fallback: data/games.json
 
 let allGames = [];
 let currentSort = 'trending';
 let activeFilters = { genre: '', platform: '', price: '', players: '', status: '' };
 let searchQuery = '';
+let supabaseOk = false;
 
 const MOODS = [
-  { key: 'intense',    label: 'Intense',     emoji: '⚡', color: 'rgba(239,68,68,0.2)'   },
-  { key: 'chill',      label: 'Chill',       emoji: '🌿', color: 'rgba(16,185,129,0.2)'  },
-  { key: 'story-rich', label: 'Story Rich',  emoji: '📖', color: 'rgba(245,158,11,0.2)'  },
-  { key: 'challenging',label: 'Challenging', emoji: '💀', color: 'rgba(239,68,68,0.15)'  },
-  { key: 'atmospheric',label: 'Atmospheric', emoji: '🌑', color: 'rgba(109,40,217,0.2)'  },
-  { key: 'emotional',  label: 'Emotional',   emoji: '💜', color: 'rgba(139,92,246,0.2)'  },
-  { key: 'mysterious', label: 'Mysterious',  emoji: '🔮', color: 'rgba(76,29,149,0.2)'   },
-  { key: 'relaxing',   label: 'Relaxing',    emoji: '☁️', color: 'rgba(59,130,246,0.2)'  },
-  { key: 'fun',        label: 'Fun',         emoji: '🎉', color: 'rgba(251,191,36,0.2)'  },
-  { key: 'quirky',     label: 'Quirky',      emoji: '🦄', color: 'rgba(236,72,153,0.2)'  },
-  { key: 'nostalgic',  label: 'Nostalgic',   emoji: '🕹',  color: 'rgba(20,184,166,0.2)'  },
+  { key: 'intense',     label: 'Intense',     emoji: '⚡', color: 'rgba(239,68,68,0.2)'   },
+  { key: 'chill',       label: 'Chill',       emoji: '🌿', color: 'rgba(16,185,129,0.2)'  },
+  { key: 'story-rich',  label: 'Story Rich',  emoji: '📖', color: 'rgba(245,158,11,0.2)'  },
+  { key: 'challenging', label: 'Challenging', emoji: '💀', color: 'rgba(239,68,68,0.15)'  },
+  { key: 'atmospheric', label: 'Atmospheric', emoji: '🌑', color: 'rgba(109,40,217,0.2)'  },
+  { key: 'emotional',   label: 'Emotional',   emoji: '💜', color: 'rgba(139,92,246,0.2)'  },
+  { key: 'mysterious',  label: 'Mysterious',  emoji: '🔮', color: 'rgba(76,29,149,0.2)'   },
+  { key: 'relaxing',    label: 'Relaxing',    emoji: '☁️', color: 'rgba(59,130,246,0.2)'  },
+  { key: 'fun',         label: 'Fun',         emoji: '🎉', color: 'rgba(251,191,36,0.2)'  },
+  { key: 'quirky',      label: 'Quirky',      emoji: '🦄', color: 'rgba(236,72,153,0.2)'  },
+  { key: 'nostalgic',   label: 'Nostalgic',   emoji: '🕹',  color: 'rgba(20,184,166,0.2)'  },
 ];
 
 // ── Hamburger ──────────────────────────────────────────────
@@ -27,22 +29,57 @@ document.getElementById('hamburger').addEventListener('click', () => {
 
 // ── Init ───────────────────────────────────────────────────
 async function init() {
-  try {
-    const res = await fetch('data/games.json');
-    allGames = await res.json();
-    const statEl = document.getElementById('stat-games');
-    if (statEl) statEl.textContent = allGames.length.toLocaleString() + '+';
-    renderFeatured();
-    renderTrending();
-    renderNewReleases();
-    renderMoods();
-    renderAllGames();
-  } catch (e) {
-    console.error('Failed to load games:', e);
-  }
+  await loadGames();
+  renderFeatured();
+  renderTrending();
+  renderNewReleases();
+  renderMoods();
+  renderAllGames();
 
-  // Also try to fetch from IGDB (will work on Vercel with env vars)
+  const statEl = document.getElementById('stat-games');
+  if (statEl) statEl.textContent = allGames.length.toLocaleString() + '+';
+
+  // Progressive enhancement: refresh with live IGDB data
   fetchFromIGDB();
+}
+
+// ── Load games from Supabase (fallback: JSON) ──────────────
+async function loadGames() {
+  try {
+    const { data, error } = await db
+      .from('games')
+      .select('*')
+      .limit(2000);
+
+    if (error || !data || data.length === 0) throw new Error(error?.message || 'empty');
+
+    allGames = data.map(mapDBGame);
+    supabaseOk = true;
+    setDbStatus('supabase');
+  } catch (e) {
+    console.warn('Supabase unavailable, falling back to games.json:', e.message);
+    try {
+      const res = await fetch('data/games.json');
+      allGames = await res.json();
+    } catch (e2) {
+      console.error('JSON fallback also failed:', e2);
+    }
+    setDbStatus('json');
+  }
+}
+
+// ── Subtle status indicator ────────────────────────────────
+function setDbStatus(source) {
+  const el = document.getElementById('db-status');
+  if (!el) return;
+  if (source === 'supabase') {
+    el.textContent = '● Live';
+    el.style.color = '#10b981';
+  } else {
+    el.textContent = '● Offline';
+    el.style.color = '#f59e0b';
+    el.title = 'Showing cached data — Supabase unavailable';
+  }
 }
 
 // ── IGDB Fetch (progressive enhancement) ──────────────────
@@ -58,56 +95,59 @@ async function fetchFromIGDB() {
     });
     if (!res.ok) return;
     const igdbGames = await res.json();
-    if (igdbGames && igdbGames.length > 0) {
-      const mapped = igdbGames.map(mapIGDBGame);
-      // Merge: IGDB games first, then local fallbacks not already included
-      const igdbTitles = new Set(mapped.map(g => g.title.toLowerCase()));
-      const localOnly = allGames.filter(g => !igdbTitles.has(g.title.toLowerCase()));
-      allGames = [...mapped, ...localOnly];
-      renderFeatured();
-      renderTrending();
-      renderNewReleases();
-      renderAllGames();
-    }
+    if (!igdbGames || igdbGames.length === 0) return;
+
+    const mapped = igdbGames.map(mapIGDBGame);
+    const igdbTitles = new Set(mapped.map(g => g.title.toLowerCase()));
+    const localOnly  = allGames.filter(g => !igdbTitles.has(g.title.toLowerCase()));
+    allGames = [...mapped, ...localOnly];
+
+    const statEl = document.getElementById('stat-games');
+    if (statEl) statEl.textContent = allGames.length.toLocaleString() + '+';
+
+    renderFeatured();
+    renderTrending();
+    renderNewReleases();
+    renderAllGames();
   } catch (_) {
-    // IGDB unavailable — local data already shown
+    // IGDB unavailable — Supabase data already shown
   }
 }
 
 function mapIGDBGame(g) {
-  const thumb = g.cover?.url?.replace('t_thumb', 't_cover_big') || '';
+  const thumb      = g.cover?.url?.replace('t_thumb', 't_cover_big') || '';
   const screenshot = g.screenshots?.[0]?.url?.replace('t_thumb', 't_screenshot_big') || thumb;
-  const dev = g.involved_companies?.[0]?.company?.name || 'Unknown Developer';
+  const dev        = g.involved_companies?.[0]?.company?.name || 'Unknown Developer';
   const releaseDate = g.first_release_date
     ? new Date(g.first_release_date * 1000).toISOString().split('T')[0]
     : '';
   return {
-    id: g.id,
-    title: g.name,
-    developer: dev,
-    cover: thumb.startsWith('//') ? 'https:' + thumb : thumb,
-    screenshot: screenshot.startsWith('//') ? 'https:' + screenshot : screenshot,
-    genres: (g.genres || []).map(x => x.name),
-    platforms: (g.platforms || []).map(x => x.name),
-    rating: Math.round(g.rating || 0),
-    price: 19.99,
+    id:            g.id,
+    title:         g.name,
+    developer:     dev,
+    cover:         thumb.startsWith('//') ? 'https:' + thumb : thumb,
+    screenshot:    screenshot.startsWith('//') ? 'https:' + screenshot : screenshot,
+    genres:        (g.genres || []).map(x => x.name),
+    platforms:     (g.platforms || []).map(x => x.name),
+    rating:        Math.round(g.rating || 0),
+    price:         19.99,
     releaseStatus: 'released',
     releaseDate,
-    players: 1,
-    description: g.summary || '',
-    mood: [],
-    featured: true,
-    trending: false,
-    website: g.websites?.[0]?.url || '#',
-    fromIGDB: true,
+    players:       1,
+    description:   g.summary || '',
+    mood:          [],
+    featured:      true,
+    trending:      false,
+    website:       g.websites?.[0]?.url || '#',
+    source:        'igdb',
   };
 }
 
 // ── Render Featured ─────────────────────────────────────────
 function renderFeatured() {
   const container = document.getElementById('featured-scroll');
-  const featured = allGames.filter(g => g.featured).slice(0, 6);
-  container.innerHTML = featured.map(g => cardFeaturedHTML(g)).join('');
+  const featured  = allGames.filter(g => g.featured).slice(0, 6);
+  container.innerHTML = featured.map(cardFeaturedHTML).join('');
 }
 
 function cardFeaturedHTML(g) {
@@ -122,7 +162,7 @@ function cardFeaturedHTML(g) {
       <div class="card-developer">${g.developer}</div>
       <div class="card-title">${g.title}</div>
       <div class="card-tags">
-        ${g.genres.slice(0,3).map(t => `<span class="tag tag-purple">${t}</span>`).join('')}
+        ${(g.genres || []).slice(0,3).map(t => `<span class="tag tag-purple">${t}</span>`).join('')}
       </div>
       <div class="card-meta">
         <div class="card-rating">${g.rating ? `<span class="star">★</span> ${g.rating}` : '<span style="opacity:0.4">Unrated</span>'}</div>
@@ -135,18 +175,18 @@ function cardFeaturedHTML(g) {
 // ── Render Trending ─────────────────────────────────────────
 function renderTrending() {
   const container = document.getElementById('trending-grid');
-  const trending = allGames.filter(g => g.trending).slice(0, 6);
-  container.innerHTML = trending.map(g => cardGameHTML(g)).join('') || '<p class="text-muted">No trending games.</p>';
+  const trending  = allGames.filter(g => g.trending).slice(0, 6);
+  container.innerHTML = trending.map(cardGameHTML).join('') || '<p class="text-muted">No trending games.</p>';
 }
 
 // ── Render New Releases ─────────────────────────────────────
 function renderNewReleases() {
   const container = document.getElementById('new-releases-grid');
-  const sorted = [...allGames]
+  const sorted    = [...allGames]
     .filter(g => g.releaseDate)
     .sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate))
     .slice(0, 6);
-  container.innerHTML = sorted.map(g => cardGameHTML(g)).join('');
+  container.innerHTML = sorted.map(cardGameHTML).join('');
 }
 
 // ── Render Moods ────────────────────────────────────────────
@@ -166,12 +206,11 @@ function renderMoods() {
 // ── Render All Games ────────────────────────────────────────
 function renderAllGames() {
   const container = document.getElementById('all-games-grid');
-  const empty = document.getElementById('empty-state');
-  const badge = document.getElementById('game-count-badge');
+  const empty     = document.getElementById('empty-state');
+  const badge     = document.getElementById('game-count-badge');
 
   let games = [...allGames];
 
-  // Search
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
     games = games.filter(g =>
@@ -181,7 +220,6 @@ function renderAllGames() {
     );
   }
 
-  // Filters
   if (activeFilters.genre)    games = games.filter(g => (g.genres || []).includes(activeFilters.genre));
   if (activeFilters.platform) games = games.filter(g => (g.platforms || []).includes(activeFilters.platform));
   if (activeFilters.status)   games = games.filter(g => g.releaseStatus === activeFilters.status);
@@ -196,7 +234,6 @@ function renderAllGames() {
     if (activeFilters.price === 'under30') games = games.filter(g => g.price < 30);
   }
 
-  // Sort
   if (currentSort === 'rating')   games.sort((a, b) => b.rating - a.rating);
   if (currentSort === 'new')      games.sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
   if (currentSort === 'trending') games.sort((a, b) => (b.trending ? 1 : 0) - (a.trending ? 1 : 0));
@@ -208,7 +245,7 @@ function renderAllGames() {
     empty.classList.remove('hidden');
   } else {
     empty.classList.add('hidden');
-    container.innerHTML = games.map(g => cardGameHTML(g)).join('');
+    container.innerHTML = games.map(cardGameHTML).join('');
   }
 }
 
@@ -264,9 +301,9 @@ function resetFilters() {
 }
 
 function filterByMood(mood) {
-  const games = allGames.filter(g => (g.mood || []).includes(mood));
+  const games     = allGames.filter(g => (g.mood || []).includes(mood));
   const container = document.getElementById('all-games-grid');
-  container.innerHTML = games.map(g => cardGameHTML(g)).join('');
+  container.innerHTML = games.map(cardGameHTML).join('');
   document.getElementById('game-count-badge').textContent = games.length;
   document.getElementById('empty-state').classList.add('hidden');
   document.getElementById('all-games').scrollIntoView({ behavior: 'smooth' });
@@ -289,16 +326,15 @@ function openModal(id) {
   if (!game) return;
 
   const overlay = document.getElementById('modal-overlay');
-  document.getElementById('modal-screenshot').src   = game.screenshot || game.cover;
-  document.getElementById('modal-developer').textContent = game.developer;
-  document.getElementById('modal-title').textContent     = game.title;
-  document.getElementById('modal-description').textContent = game.description;
-  document.getElementById('modal-rating').textContent    = game.rating ? `★ ${game.rating} / 100` : 'Unrated';
-  document.getElementById('modal-price').textContent     = game.price === 0 ? 'Free' : `$${game.price.toFixed(2)}`;
-  document.getElementById('modal-release').textContent   = game.releaseDate || 'TBA';
-  document.getElementById('modal-players').textContent   = game.players === 1 ? 'Single Player' : `Up to ${game.players}`;
-  document.getElementById('modal-website').href          = game.website || '#';
-
+  document.getElementById('modal-screenshot').src              = game.screenshot || game.cover;
+  document.getElementById('modal-developer').textContent       = game.developer;
+  document.getElementById('modal-title').textContent           = game.title;
+  document.getElementById('modal-description').textContent     = game.description;
+  document.getElementById('modal-rating').textContent          = game.rating ? `★ ${game.rating} / 100` : 'Unrated';
+  document.getElementById('modal-price').textContent           = game.price === 0 ? 'Free' : `$${game.price.toFixed(2)}`;
+  document.getElementById('modal-release').textContent         = game.releaseDate || 'TBA';
+  document.getElementById('modal-players').textContent         = game.players === 1 ? 'Single Player' : `Up to ${game.players}`;
+  document.getElementById('modal-website').href                = game.website || '#';
   document.getElementById('modal-tags').innerHTML =
     [...(game.genres || []), ...(game.platforms || [])].map(t => `<span class="tag">${t}</span>`).join('');
 

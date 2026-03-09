@@ -1,20 +1,22 @@
 // BMore Indie Games — Local Scene JS
-// Stores: OpenStreetMap Overpass API (free, no key)
-// City name: Nominatim reverse geocoding (free, no key)
-// Events: Eventbrite via /api/events proxy + local.json fallback
+// Developers + Events: Supabase (fallback: local.json)
+// Stores: OpenStreetMap Overpass API (live, no key needed)
+// City name: Nominatim reverse geocoding
+// Eventbrite events: /api/events serverless proxy
 
-const NOMINATIM   = 'https://nominatim.openstreetmap.org';
-const OVERPASS    = 'https://overpass-api.de/api/interpreter';
-const USER_AGENT  = 'BMoreIndieGames/1.0 (https://bmore-indie-games.vercel.app)';
-const RADIUS_MI   = 25;
-const RADIUS_M    = RADIUS_MI * 1609.34;
+const NOMINATIM  = 'https://nominatim.openstreetmap.org';
+const OVERPASS   = 'https://overpass-api.de/api/interpreter';
+const USER_AGENT = 'BMoreIndieGames/1.0 (https://bmore-indie-games.vercel.app)';
+const RADIUS_MI  = 25;
+const RADIUS_M   = RADIUS_MI * 1609.34;
 
-let localData  = { developers: [], stores: [], events: [] };
+let localDevs  = [];   // from Supabase (or fallback JSON)
+let localEvents = [];  // from Supabase (or fallback JSON)
 let userLat    = null;
 let userLng    = null;
 let cityName   = '';
-let osmStores  = [];   // fetched from Overpass
-let liveEvents = [];   // fetched from Eventbrite
+let osmStores  = [];   // live from Overpass
+let liveEvents = [];   // live from Eventbrite
 
 // ── Hamburger ──────────────────────────────────────────────
 document.getElementById('hamburger').addEventListener('click', () => {
@@ -23,16 +25,47 @@ document.getElementById('hamburger').addEventListener('click', () => {
 
 // ── Init ───────────────────────────────────────────────────
 async function init() {
-  try {
-    const res = await fetch('data/local.json');
-    localData = await res.json();
-  } catch (e) {
-    console.error('Failed to load local data:', e);
-  }
+  await Promise.all([loadDevelopers(), loadCommunityEvents()]);
   renderDevs();
   renderStores();
   renderEvents();
   updateCounts();
+}
+
+// ── Load developers from Supabase (fallback: local.json) ───
+async function loadDevelopers() {
+  try {
+    const { data, error } = await db.from('developers').select('*').order('name');
+    if (error || !data || data.length === 0) throw new Error(error?.message || 'empty');
+    localDevs = data.map(mapDBDeveloper);
+  } catch (e) {
+    console.warn('Supabase developers unavailable, falling back to local.json:', e.message);
+    try {
+      const res = await fetch('data/local.json');
+      const j   = await res.json();
+      localDevs = j.developers || [];
+    } catch { localDevs = []; }
+  }
+}
+
+// ── Load community events from Supabase (fallback: local.json)
+async function loadCommunityEvents() {
+  try {
+    const { data, error } = await db
+      .from('events')
+      .select('*')
+      .eq('source', 'community')
+      .order('event_date');
+    if (error || !data || data.length === 0) throw new Error(error?.message || 'empty');
+    localEvents = data.map(mapDBEvent);
+  } catch (e) {
+    console.warn('Supabase events unavailable, falling back to local.json:', e.message);
+    try {
+      const res = await fetch('data/local.json');
+      const j   = await res.json();
+      localEvents = j.events || [];
+    } catch { localEvents = []; }
+  }
 }
 
 // ── Tab Switching ───────────────────────────────────────────
@@ -51,12 +84,12 @@ function detectLocation() {
   }
   const btn = document.getElementById('detect-location-btn');
   btn.textContent = '⏳ Detecting…';
-  btn.disabled = true;
+  btn.disabled    = true;
 
   navigator.geolocation.getCurrentPosition(
     async pos => {
-      userLat = pos.coords.latitude;
-      userLng = pos.coords.longitude;
+      userLat  = pos.coords.latitude;
+      userLng  = pos.coords.longitude;
       setLocationStatus('🔍 Getting your city name…');
       cityName = await reverseGeocode(userLat, userLng);
       updatePageHeader();
@@ -67,9 +100,9 @@ function detectLocation() {
     },
     err => {
       btn.textContent = '📍 Use My Location';
-      btn.disabled = false;
+      btn.disabled    = false;
       if (err.code === 1) setLocationError('Location denied. Enter a ZIP code below.');
-      else setLocationError('Could not detect location. Try a ZIP code.');
+      else                setLocationError('Could not detect location. Try a ZIP code.');
     },
     { timeout: 10000 }
   );
@@ -85,16 +118,14 @@ async function useZipCode() {
   setLocationStatus('🔍 Looking up ZIP code…');
 
   try {
-    const res = await fetch(
+    const res  = await fetch(
       `${NOMINATIM}/search?postalcode=${zip}&country=US&format=json&limit=1`,
       { headers: { 'User-Agent': USER_AGENT } }
     );
     const data = await res.json();
     if (!data.length) throw new Error('ZIP not found');
-
-    userLat = parseFloat(data[0].lat);
-    userLng = parseFloat(data[0].lon);
-    // Reverse geocode the coords for a clean city name
+    userLat  = parseFloat(data[0].lat);
+    userLng  = parseFloat(data[0].lon);
     cityName = await reverseGeocode(userLat, userLng);
     updatePageHeader();
     setLocationSuccess(`Showing indie scene near ${cityName}`);
@@ -109,12 +140,12 @@ async function useZipCode() {
 // ── Nominatim Reverse Geocoding ──────────────────────────────
 async function reverseGeocode(lat, lng) {
   try {
-    const res = await fetch(
+    const res  = await fetch(
       `${NOMINATIM}/reverse?lat=${lat}&lon=${lng}&format=json`,
       { headers: { 'User-Agent': USER_AGENT } }
     );
     const data = await res.json();
-    const a = data.address || {};
+    const a    = data.address || {};
     return a.city || a.town || a.village || a.county || a.state || 'Your Area';
   } catch {
     return 'Your Area';
@@ -139,7 +170,7 @@ async function loadOSMStores() {
       );
       out center;
     `;
-    const res = await fetch(OVERPASS, {
+    const res  = await fetch(OVERPASS, {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: 'data=' + encodeURIComponent(q),
@@ -152,24 +183,23 @@ async function loadOSMStores() {
     osmStores = (data.elements || [])
       .filter(el => el.tags?.name)
       .map(el => {
-        const lat = el.lat ?? el.center?.lat;
-        const lng = el.lon ?? el.center?.lon;
-        const t = el.tags;
-        const tag = t.shop || t.leisure || t.amenity || 'games';
-        const addrParts = [t['addr:housenumber'], t['addr:street'], t['addr:city'], t['addr:state']].filter(Boolean);
+        const lat  = el.lat ?? el.center?.lat;
+        const lng  = el.lon ?? el.center?.lon;
+        const t    = el.tags;
+        const tag  = t.shop || t.leisure || t.amenity || 'games';
+        const addr = [t['addr:housenumber'], t['addr:street'], t['addr:city'], t['addr:state']].filter(Boolean);
         return {
-          id: `osm_${el.id}`,
-          name: t.name,
-          type: TYPE_LABEL[tag] || 'Game Store',
-          address: addrParts.length ? addrParts.join(' ') : 'See Google Maps',
-          hours: t.opening_hours || '',
-          website: t.website || t['contact:website'] || '',
-          phone: t.phone || t['contact:phone'] || '',
-          description: t.description || '',
-          specialties: [],
+          id:           `osm_${el.id}`,
+          name:         t.name,
+          type:         TYPE_LABEL[tag] || 'Game Store',
+          address:      addr.length ? addr.join(' ') : 'See Google Maps',
+          hours:        t.opening_hours || '',
+          website:      t.website || t['contact:website'] || '',
+          phone:        t.phone || t['contact:phone'] || '',
+          description:  t.description || '',
+          specialties:  [],
           indieSection: false,
-          lat,
-          lng,
+          lat, lng,
           fromOSM: true,
         };
       })
@@ -197,19 +227,18 @@ async function loadEventbriteEvents() {
         const lat   = parseFloat(addr.latitude)  || null;
         const lng   = parseFloat(addr.longitude) || null;
         return {
-          id: `eb_${e.id}`,
-          name: e.name?.text || 'Untitled Event',
-          type: classifyEventType(e.name?.text || '', e.description?.text || ''),
-          description: (e.description?.text || '').slice(0, 200),
-          location: venue.name || addr.localized_address_display || 'See Eventbrite',
-          date: (e.start?.local || '').split('T')[0],
-          time: (e.start?.local || '').split('T')[1]?.slice(0, 5) || '',
-          cost: e.is_free ? 'Free' : (e.ticket_availability?.minimum_ticket_price?.display || 'Paid'),
-          website: e.url || '#',
-          attending: e.capacity || 0,
-          tags: [],
-          lat,
-          lng,
+          id:           `eb_${e.id}`,
+          name:         e.name?.text || 'Untitled Event',
+          type:         classifyEventType(e.name?.text || '', e.description?.text || ''),
+          description:  (e.description?.text || '').slice(0, 200),
+          location:     venue.name || addr.localized_address_display || 'See Eventbrite',
+          date:         (e.start?.local || '').split('T')[0],
+          time:         (e.start?.local || '').split('T')[1]?.slice(0, 5) || '',
+          cost:         e.is_free ? 'Free' : (e.ticket_availability?.minimum_ticket_price?.display || 'Paid'),
+          website:      e.url || '#',
+          attending:    e.capacity || 0,
+          tags:         [],
+          lat, lng,
           fromEventbrite: true,
         };
       })
@@ -221,20 +250,20 @@ async function loadEventbriteEvents() {
 
 function classifyEventType(name, desc) {
   const t = (name + ' ' + desc).toLowerCase();
-  if (t.includes('jam'))                              return 'Game Jam';
-  if (t.includes('workshop'))                         return 'Workshop';
+  if (t.includes('jam'))                                          return 'Game Jam';
+  if (t.includes('workshop'))                                     return 'Workshop';
   if (t.includes('conference') || t.includes('summit') || t.includes('expo')) return 'Conference';
-  if (t.includes('showcase') || t.includes('demo'))  return 'Showcase';
-  if (t.includes('meetup') || t.includes('meet up')) return 'Meetup';
+  if (t.includes('showcase') || t.includes('demo'))              return 'Showcase';
+  if (t.includes('meetup') || t.includes('meet up'))             return 'Meetup';
   return 'Social';
 }
 
 // ── Haversine Distance ───────────────────────────────────────
 function haversineKm(lat1, lng1, lat2, lng2) {
-  const R = 6371;
+  const R    = 6371;
   const dLat = (lat2 - lat1) * Math.PI / 180;
   const dLng = (lng2 - lng1) * Math.PI / 180;
-  const a = Math.sin(dLat / 2) ** 2
+  const a    = Math.sin(dLat / 2) ** 2
     + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180)
     * Math.sin(dLng / 2) ** 2;
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
@@ -252,9 +281,9 @@ function fmtDist(item) {
   return `${mi.toFixed(1)} mi`;
 }
 
-// ── Dev Card HTML ────────────────────────────────────────────
+// ── Card HTML Helpers ────────────────────────────────────────
 function devCardHTML(d) {
-  const dist = fmtDist(d);
+  const dist     = fmtDist(d);
   const cityLine = d.city ? `${d.city}, ${d.state}` : d.location;
   return `
   <div class="card-dev">
@@ -281,10 +310,9 @@ function devCardHTML(d) {
   </div>`;
 }
 
-// ── Store Card HTML ──────────────────────────────────────────
 function storeCardHTML(s) {
-  const dist = fmtDist(s);
-  const ICON = { 'Game Store':'🎮','Hobby Shop':'🃏','Board Game Cafe':'♟️','Arcade':'🕹','Gaming Center':'🖥','Retail + Arcade':'🕹','Used Games':'📀','Gaming Lounge':'🎮','Esports Center':'🏆' };
+  const dist    = fmtDist(s);
+  const ICON    = { 'Game Store':'🎮','Hobby Shop':'🃏','Board Game Cafe':'♟️','Arcade':'🕹','Gaming Center':'🖥','Retail + Arcade':'🕹','Used Games':'📀','Gaming Lounge':'🎮','Esports Center':'🏆' };
   const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(s.address || s.name)}`;
   return `
   <div class="card-store">
@@ -313,13 +341,12 @@ function storeCardHTML(s) {
   </div>`;
 }
 
-// ── Event Card HTML ──────────────────────────────────────────
 function eventCardHTML(e) {
-  const date   = new Date(e.date + 'T00:00:00');
-  const month  = date.toLocaleString('default', { month: 'short' }).toUpperCase();
-  const day    = date.getDate();
+  const date  = new Date(e.date + 'T00:00:00');
+  const month = date.toLocaleString('default', { month: 'short' }).toUpperCase();
+  const day   = date.getDate();
   const isFree = e.cost === 'Free' || e.cost === '$0';
-  const dist   = fmtDist(e);
+  const dist  = fmtDist(e);
   return `
   <div class="card-event">
     <div class="event-date-block">
@@ -334,7 +361,7 @@ function eventCardHTML(e) {
       </div>
       ${e.description ? `<div class="event-description">${e.description}</div>` : ''}
       <div class="event-meta">
-        ${e.time    ? `<span>🕐 ${e.time}</span>`         : ''}
+        ${e.time     ? `<span>🕐 ${e.time}</span>`        : ''}
         ${e.location ? `<span>📍 ${e.location}</span>`    : ''}
         ${dist       ? `<span>📏 ${dist}</span>`           : ''}
         ${e.attending ? `<span>👥 ${e.attending}</span>`  : ''}
@@ -354,29 +381,24 @@ function eventCardHTML(e) {
 
 // ── Render Developers ────────────────────────────────────────
 function renderDevs() {
-  const container  = document.getElementById('devs-grid');
-  const empty      = document.getElementById('devs-empty');
+  const container   = document.getElementById('devs-grid');
+  const empty       = document.getElementById('devs-empty');
   const genreFilter = document.getElementById('dev-genre').value;
   const hiringOnly  = document.getElementById('hiring-filter').checked;
   const sort        = document.getElementById('dev-sort').value;
 
-  let devs = [...localData.developers];
+  let devs = [...localDevs];
   if (genreFilter) devs = devs.filter(d => (d.genres || []).includes(genreFilter));
   if (hiringOnly)  devs = devs.filter(d => d.hiring);
 
-  if (sort === 'distance') devs.sort((a, b) => distanceMiles(a) - distanceMiles(b));
-  if (sort === 'name')     devs.sort((a, b) => a.name.localeCompare(b.name));
-  if (sort === 'founded')  devs.sort((a, b) => (a.founded || 0) - (b.founded || 0));
-
-  if (!userLat && sort === 'distance') {
-    // No location — show nationwide, sorted by name
-    devs.sort((a, b) => a.name.localeCompare(b.name));
-  }
+  if (sort === 'distance' && userLat) devs.sort((a, b) => distanceMiles(a) - distanceMiles(b));
+  else if (sort === 'name')           devs.sort((a, b) => a.name.localeCompare(b.name));
+  else if (sort === 'founded')        devs.sort((a, b) => (a.founded || 0) - (b.founded || 0));
+  else                                devs.sort((a, b) => a.name.localeCompare(b.name));
 
   empty.classList.toggle('hidden', devs.length > 0);
   container.innerHTML = devs.length === 0 ? '' : devs.map(devCardHTML).join('');
 
-  // Show no-location prompt above grid if no location set yet
   if (!userLat) {
     const notice = document.createElement('div');
     notice.style.cssText = 'grid-column:1/-1;background:rgba(109,40,217,0.08);border:1px solid rgba(109,40,217,0.2);border-radius:12px;padding:16px 20px;font-size:0.875rem;color:var(--gray-400);margin-bottom:8px;';
@@ -430,9 +452,9 @@ function renderEvents() {
 
   // Merge Eventbrite + community events; deduplicate by id
   const seen = new Set();
-  const allEvents = [...liveEvents, ...localData.events].filter(e => {
-    if (seen.has(e.id)) return false;
-    seen.add(e.id);
+  const allEvents = [...liveEvents, ...localEvents].filter(e => {
+    if (seen.has(String(e.id))) return false;
+    seen.add(String(e.id));
     return true;
   });
 
@@ -467,12 +489,12 @@ function setLocationStatus(msg) {
 
 function setLocationSuccess(msg) {
   const btn = document.getElementById('detect-location-btn');
-  btn.textContent = '✓ Location Set';
-  btn.disabled = false;
+  btn.textContent  = '✓ Location Set';
+  btn.disabled     = false;
   btn.style.cssText = 'background:rgba(16,185,129,0.15);border-color:rgba(16,185,129,0.35);color:#10b981;';
   document.getElementById('location-status-title').textContent = `📍 ${cityName || 'Location Set'}`;
-  document.getElementById('location-status-text').textContent = msg;
-  document.getElementById('location-status-text').style.color = '';
+  document.getElementById('location-status-text').textContent  = msg;
+  document.getElementById('location-status-text').style.color  = '';
 }
 
 function setLocationError(msg) {
@@ -487,9 +509,9 @@ function setStoresStatus(msg) {
 }
 
 function updateCounts() {
-  document.getElementById('dev-count').textContent   = `(${localData.developers.length})`;
+  document.getElementById('dev-count').textContent   = `(${localDevs.length})`;
   document.getElementById('store-count').textContent = `(${osmStores.length})`;
-  document.getElementById('event-count').textContent = `(${liveEvents.length + localData.events.length})`;
+  document.getElementById('event-count').textContent = `(${liveEvents.length + localEvents.length})`;
 }
 
 function renderAll() {
@@ -503,8 +525,7 @@ function handleLocalSearch(query) {
   const q = query.toLowerCase().trim();
   if (!q) { renderAll(); return; }
 
-  // Devs
-  const devs = localData.developers.filter(d =>
+  const devs = localDevs.filter(d =>
     d.name.toLowerCase().includes(q) ||
     (d.description || '').toLowerCase().includes(q) ||
     (d.city || d.location || '').toLowerCase().includes(q) ||
@@ -513,8 +534,7 @@ function handleLocalSearch(query) {
   document.getElementById('devs-grid').innerHTML = devs.map(devCardHTML).join('');
   document.getElementById('devs-empty').classList.toggle('hidden', devs.length > 0);
 
-  // Stores
-  const stores = (userLat ? osmStores : localData.stores).filter(s =>
+  const stores = (userLat ? osmStores : []).filter(s =>
     s.name.toLowerCase().includes(q) ||
     (s.description || '').toLowerCase().includes(q) ||
     (s.address || '').toLowerCase().includes(q) ||
@@ -526,8 +546,7 @@ function handleLocalSearch(query) {
       : `<div style="grid-column:1/-1;text-align:center;padding:32px;color:var(--gray-500);">No stores match "${query}"</div>`;
   }
 
-  // Events
-  const events = [...liveEvents, ...localData.events].filter(e =>
+  const events = [...liveEvents, ...localEvents].filter(e =>
     e.name.toLowerCase().includes(q) ||
     (e.description || '').toLowerCase().includes(q) ||
     (e.location || '').toLowerCase().includes(q) ||

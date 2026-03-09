@@ -1,0 +1,25 @@
+{
+  "name": "indie-games-directory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmoeurk/bmore-indie-games.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kmoeurk/bmore-indie-games/issues"
+  },
+  "homepage": "https://github.com/kmoeurk/bmore-indie-games#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "pg": "^8.20.0"
+  }
+}
