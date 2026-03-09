@@ -1,10 +1,21 @@
+# Secrets — never commit
 .env
+*.pem
+secrets-replacements.txt
+
+# Python
 __pycache__/
 *.pyc
 crawl4ai-env/
 crawler/.venv/
-.vercel/
+
+# Node
 node_modules/
+
+# Vercel
+.vercel/
+.vercel
+
+# OS
 .DS_Store
 Thumbs.db
-.vercel
