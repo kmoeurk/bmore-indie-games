@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 crawl4ai-env/
+crawler/.venv/
 .vercel/
 node_modules/
 .DS_Store
